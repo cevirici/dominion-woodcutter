@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '&4#c$c4wzszqt875u5a3h0_$l&f3lh
 # SECURITY WARNING: don't run with debug turned on in production
 DEBUG = bool(os.environ.get('DJANGO_DEBUG',True))
 
-ALLOWED_HOSTS = ['secure-caverns-10066.herokuapp.com']
+ALLOWED_HOSTS = ['dominion-woodcutter.herokuapp.com','127.0.0.1']
 
 
 # Application definition
