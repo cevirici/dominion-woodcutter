@@ -107,4 +107,4 @@ ENV/
 *.sqlite3
 
 #Distribution local stuff
-.staticfiles/
+/staticfiles
