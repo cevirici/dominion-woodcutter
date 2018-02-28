@@ -34,7 +34,7 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
--- Name: auth_group; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_group; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_group (
@@ -43,10 +43,10 @@ CREATE TABLE auth_group (
 );
 
 
-ALTER TABLE auth_group OWNER TO u_ceviri;
+ALTER TABLE auth_group OWNER TO ceviri;
 
 --
--- Name: auth_group_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_group_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_group_id_seq
@@ -57,17 +57,17 @@ CREATE SEQUENCE auth_group_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_group_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_group_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_group_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_group_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_group_id_seq OWNED BY auth_group.id;
 
 
 --
--- Name: auth_group_permissions; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_group_permissions (
@@ -77,10 +77,10 @@ CREATE TABLE auth_group_permissions (
 );
 
 
-ALTER TABLE auth_group_permissions OWNER TO u_ceviri;
+ALTER TABLE auth_group_permissions OWNER TO ceviri;
 
 --
--- Name: auth_group_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_group_permissions_id_seq
@@ -91,17 +91,17 @@ CREATE SEQUENCE auth_group_permissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_group_permissions_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_group_permissions_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_group_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_group_permissions_id_seq OWNED BY auth_group_permissions.id;
 
 
 --
--- Name: auth_permission; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_permission; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_permission (
@@ -112,10 +112,10 @@ CREATE TABLE auth_permission (
 );
 
 
-ALTER TABLE auth_permission OWNER TO u_ceviri;
+ALTER TABLE auth_permission OWNER TO ceviri;
 
 --
--- Name: auth_permission_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_permission_id_seq
@@ -126,17 +126,17 @@ CREATE SEQUENCE auth_permission_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_permission_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_permission_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_permission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_permission_id_seq OWNED BY auth_permission.id;
 
 
 --
--- Name: auth_user; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_user; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_user (
@@ -154,10 +154,10 @@ CREATE TABLE auth_user (
 );
 
 
-ALTER TABLE auth_user OWNER TO u_ceviri;
+ALTER TABLE auth_user OWNER TO ceviri;
 
 --
--- Name: auth_user_groups; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_user_groups (
@@ -167,10 +167,10 @@ CREATE TABLE auth_user_groups (
 );
 
 
-ALTER TABLE auth_user_groups OWNER TO u_ceviri;
+ALTER TABLE auth_user_groups OWNER TO ceviri;
 
 --
--- Name: auth_user_groups_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_user_groups_id_seq
@@ -181,17 +181,17 @@ CREATE SEQUENCE auth_user_groups_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_user_groups_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_user_groups_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_user_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_user_groups_id_seq OWNED BY auth_user_groups.id;
 
 
 --
--- Name: auth_user_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_user_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_user_id_seq
@@ -202,17 +202,17 @@ CREATE SEQUENCE auth_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_user_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_user_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_user_id_seq OWNED BY auth_user.id;
 
 
 --
--- Name: auth_user_user_permissions; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE auth_user_user_permissions (
@@ -222,10 +222,10 @@ CREATE TABLE auth_user_user_permissions (
 );
 
 
-ALTER TABLE auth_user_user_permissions OWNER TO u_ceviri;
+ALTER TABLE auth_user_user_permissions OWNER TO ceviri;
 
 --
--- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE auth_user_user_permissions_id_seq
@@ -236,17 +236,17 @@ CREATE SEQUENCE auth_user_user_permissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE auth_user_user_permissions_id_seq OWNER TO u_ceviri;
+ALTER TABLE auth_user_user_permissions_id_seq OWNER TO ceviri;
 
 --
--- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE auth_user_user_permissions_id_seq OWNED BY auth_user_user_permissions.id;
 
 
 --
--- Name: django_admin_log; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE django_admin_log (
@@ -262,10 +262,10 @@ CREATE TABLE django_admin_log (
 );
 
 
-ALTER TABLE django_admin_log OWNER TO u_ceviri;
+ALTER TABLE django_admin_log OWNER TO ceviri;
 
 --
--- Name: django_admin_log_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE django_admin_log_id_seq
@@ -276,17 +276,17 @@ CREATE SEQUENCE django_admin_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE django_admin_log_id_seq OWNER TO u_ceviri;
+ALTER TABLE django_admin_log_id_seq OWNER TO ceviri;
 
 --
--- Name: django_admin_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE django_admin_log_id_seq OWNED BY django_admin_log.id;
 
 
 --
--- Name: django_content_type; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: django_content_type; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE django_content_type (
@@ -296,10 +296,10 @@ CREATE TABLE django_content_type (
 );
 
 
-ALTER TABLE django_content_type OWNER TO u_ceviri;
+ALTER TABLE django_content_type OWNER TO ceviri;
 
 --
--- Name: django_content_type_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: django_content_type_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE django_content_type_id_seq
@@ -310,17 +310,17 @@ CREATE SEQUENCE django_content_type_id_seq
     CACHE 1;
 
 
-ALTER TABLE django_content_type_id_seq OWNER TO u_ceviri;
+ALTER TABLE django_content_type_id_seq OWNER TO ceviri;
 
 --
--- Name: django_content_type_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: django_content_type_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE django_content_type_id_seq OWNED BY django_content_type.id;
 
 
 --
--- Name: django_migrations; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: django_migrations; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE django_migrations (
@@ -331,10 +331,10 @@ CREATE TABLE django_migrations (
 );
 
 
-ALTER TABLE django_migrations OWNER TO u_ceviri;
+ALTER TABLE django_migrations OWNER TO ceviri;
 
 --
--- Name: django_migrations_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: django_migrations_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE django_migrations_id_seq
@@ -345,17 +345,17 @@ CREATE SEQUENCE django_migrations_id_seq
     CACHE 1;
 
 
-ALTER TABLE django_migrations_id_seq OWNER TO u_ceviri;
+ALTER TABLE django_migrations_id_seq OWNER TO ceviri;
 
 --
--- Name: django_migrations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: django_migrations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE django_migrations_id_seq OWNED BY django_migrations.id;
 
 
 --
--- Name: django_session; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: django_session; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE django_session (
@@ -365,10 +365,10 @@ CREATE TABLE django_session (
 );
 
 
-ALTER TABLE django_session OWNER TO u_ceviri;
+ALTER TABLE django_session OWNER TO ceviri;
 
 --
--- Name: woodcutter_carddata; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_carddata; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_carddata (
@@ -378,11 +378,12 @@ CREATE TABLE woodcutter_carddata (
     phrase_name character varying(30) NOT NULL,
     cost integer NOT NULL,
     color character varying(8) NOT NULL,
-    border_color character varying(8) NOT NULL
+    border_color character varying(8) NOT NULL,
+    supply_type integer NOT NULL
 );
 
 
-ALTER TABLE woodcutter_carddata OWNER TO u_ceviri;
+ALTER TABLE woodcutter_carddata OWNER TO ceviri;
 
 --
 -- Name: woodcutter_carddata_exceptions; Type: TABLE; Schema: public; Owner: ceviri
@@ -419,7 +420,7 @@ ALTER SEQUENCE woodcutter_carddata_exceptions_id_seq OWNED BY woodcutter_carddat
 
 
 --
--- Name: woodcutter_carddata_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_carddata_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_carddata_id_seq
@@ -430,17 +431,17 @@ CREATE SEQUENCE woodcutter_carddata_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_carddata_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_carddata_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_carddata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_carddata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_carddata_id_seq OWNED BY woodcutter_carddata.id;
 
 
 --
--- Name: woodcutter_exceptiondata; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_exceptiondata (
@@ -451,10 +452,10 @@ CREATE TABLE woodcutter_exceptiondata (
 );
 
 
-ALTER TABLE woodcutter_exceptiondata OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_exceptiondata_id_seq
@@ -465,17 +466,17 @@ CREATE SEQUENCE woodcutter_exceptiondata_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_exceptiondata_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_exceptiondata_id_seq OWNED BY woodcutter_exceptiondata.id;
 
 
 --
--- Name: woodcutter_exceptiondata_root_preds; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_exceptiondata_root_preds (
@@ -485,10 +486,10 @@ CREATE TABLE woodcutter_exceptiondata_root_preds (
 );
 
 
-ALTER TABLE woodcutter_exceptiondata_root_preds OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_root_preds OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_exceptiondata_root_preds_id_seq
@@ -499,17 +500,17 @@ CREATE SEQUENCE woodcutter_exceptiondata_root_preds_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_exceptiondata_root_preds_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_root_preds_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_exceptiondata_root_preds_id_seq OWNED BY woodcutter_exceptiondata_root_preds.id;
 
 
 --
--- Name: woodcutter_exceptiondata_target_cards; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_exceptiondata_target_cards (
@@ -519,10 +520,10 @@ CREATE TABLE woodcutter_exceptiondata_target_cards (
 );
 
 
-ALTER TABLE woodcutter_exceptiondata_target_cards OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_target_cards OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_exceptiondata_target_cards_id_seq
@@ -533,17 +534,17 @@ CREATE SEQUENCE woodcutter_exceptiondata_target_cards_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_exceptiondata_target_cards_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_target_cards_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_exceptiondata_target_cards_id_seq OWNED BY woodcutter_exceptiondata_target_cards.id;
 
 
 --
--- Name: woodcutter_exceptiondata_target_preds; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_exceptiondata_target_preds (
@@ -553,10 +554,10 @@ CREATE TABLE woodcutter_exceptiondata_target_preds (
 );
 
 
-ALTER TABLE woodcutter_exceptiondata_target_preds OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_target_preds OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_exceptiondata_target_preds_id_seq
@@ -567,32 +568,32 @@ CREATE SEQUENCE woodcutter_exceptiondata_target_preds_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_exceptiondata_target_preds_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_exceptiondata_target_preds_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_exceptiondata_target_preds_id_seq OWNED BY woodcutter_exceptiondata_target_preds.id;
 
 
 --
--- Name: woodcutter_gamelog; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_gamelog; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_gamelog (
     game_id integer NOT NULL,
-    log character varying(20000) NOT NULL,
+    log character varying(15000) NOT NULL,
     supply character varying(500) NOT NULL,
     player character varying(100),
     players character varying(100) NOT NULL
 );
 
 
-ALTER TABLE woodcutter_gamelog OWNER TO u_ceviri;
+ALTER TABLE woodcutter_gamelog OWNER TO ceviri;
 
 --
--- Name: woodcutter_preddata; Type: TABLE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_preddata; Type: TABLE; Schema: public; Owner: ceviri
 --
 
 CREATE TABLE woodcutter_preddata (
@@ -603,10 +604,10 @@ CREATE TABLE woodcutter_preddata (
 );
 
 
-ALTER TABLE woodcutter_preddata OWNER TO u_ceviri;
+ALTER TABLE woodcutter_preddata OWNER TO ceviri;
 
 --
--- Name: woodcutter_preddata_id_seq; Type: SEQUENCE; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_preddata_id_seq; Type: SEQUENCE; Schema: public; Owner: ceviri
 --
 
 CREATE SEQUENCE woodcutter_preddata_id_seq
@@ -617,80 +618,80 @@ CREATE SEQUENCE woodcutter_preddata_id_seq
     CACHE 1;
 
 
-ALTER TABLE woodcutter_preddata_id_seq OWNER TO u_ceviri;
+ALTER TABLE woodcutter_preddata_id_seq OWNER TO ceviri;
 
 --
--- Name: woodcutter_preddata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_preddata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: ceviri
 --
 
 ALTER SEQUENCE woodcutter_preddata_id_seq OWNED BY woodcutter_preddata.id;
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group ALTER COLUMN id SET DEFAULT nextval('auth_group_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group_permissions ALTER COLUMN id SET DEFAULT nextval('auth_group_permissions_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_permission ALTER COLUMN id SET DEFAULT nextval('auth_permission_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user ALTER COLUMN id SET DEFAULT nextval('auth_user_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_groups ALTER COLUMN id SET DEFAULT nextval('auth_user_groups_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_user_permissions ALTER COLUMN id SET DEFAULT nextval('auth_user_user_permissions_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_admin_log ALTER COLUMN id SET DEFAULT nextval('django_admin_log_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_content_type ALTER COLUMN id SET DEFAULT nextval('django_content_type_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_migrations ALTER COLUMN id SET DEFAULT nextval('django_migrations_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_carddata ALTER COLUMN id SET DEFAULT nextval('woodcutter_carddata_id_seq'::regclass);
@@ -704,42 +705,42 @@ ALTER TABLE ONLY woodcutter_carddata_exceptions ALTER COLUMN id SET DEFAULT next
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata ALTER COLUMN id SET DEFAULT nextval('woodcutter_exceptiondata_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_root_preds ALTER COLUMN id SET DEFAULT nextval('woodcutter_exceptiondata_root_preds_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_cards ALTER COLUMN id SET DEFAULT nextval('woodcutter_exceptiondata_target_cards_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_preds ALTER COLUMN id SET DEFAULT nextval('woodcutter_exceptiondata_target_preds_id_seq'::regclass);
 
 
 --
--- Name: id; Type: DEFAULT; Schema: public; Owner: u_ceviri
+-- Name: id; Type: DEFAULT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_preddata ALTER COLUMN id SET DEFAULT nextval('woodcutter_preddata_id_seq'::regclass);
 
 
 --
--- Data for Name: auth_group; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_group; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_group (id, name) FROM stdin;
@@ -747,14 +748,14 @@ COPY auth_group (id, name) FROM stdin;
 
 
 --
--- Name: auth_group_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_group_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_group_id_seq', 1, false);
 
 
 --
--- Data for Name: auth_group_permissions; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_group_permissions; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_group_permissions (id, group_id, permission_id) FROM stdin;
@@ -762,14 +763,14 @@ COPY auth_group_permissions (id, group_id, permission_id) FROM stdin;
 
 
 --
--- Name: auth_group_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_group_permissions_id_seq', 1, false);
 
 
 --
--- Data for Name: auth_permission; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_permission; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_permission (id, name, content_type_id, codename) FROM stdin;
@@ -807,14 +808,14 @@ COPY auth_permission (id, name, content_type_id, codename) FROM stdin;
 
 
 --
--- Name: auth_permission_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_permission_id_seq', 30, true);
 
 
 --
--- Data for Name: auth_user; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_user; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_user (id, password, last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) FROM stdin;
@@ -823,7 +824,7 @@ COPY auth_user (id, password, last_login, is_superuser, username, first_name, la
 
 
 --
--- Data for Name: auth_user_groups; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_user_groups; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_user_groups (id, user_id, group_id) FROM stdin;
@@ -831,21 +832,21 @@ COPY auth_user_groups (id, user_id, group_id) FROM stdin;
 
 
 --
--- Name: auth_user_groups_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_user_groups_id_seq', 1, false);
 
 
 --
--- Name: auth_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_user_id_seq', 1, true);
 
 
 --
--- Data for Name: auth_user_user_permissions; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: auth_user_user_permissions; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY auth_user_user_permissions (id, user_id, permission_id) FROM stdin;
@@ -853,14 +854,14 @@ COPY auth_user_user_permissions (id, user_id, permission_id) FROM stdin;
 
 
 --
--- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('auth_user_user_permissions_id_seq', 1, false);
 
 
 --
--- Data for Name: django_admin_log; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: django_admin_log; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY django_admin_log (id, action_time, object_id, object_repr, action_flag, change_message, content_type_id, user_id) FROM stdin;
@@ -916,18 +917,74 @@ COPY django_admin_log (id, action_time, object_id, object_repr, action_flag, cha
 50	2018-02-17 16:20:49.336665+08	298	Warrior(0x12a)	2	[{"changed": {"fields": ["color"]}}]	8	1
 51	2018-02-17 16:21:13.594133+08	291	Teacher(0x123)	2	[{"changed": {"fields": ["color"]}}]	8	1
 52	2018-02-17 16:25:11.308246+08	35	35:^(?P<player>.*) returns (?P<cards>.*)\\.$	2	[]	10	1
+53	2018-02-17 18:57:46.44687+08	20	Doing 5:^(?P<player>.*) gains (?P<cards>.*)\\.$ with Bureaucrat(0xb) from 0 to 1	1	[{"added": {}}]	9	1
+54	2018-02-17 23:05:46.385876+08	17	Doing 8:^(?P<player>.*) discards (?P<cards>.*)\\.$,37:^(?P<player>.*) receives (?P<cards>.*)$,117:^(?P<player>.*) takes (?P<cards>.*)\\.$ with nothing(0x0) from 0 to 0	2	[{"changed": {"fields": ["target_cards", "target_preds"]}}]	9	1
+55	2018-02-23 23:47:25.275269+08	0	nothing(0x0)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+56	2018-02-23 23:47:31.661658+08	1	card(0x1)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+57	2018-02-23 23:47:38.00269+08	2	Curse(0x2)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+58	2018-02-23 23:47:44.777248+08	3	Copper(0x3)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+59	2018-02-23 23:52:13.128727+08	366	Wall(0x16e)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+60	2018-02-23 23:52:37.46108+08	333	Colonnade(0x14d)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+61	2018-02-23 23:52:40.878411+08	322	Aqueduct(0x142)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+62	2018-02-23 23:52:46.294152+08	323	Arena(0x143)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+63	2018-02-23 23:52:49.110363+08	324	Bandit Fort(0x144)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+64	2018-02-23 23:52:51.8961+08	326	Basilica(0x146)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+65	2018-02-23 23:52:55.521348+08	327	Baths(0x147)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+66	2018-02-23 23:56:14.366523+08	288	Soldier(0x120)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+67	2018-02-23 23:56:17.739635+08	298	Warrior(0x12a)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+68	2018-02-23 23:56:20.111908+08	297	Treasure Hunter(0x129)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+69	2018-02-23 23:56:25.705427+08	291	Teacher(0x123)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+70	2018-02-23 23:56:28.968542+08	263	Hero(0x107)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+71	2018-02-23 23:56:32.760557+08	258	Fugitive(0x102)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+72	2018-02-23 23:56:36.400757+08	252	Disciple(0xfc)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+73	2018-02-23 23:56:40.423068+08	250	Champion(0xfa)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+74	2018-02-23 23:57:21.502414+08	436	Werewolf(0x1b4)	2	[{"changed": {"fields": ["border_color"]}}]	8	1
+75	2018-02-24 11:56:14.826195+08	122	122:^(?P<cards>.*) is enchanted by (.*)$	2	[{"changed": {"fields": ["regex"]}}]	10	1
+76	2018-02-24 11:59:56.619652+08	188	Dame Sylvia(0xbc)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+77	2018-02-24 12:00:38.520356+08	141	Princess(0x8d)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+78	2018-02-24 12:00:40.794478+08	132	Followers(0x84)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+79	2018-02-24 12:00:44.079709+08	144	Trusty Steed(0x90)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+80	2018-02-24 12:00:47.108388+08	129	Diadem(0x81)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+81	2018-02-24 12:00:50.077698+08	128	Bag of Gold(0x80)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+82	2018-02-24 12:02:14.7726+08	367	Wolf Den(0x16f)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+83	2018-02-24 12:02:18.514232+08	366	Wall(0x16e)	2	[]	8	1
+84	2018-02-24 12:02:21.564864+08	364	Triumphal Arch(0x16c)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+85	2018-02-24 12:02:24.921052+08	362	Tower(0x16a)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+86	2018-02-24 12:02:28.184097+08	361	Tomb(0x169)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+87	2018-02-24 12:02:45.532918+08	359	Tax(0x167)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+88	2018-02-24 12:02:51.44168+08	358	Salt the Earth(0x166)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+89	2018-02-24 12:03:00.606058+08	355	Ritual(0x163)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+90	2018-02-24 12:03:03.044827+08	354	Palace(0x162)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+91	2018-02-24 12:03:39.940619+08	129	Diadem(0x81)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+92	2018-02-24 12:03:42.607098+08	132	Followers(0x84)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+93	2018-02-24 12:03:46.19605+08	141	Princess(0x8d)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+94	2018-02-24 12:03:49.481448+08	144	Trusty Steed(0x90)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+95	2018-02-24 12:03:52.479734+08	128	Bag of Gold(0x80)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+96	2018-02-24 12:17:11.306532+08	21	Doing 7:^(?P<player>.*) trashes (?P<cards>.*)\\.$ with Bonfire(0xf6) from 4 to 3	1	[{"added": {}}]	9	1
+97	2018-02-24 12:18:12.961844+08	222	Spoils(0xde)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+98	2018-02-24 12:18:18.253922+08	246	Bonfire(0xf6)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+99	2018-02-24 12:18:38.460746+08	287	Seaway(0x11f)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+100	2018-02-24 12:18:45.873833+08	368	Wedding(0x170)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+101	2018-02-24 12:26:28.585588+08	294	Training(0x126)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+102	2018-02-24 15:04:23.284371+08	272	Pathfinding(0x110)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+103	2018-02-24 15:26:51.48666+08	22	Doing 7:^(?P<player>.*) trashes (?P<cards>.*)\\.$ with Pirate Ship(0x4e) from 1 to 3	1	[{"added": {}}]	9	1
+104	2018-02-24 15:28:04.546353+08	23	Doing 7:^(?P<player>.*) trashes (?P<cards>.*)\\.$ with Raze(0x11a) from 2 to 3	1	[{"added": {}}]	9	1
+105	2018-02-24 15:29:22.434205+08	205	Overgrown Estate(0xcd)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+106	2018-02-24 15:29:26.456191+08	204	Necropolis(0xcc)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+107	2018-02-24 15:29:32.372402+08	195	Hovel(0xc3)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
+108	2018-02-24 15:29:58.553532+08	95	Potion(0x5f)	2	[{"changed": {"fields": ["supply_type"]}}]	8	1
 \.
 
 
 --
--- Name: django_admin_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('django_admin_log_id_seq', 52, true);
+SELECT pg_catalog.setval('django_admin_log_id_seq', 108, true);
 
 
 --
--- Data for Name: django_content_type; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: django_content_type; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY django_content_type (id, app_label, model) FROM stdin;
@@ -945,14 +1002,14 @@ COPY django_content_type (id, app_label, model) FROM stdin;
 
 
 --
--- Name: django_content_type_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: django_content_type_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('django_content_type_id_seq', 10, true);
 
 
 --
--- Data for Name: django_migrations; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: django_migrations; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY django_migrations (id, app, name, applied) FROM stdin;
@@ -979,18 +1036,19 @@ COPY django_migrations (id, app, name, applied) FROM stdin;
 21	woodcutter	0007_exceptiondata_root_card	2018-02-15 15:54:32.293068+08
 22	woodcutter	0008_auto_20180215_1618	2018-02-15 16:18:47.102528+08
 23	woodcutter	0009_gamelog_players	2018-02-16 19:31:56.239231+08
+24	woodcutter	0010_auto_20180221_2351	2018-02-23 23:46:39.660712+08
 \.
 
 
 --
--- Name: django_migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: django_migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('django_migrations_id_seq', 23, true);
+SELECT pg_catalog.setval('django_migrations_id_seq', 24, true);
 
 
 --
--- Data for Name: django_session; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: django_session; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY django_session (session_key, session_data, expire_date) FROM stdin;
@@ -1001,474 +1059,474 @@ ghs3r697kyxm4cvrnbz6amfvrw970gl3	ZTllNTgwMjZkODU0ZGNhM2I1NWMyMmE1ZGZhNTRhODEwYzM
 
 
 --
--- Data for Name: woodcutter_carddata; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_carddata; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
-COPY woodcutter_carddata (id, single_name, multi_name, phrase_name, cost, color, border_color) FROM stdin;
-0	nothing	nothing	nothing	0	666666	666666
-1	card	cards	a card	0	666666	666666
-2	Curse	Curses	a Curse	0	a2b8b8	b571b3
-3	Copper	Coppers	a Copper	0	a05624	f1d14d
-4	Silver	Silvers	a Silver	3	709aa4	f1d14d
-5	Gold	Golds	a Gold	6	ffae06	f1d14d
-6	Estate	Estates	an Estate	2	bfb597	548C2B
-7	Duchy	Duchies	a Duchy	5	6aa09a	548C2B
-8	Province	Provinces	a Province	8	efaf49	548C2B
-9	Artisan	Artisans	an Artisan	6	bc5a00	c4c0b4
-10	Bandit	Bandits	a Bandit	5	8a861e	c4c0b4
-11	Bureaucrat	Bureaucrats	a Bureaucrat	4	95633b	c4c0b4
-12	Cellar	Cellars	a Cellar	2	3e4646	c4c0b4
-13	Chapel	Chapels	a Chapel	2	605444	c4c0b4
-14	Council Room	Council Rooms	a Council Room	5	815121	c4c0b4
-15	Festival	Festivals	a Festival	5	636d61	c4c0b4
-16	Gardens	Gardens	a Gardens	4	5f792f	9cbe8a
-17	Harbinger	Harbingers	a Harbinger	3	8e8a3c	c4c0b4
-18	Laboratory	Laboratories	a Laboratory	5	614739	c4c0b4
-19	Library	Libraries	a Library	5	7a7e4a	c4c0b4
-20	Market	Markets	a Market	5	684830	c4c0b4
-21	Merchant	Merchants	a Merchant	3	917911	c4c0b4
-22	Militia	Militias	a Militia	4	856961	c4c0b4
-23	Mine	Mines	a Mine	5	433935	c4c0b4
-24	Moat	Moats	a Moat	2	586472	8ca2be
-25	Moneylender	Moneylenders	a Moneylender	4	7a644c	c4c0b4
-26	Poacher	Poachers	a Poacher	4	8f810d	c4c0b4
-27	Remodel	Remodels	a Remodel	4	8e7e4a	c4c0b4
-28	Sentry	Sentries	a Sentry	5	5a361e	c4c0b4
-29	Smithy	Smithies	a Smithy	4	6a523a	c4c0b4
-30	Throne Room	Throne Rooms	a Throne Room	4	d76315	c4c0b4
-31	Vassal	Vassals	a Vassal	3	ba6816	c4c0b4
-32	Village	Villages	a Village	3	7e9078	c4c0b4
-33	Witch	Witches	a Witch	5	52444e	c4c0b4
-34	Workshop	Workshops	a Workshop	3	8c6428	c4c0b4
-35	Courtyard	Courtyards	a Courtyard	2	74a454	c4c0b4
-36	Conspirator	Conspirators	a Conspirator	4	2b5989	c4c0b4
-37	Courtier	Courtiers	a Courtier	5	ac6228	c4c0b4
-38	Baron	Barons	a Baron	4	876341	c4c0b4
-39	Bridge	Bridges	a Bridge	4	859b6b	c4c0b4
-40	Diplomat	Diplomats	a Diplomat	4	91595f	8ca2be
-41	Duke	Dukes	a Duke	5	8a7e5e	9cbe8a
-42	Harem	Harems	a Harem	6	c3510d	a9c35d
-43	Nobles	Nobles	a Nobles	6	816155	aac298
-44	Ironworks	Ironworks	an Ironworks	4	7d3b1f	c4c0b4
-45	Lurker	Lurkers	a Lurker	2	909ab2	c4c0b4
-46	Masquerade	Masquerades	a Masquerade	3	635d51	c4c0b4
-47	Mill	Mills	a Mill	4	78b294	aac298
-48	Mining Village	Mining Villages	a Mining Village	4	aea090	c4c0b4
-49	Minion	Minions	a Minion	5	6c382e	c4c0b4
-50	Patrol	Patrols	a Patrol	5	98ae70	c4c0b4
-51	Pawn	Pawns	a Pawn	2	3f2f25	c4c0b4
-52	Replace	Replaces	a Replace	5	564850	c4c0b4
-53	Secret Passage	Secret Passages	a Secret Passage	4	261e12	c4c0b4
-54	Shanty Town	Shanty Towns	a Shanty Town	3	124e44	c4c0b4
-55	Steward	Stewards	a Steward	3	4f4d5d	c4c0b4
-56	Swindler	Swindlers	a Swindler	3	b78d49	c4c0b4
-57	Torturer	Torturers	a Torturer	5	842804	c4c0b4
-58	Trading Post	Trading Posts	a Trading Post	5	686434	c4c0b4
-59	Upgrade	Upgrades	an Upgrade	5	979773	c4c0b4
-60	Wishing Well	Wishing Wells	a Wishing Well	3	61756b	c4c0b4
-61	Ambassador	Ambassadors	an Ambassador	3	b8602c	c4c0b4
-62	Bazaar	Bazaars	a Bazaar	5	a6765e	c4c0b4
-63	Caravan	Caravans	a Caravan	4	b9ab7f	dda561
-64	Cutpurse	Cutpurses	a Cutpurse	4	826a4e	c4c0b4
-65	Embargo	Embargos	an Embargo	2	9da381	c4c0b4
-66	Explorer	Explorers	an Explorer	5	92887a	c4c0b4
-67	Fishing Village	Fishing Villages	a Fishing Village	3	7db9b3	dda561
-68	Ghost Ship	Ghost Ships	a Ghost Ship	5	59814d	c4c0b4
-69	Haven	Havens	a Haven	2	866846	dda561
-70	Island	Islands	an Island	4	5d9fbd	aac298
-71	Lighthouse	Lighthouses	a Lighthouse	2	559773	dda561
-72	Lookout	Lookouts	a Lookout	3	723a6a	c4c0b4
-73	Merchant Ship	Merchant Ships	a Merchant Ship	5	b58127	dda561
-74	Native Village	Native Villages	a Native Village	2	6f919f	c4c0b4
-75	Navigator	Navigators	a Navigator	4	5ba7ad	c4c0b4
-76	Outpost	Outposts	an Outpost	5	949ab2	dda561
-77	Pearl Diver	Pearl Divers	a Pearl Diver	2	00aee6	c4c0b4
-78	Pirate Ship	Pirate Ships	a Pirate Ship	4	7e9ec2	c4c0b4
-79	Salvager	Salvagers	a Salvager	4	397b7b	c4c0b4
-80	Sea Hag	Sea Hags	a Sea Hag	4	745a44	c4c0b4
-81	Smugglers	Smugglers	a Smugglers	3	464c50	c4c0b4
-82	Tactician	Tacticians	a Tactician	5	785c44	dda561
-83	Treasure Map	Treasure Maps	a Treasure Map	4	9d651b	c4c0b4
-84	Treasury	Treasuries	a Treasury	5	884a00	c4c0b4
-85	Warehouse	Warehouses	a Warehouse	3	59635b	c4c0b4
-86	Wharf	Wharves	a Wharf	5	7b778f	dda561
-87	Alchemist	Alchemists	an Alchemist	5	898573	c4c0b4
-88	Apothecary	Apothecaries	an Apothecary	4	a36713	c4c0b4
-89	Apprentice	Apprentices	an Apprentice	5	ce5800	c4c0b4
-90	Familiar	Familiars	a Familiar	5	aa6656	c4c0b4
-91	Golem	Golems	a Golem	6	5e6c80	c4c0b4
-92	Herbalist	Herbalists	a Herbalist	2	b8884e	c4c0b4
-93	Philosopher's Stone	Philosopher's Stones	a Philosopher's Stone	5	980642	d8c280
-94	Possession	Possessions	a Possession	8	736157	c4c0b4
-95	Potion	Potions	a Potion	4	90563c	f1d14d
-96	Scrying Pool	Scrying Pools	a Scrying Pool	4	a45e08	c4c0b4
-97	Transmute	Transmutes	a Transmute	2	764a76	c4c0b4
-98	University	Universities	a University	4	77714b	c4c0b4
-99	Vineyard	Vineyards	a Vineyard	2	8c9652	9cbe8a
-100	Bank	Banks	a Bank	7	616745	d8c280
-101	Bishop	Bishops	a Bishop	4	6a587c	c4c0b4
-102	Colony	Colonies	a Colony	11	9494d8	548C2B
-103	Contraband	Contrabands	a Contraband	5	68442c	d8c280
-104	Counting House	Counting Houses	a Counting House	5	6f5143	c4c0b4
-105	City	Cities	a City	5	a4a07c	c4c0b4
-106	Expand	Expands	an Expand	7	d77b07	c4c0b4
-107	Forge	Forges	a Forge	7	d05a2a	c4c0b4
-108	Grand Market	Grand Markets	a Grand Market	6	ab735b	c4c0b4
-109	Goons	Goons	a Goons	6	6d6129	c4c0b4
-110	Hoard	Hoards	a Hoard	6	917d25	d8c280
-111	King's Court	King's Courts	a King's Court	7	926634	c4c0b4
-112	Loan	Loans	a Loan	3	9d936f	d8c280
-113	Mint	Mints	a Mint	5	7a5e40	c4c0b4
-114	Monument	Monuments	a Monument	4	8191ab	c4c0b4
-115	Mountebank	Mountebanks	a Mountebank	5	866a6a	c4c0b4
-116	Peddler	Peddlers	a Peddler	8	9a5a2e	c4c0b4
-117	Platinum	Platina	a Platinum	9	948266	f1d14d
-118	Quarry	Quarries	a Quarry	4	b9b59f	d8c280
-119	Rabble	Rabbles	a Rabble	5	88422c	c4c0b4
-120	Royal Seal	Royal Seals	a Royal Seal	5	d8b08e	d8c280
-121	Talisman	Talismans	a Talisman	4	b28038	d8c280
-122	Trade Route	Trade Routes	a Trade Route	3	65a167	c4c0b4
-123	Vault	Vaults	a Vault	5	947e4e	c4c0b4
-124	Venture	Ventures	a Venture	5	624e36	d8c280
-125	Watchtower	Watchtowers	a Watchtower	3	7496c0	8ca2be
-126	Worker's Village	Worker's Villages	a Worker's Village	4	cd7119	c4c0b4
-127	Prize Pile	Prize Piles	a Prize Pile	0	666666	666666
-128	Bag of Gold	Bags of Gold	a Bag of Gold	0	b47214	c4c0b4
-129	Diadem	Diadems	a Diadem	0	ffba14	d8c280
-130	Fairgrounds	Fairgrounds	a Fairgrounds	6	9a8462	9cbe8a
-131	Farming Village	Farming Villages	a Farming Village	4	8d7f67	c4c0b4
-132	Followers	Followers	a Followers	0	ab670b	c4c0b4
-133	Fortune Teller	Fortune Tellers	a Fortune Teller	3	884214	c4c0b4
-134	Hamlet	Hamlets	a Hamlet	2	8e9886	c4c0b4
-135	Harvest	Harvests	a Harvest	5	cd9f49	c4c0b4
-136	Horse Traders	Horse Traders	a Horse Traders	4	595561	8ca2be
-137	Horn of Plenty	Horns of Plenty	a Horn of Plenty	5	7b4d27	d8c280
-138	Hunting Party	Hunting Parties	a Hunting Party	5	4e4e48	c4c0b4
-139	Jester	Jesters	a Jester	5	9f7967	c4c0b4
-140	Menagerie	Menageries	a Menagerie	3	8a7234	c4c0b4
-141	Princess	Princesses	a Princess	0	804e10	c4c0b4
-142	Remake	Remakes	a Remake	4	b46614	c4c0b4
-143	Tournament	Tournaments	a Tournament	4	937755	c4c0b4
-144	Trusty Steed	Trusty Steeds	a Trusty Steed	0	6e726a	c4c0b4
-145	Young Witch	Young Witches	a Young Witch	4	7b653b	c4c0b4
-146	Border Village	Border Villages	a Border Village	6	758791	c4c0b4
-147	Cache	Caches	a Cache	5	6e7846	d8c280
-148	Cartographer	Cartographers	a Cartographer	5	a45a14	c4c0b4
-149	Crossroads	Crossroads	a Crossroads	2	a7a187	c4c0b4
-150	Develop	Develops	a Develop	3	c09864	c4c0b4
-151	Duchess	Duchesses	a Duchess	2	999b77	c4c0b4
-152	Embassy	Embassies	an Embassy	5	8e725c	c4c0b4
-153	Farmland	Farmlands	a Farmland	6	4fbb9d	9cbe8a
-154	Fool's Gold	Fool's Golds	a Fool's Gold	2	b8a62e	666666
-155	Haggler	Hagglers	a Haggler	5	a07a56	c4c0b4
-156	Highway	Highways	a Highway	5	a0be8c	c4c0b4
-157	Ill-Gotten Gains	Ill-Gotten Gains	an Ill-Gotten Gains	5	9d6d41	d8c280
-158	Inn	Inns	an Inn	5	71957d	c4c0b4
-159	Jack of All Trades	Jacks of All Trades	a Jack of All Trades	4	7aa2a4	c4c0b4
-160	Mandarin	Mandarins	a Mandarin	5	b38f2d	c4c0b4
-161	Noble Brigand	Noble Brigands	a Noble Brigand	4	645c46	c4c0b4
-162	Nomad Camp	Nomad Camps	a Nomad Camp	4	87a1b1	c4c0b4
-163	Oasis	Oases	an Oasis	3	8e9864	c4c0b4
-164	Oracle	Oracles	an Oracle	3	69491b	c4c0b4
-165	Margrave	Margraves	a Margrave	5	7c6c48	c4c0b4
-166	Scheme	Schemes	a Scheme	3	7f7d7d	c4c0b4
-167	Silk Road	Silk Roads	a Silk Road	4	948452	9cbe8a
-168	Spice Merchant	Spice Merchants	a Spice Merchant	4	af7b4d	c4c0b4
-169	Stables	Stables	a Stables	5	875d33	c4c0b4
-170	Trader	Traders	a Trader	4	988a34	8ca2be
-171	Tunnel	Tunnels	a Tunnel	3	545258	666666
-172	Ruins	Ruins	a Ruins	0	666666	b29462
-173	Knights	Knights	a Knights	5	819381	c4c0b4
-174	Abandoned Mine	Abandoned Mines	an Abandoned Mine	0	633b29	b29462
-175	Altar	Altars	an Altar	6	7e3800	c4c0b4
-176	Armory	Armories	an Armory	4	54564e	c4c0b4
-177	Band of Misfits	Bands of Misfits	a Band of Misfits	5	56505c	c4c0b4
-178	Bandit Camp	Bandit Camps	a Bandit Camp	5	42889e	c4c0b4
-179	Beggar	Beggars	a Beggar	2	503626	8ca2be
-180	Catacombs	Catacombs	a Catacombs	5	472f1f	c4c0b4
-181	Count	Counts	a Count	5	58605c	c4c0b4
-182	Counterfeit	Counterfeits	a Counterfeit	5	a66e28	d8c280
-183	Cultist	Cultists	a Cultist	5	4b4957	c4c0b4
-184	Dame Anna	Dame Annas	a Dame Anna	5	775f35	c4c0b4
-185	Dame Josephine	Dame Josephines	a Dame Josephine	5	635147	aac298
-186	Dame Molly	Dame Mollies	a Dame Molly	5	946e50	c4c0b4
-187	Dame Natalie	Dame Natalies	a Dame Natalie	5	56665a	c4c0b4
-188	Dame Sylvia	Dame Sylvias	a Dame Sylvia	5	744c36	c4c0b4
-189	Death Cart	Death Carts	a Death Cart	4	826636	c4c0b4
-190	Feodum	Feoda	a Feodum	4	b4a67e	9cbe8a
-191	Forager	Foragers	a Forager	3	a46618	c4c0b4
-192	Fortress	Fortresses	a Fortress	4	62524c	c4c0b4
-193	Graverobber	Graverobbers	a Graverobber	5	4e4052	c4c0b4
-194	Hermit	Hermits	a Hermit	3	977d5b	c4c0b4
-195	Hovel	Hovels	a Hovel	1	25716f	a48892
-196	Hunting Grounds	Hunting Grounds	a Hunting Grounds	6	a08250	c4c0b4
-197	Ironmonger	Ironmongers	an Ironmonger	4	72787a	c4c0b4
-198	Junk Dealer	Junk Dealers	a Junk Dealer	5	7b5f2d	c4c0b4
-199	Madman	Madmen	a Madman	0	8b513d	c4c0b4
-200	Market Square	Market Squares	a Market Square	3	956d43	8ca2be
-201	Marauder	Marauders	a Marauder	4	7e4826	c4c0b4
-202	Mercenary	Mercenaries	a Mercenary	0	6b8193	c4c0b4
-203	Mystic	Mystics	a Mystic	5	695729	c4c0b4
-204	Necropolis	Necropolis	a Necropolis	1	778793	d59f89
-205	Overgrown Estate	Overgrown Estates	an Overgrown Estate	1	58664c	b4a65e
-206	Pillage	Pillages	a Pillage	5	8d7f63	c4c0b4
-207	Poor House	Poor Houses	a Poor House	1	65573d	c4c0b4
-208	Procession	Processions	a Procession	4	775f3d	c4c0b4
-209	Rats	Rats	a Rats	4	795743	c4c0b4
-210	Rebuild	Rebuilds	a Rebuild	5	64748c	c4c0b4
-211	Rogue	Rogues	a Rogue	5	363c4c	c4c0b4
-212	Ruined Library	Ruined Libraries	a Ruined Library	0	806a34	b29462
-213	Ruined Market	Ruined Markets	a Ruined Market	0	6d5753	b29462
-214	Ruined Village	Ruined Villages	a Ruined Village	0	a4886a	b29462
-215	Sage	Sages	a Sage	3	89612f	c4c0b4
-216	Scavenger	Scavengers	a Scavenger	4	34404e	c4c0b4
-217	Sir Bailey	Sir Baileys	a Sir Bailey	5	506070	c4c0b4
-218	Sir Destry	Sir Destries	a Sir Destry	5	797d7f	c4c0b4
-219	Sir Martin	Sir Martins	a Sir Martin	4	cc9e60	c4c0b4
-220	Sir Michael	Sir Michaels	a Sir Michael	5	47454b	c4c0b4
-221	Sir Vander	Sir Vanders	a Sir Vander	5	9ca6ac	c4c0b4
-222	Spoils	Spoils	a Spoils	0	646032	d8c280
-223	Storeroom	Storerooms	a Storeroom	3	69492f	c4c0b4
-224	Squire	Squires	a Squire	2	937b4b	c4c0b4
-225	Survivors	Survivors	a Survivors	0	706a46	b29462
-226	Urchin	Urchins	an Urchin	3	634b33	c4c0b4
-227	Vagrant	Vagrants	a Vagrant	2	593f2b	c4c0b4
-228	Wandering Minstrel	Wandering Minstrels	a Wandering Minstrel	4	905414	c4c0b4
-229	Advisor	Advisors	an Advisor	4	77675b	c4c0b4
-230	Baker	Bakers	a Baker	5	815b3b	c4c0b4
-231	Butcher	Butchers	a Butcher	5	9c6426	c4c0b4
-232	Candlestick Maker	Candlestick Makers	a Candlestick Maker	2	7d6137	c4c0b4
-233	Doctor	Doctors	a Doctor	3	895923	c4c0b4
-234	Herald	Heralds	a Herald	4	996941	c4c0b4
-235	Journeyman	Journeymen	a Journeyman	5	78704e	c4c0b4
-236	Masterpiece	Masterpieces	a Masterpiece	3	d5c361	d8c280
-237	Merchant Guild	Merchant Guilds	a Merchant Guild	5	a44410	c4c0b4
-238	Plaza	Plazas	a Plaza	4	87573f	c4c0b4
-239	Taxman	Taxmen	a Taxman	4	70583a	c4c0b4
-240	Soothsayer	Soothsayers	a Soothsayer	5	514135	c4c0b4
-241	Stonemason	Stonemasons	a Stonemason	2	915d23	c4c0b4
-242	Alms	Alms	an Alms	0	9f793f	a9a39d
-243	Amulet	Amulets	an Amulet	3	d39d25	dda561
-244	Artificer	Artificers	an Artificer	5	754f2b	c4c0b4
-245	Ball	Balls	a Ball	5	8b6323	a9a39d
-246	Bonfire	Bonfires	a Bonfire	3	844e52	a9a39d
-247	Borrow	Borrows	a Borrow	0	8a3620	a9a39d
-248	Bridge Troll	Bridge Trolls	a Bridge Troll	5	524830	dda561
-249	Caravan Guard	Caravan Guards	a Caravan Guard	3	7c8e68	a7a39b
-251	Coin of the Realm	Coins of the Realm	a Coin of the Realm	2	ae6c00	c2a85c
-253	Distant Lands	Distant Lands	a Distant Lands	5	c49e8c	666666
-254	Dungeon	Dungeons	a Dungeon	3	4f472d	dda561
-255	Duplicate	Duplicates	a Duplicate	4	8a887c	c5af85
-256	Expedition	Expeditions	an Expedition	3	ca8c28	a9a39d
-257	Ferry	Ferries	a Ferry	3	798593	a9a39d
-259	Gear	Gears	a Gear	3	877969	dda561
-260	Giant	Giants	a Giant	5	9c7c5a	c4c0b4
-261	Guide	Guides	a Guide	3	486e4a	c5af85
-262	Haunted Woods	Haunted Woods	a Haunted Woods	5	314b39	dda561
-264	Hireling	Hirelings	a Hireling	6	745666	dda561
-265	Inheritance	Inheritances	an Inheritance	7	657759	a9a39d
-266	Lost Arts	Lost Arts	a Lost Arts	6	ab4f1f	a9a39d
-267	Lost City	Lost Cities	a Lost City	5	969c6c	c4c0b4
-268	Magpie	Magpies	a Magpie	4	707870	c4c0b4
-269	Messenger	Messengers	a Messenger	4	99afc3	c4c0b4
-270	Miser	Misers	a Miser	4	726a60	c4c0b4
-271	Mission	Missions	a Mission	4	7e767c	a9a39d
-272	Pathfinding	Pathfindings	a Pathfinding	8	664820	a9a39d
-275	Pilgrimage	Pilgrimages	a Pilgrimage	4	6e4e28	a9a39d
-276	Plan	Plans	a Plan	3	6c4630	a9a39d
-277	Port	Ports	a Port	4	586c6e	c4c0b4
-278	Quest	Quests	a Quest	0	685456	a9a39d
-279	Ranger	Rangers	a Ranger	4	8c7236	c4c0b4
-280	Raid	Raids	a Raid	5	4f4347	a9a39d
-273	Page	Pages	a Page	2	553d33	c2bfba
-263	Hero	Heroes	a Hero	5	423732	c2bfba
-258	Fugitive	Fugitives	a Fugitive	4	888095	c2bfba
-250	Champion	Champions	a Champion	6	594c3e	dda561
-252	Disciple	Disciples	a Disciple	5	966a2c	c2bfba
-281	Ratcatcher	Ratcatchers	a Ratcatcher	2	655d4f	c5af85
-282	Raze	Razes	a Raze	2	6b5949	c4c0b4
-283	Relic	Relics	a Relic	5	616959	d8c280
-284	Royal Carriage	Royal Carriages	a Royal Carriage	5	9a7450	c5af85
-285	Save	Saves	a Save	1	814d3b	a9a39d
-286	Scouting Party	Scouting Parties	a Scouting Party	2	97875b	a9a39d
-287	Seaway	Seaways	a Seaway	5	7195a3	a9a39d
-289	Storyteller	Storytellers	a Storyteller	5	ad735f	c4c0b4
-290	Swamp Hag	Swamp Hags	a Swamp Hag	5	8c462e	dda561
-292	Travelling Fair	Travelling Fairs	a Travelling Fair	2	d2942c	a9a39d
-293	Trade	Trades	a Trade	5	735941	a9a39d
-294	Training	Trainings	a Training	6	533f33	a9a39d
-295	Transmogrify	Transmogrifies	a Transmogrify	4	6e6258	c5af85
-296	Treasure Trove	Treasure Troves	a Treasure Trove	5	95795f	d8c280
-299	Wine Merchant	Wine Merchants	a Wine Merchant	5	855b31	c5af85
-300	Encampment	Encampments	an Encampment	2	6d4527	c4c0b4
-301	Plunder	Plunders	a Plunder	5	666666	d8c280
-302	Patrician	Patricians	a Patrician	2	6a80a0	c4c0b4
-303	Emporium	Emporia	an Emporium	5	666666	c4c0b4
-304	Settlers	Settlers	a Settlers	2	784624	c4c0b4
-305	Bustling Village	Bustling Villages	a Bustling Village	5	666666	c4c0b4
-306	Catapult	Catapults	a Catapult	3	839f55	c4c0b4
-307	Rocks	Rocks	a Rocks	4	80963a	d8c280
-308	Gladiator	Gladiators	a Gladiator	3	b28674	c4c0b4
-309	Fortune	Fortunes	a Fortune	16	666666	d8c280
-310	Castles	Castles	a Castles	3	2d7bbb	9cbe8a
-311	Humble Castle	Humble Castles	a Humble Castle	3	63af7f	a9c35d
-312	Crumbling Castle	Crumbling Castles	a Crumbling Castle	4	ceb22c	9cbe8a
-313	Small Castle	Small Castles	a Small Castle	5	96a692	aac298
-314	Haunted Castle	Haunted Castles	a Haunted Castle	6	4a6064	9cbe8a
-315	Opulent Castle	Opulent Castles	an Opulent Castle	7	4f9391	aac298
-316	Sprawling Castle	Sprawling Castles	a Sprawling Castle	8	ffb300	9cbe8a
-317	Grand Castle	Grand Castles	a Grand Castle	9	9e7e5a	9cbe8a
-318	King's Castle	King's Castles	a King's Castle	10	cd8959	9cbe8a
-319	Advance	Advances	an Advance	0	714d41	a9a39d
-320	Annex	Annexes	an Annex	8	7a5a36	a9a39d
-321	Archive	Archives	an Archive	5	7b5d47	dda561
-322	Aqueduct	Aqueducts	an Aqueduct	0	9a905c	65ab6f
-323	Arena	Arenas	an Arena	0	b0587c	65ab6f
-324	Bandit Fort	Bandit Forts	a Bandit Fort	0	b0a66e	65ab6f
-325	Banquet	Banquets	a Banquet	3	6f5735	a9a39d
-326	Basilica	Basilicas	a Basilica	0	835945	65ab6f
-327	Baths	Baths	a Baths	0	746c44	65ab6f
-328	Battlefield	Battlefields	a Battlefield	0	528ec6	65ab6f
-329	Capital	Capitals	a Capital	5	765648	d8c280
-330	Charm	Charms	a Charm	5	756349	d8c280
-331	Chariot Race	Chariot Races	a Chariot Race	3	7f7569	c4c0b4
-332	City Quarter	City Quarters	a City Quarter	8	7e6a30	c4c0b4
-333	Colonnade	Colonnades	a Colonnade	0	9f7b27	65ab6f
-334	Conquest	Conquests	a Conquest	6	7c9692	a9a39d
-335	Crown	Crowns	a Crown	5	7b4b33	cec28a
-336	Delve	Delves	a Delve	2	716149	a9a39d
-337	Defiled Shrine	Defiled Shrines	a Defiled Shrine	0	5a746e	65ab6f
-338	Dominate	Dominates	a Dominate	14	896b71	a9a39d
-339	Donate	Donates	a Donate	8	886c7a	a9a39d
-340	Enchantress	Enchantresses	an Enchantress	3	a5855f	dda561
-341	Engineer	Engineers	an Engineer	4	733719	c4c0b4
-342	Farmers' Market	Farmers' Markets	a Farmers' Market	3	867642	c4c0b4
-343	Forum	Forums	a Forum	5	bc9256	c4c0b4
-344	Fountain	Fountains	a Fountain	0	7c5a34	65ab6f
-345	Groundskeeper	Groundskeepers	a Groundskeeper	5	978957	c4c0b4
-346	Keep	Keeps	a Keep	0	6f4f7d	65ab6f
-347	Labyrinth	Labyrinths	a Labyrinth	0	5e884c	65ab6f
-348	Legionary	Legionaries	a Legionary	5	714b41	c4c0b4
-349	Mountain Pass	Mountain Passes	a Mountain Pass	0	657d8d	65ab6f
-350	Museum	Museums	a Museum	0	c47a00	65ab6f
-351	Obelisk	Obelisks	an Obelisk	0	774d29	65ab6f
-352	Orchard	Orchards	an Orchard	0	707c5c	65ab6f
-353	Overlord	Overlords	an Overlord	8	9a8a90	c4c0b4
-354	Palace	Palaces	a Palace	0	c07442	65ab6f
-355	Ritual	Rituals	a Ritual	4	7a5224	a9a39d
-356	Royal Blacksmith	Royal Blacksmiths	a Royal Blacksmith	8	69452b	c4c0b4
-357	Sacrifice	Sacrifices	a Sacrifice	4	9b675f	c4c0b4
-358	Salt the Earth	Salt the Earths	a Salt the Earth	4	7b8383	a9a39d
-359	Tax	Taxes	a Tax	2	a0745a	a9a39d
-360	Temple	Temples	a Temple	4	d6b452	c4c0b4
-361	Tomb	Tombs	a Tomb	0	8b8585	65ab6f
-362	Tower	Towers	a Tower	0	bb9b3d	65ab6f
-363	Triumph	Triumphs	a Triumph	5	913d05	a9a39d
-364	Triumphal Arch	Triumphal Arches	a Triumphal Arch	0	8f8b51	65ab6f
-365	Villa	Villas	a Villa	4	87b34f	c4c0b4
-366	Wall	Walls	a Wall	0	5e4a54	65ab6f
-367	Wolf Den	Wolf Dens	a Wolf Den	0	a1a18f	65ab6f
-368	Wedding	Weddings	a Wedding	7	715919	a9a39d
-369	Wild Hunt	Wild Hunts	a Wild Hunt	5	15516f	c4c0b4
-370	Windfall	Windfalls	a Windfall	5	9e5402	a9a39d
-371	Boon Drawpile	Boon Drawpiles	a Boon Drawpile	0	666666	dbcf00
-372	Boon Discardpile	Boon Discardpiles	a Boon Discardpile	0	666666	dbcf00
-291	Teacher	Teachers	a Teacher	6	bb7937	c5af85
-298	Warrior	Warriors	a Warrior	4	564543	c2bfba
-288	Soldier	Soldiers	a Soldier	3	a58e74	c2bfba
-373	The Earth's Gift	The Earth's Gifts	The Earth's Gift	0	6b6733	dbcf00
-374	The Field's Gift	The Field's Gifts	The Field's Gift	0	d3cd17	dbcf00
-375	The Flame's Gift	The Flame's Gifts	The Flame's Gift	0	ff8f00	dbcf00
-376	The Forest's Gift	The Forest's Gifts	The Forest's Gift	0	3b8d0b	dbcf00
-377	The Moon's Gift	The Moon's Gifts	The Moon's Gift	0	001ee4	dbcf00
-378	The Mountain's Gift	The Mountain's Gifts	The Mountain's Gift	0	005cff	dbcf00
-379	The River's Gift	The River's Gifts	The River's Gift	0	4e9c92	dbcf00
-380	The Sea's Gift	The Sea's Gifts	The Sea's Gift	0	0071d7	dbcf00
-381	The Sky's Gift	The Sky's Gifts	The Sky's Gift	0	1cbeff	dbcf00
-382	The Sun's Gift	The Sun's Gifts	The Sun's Gift	0	fcbe00	dbcf00
-383	The Swamp's Gift	The Swamp's Gifts	The Swamp's Gift	0	39650b	dbcf00
-384	The Wind's Gift	The Wind's Gifts	The Wind's Gift	0	67d35b	dbcf00
-385	Hex Drawpile	Hex Drawpiles	a Hex Drawpile	0	666666	4137df
-386	Hex Discardpile	Hex Discardpiles	a Hex Discardpile	0	666666	4137df
-387	Bad Omens	Bad Omens	Bad Omens	0	4d4135	4137df
-388	Delusion	Delusions	Delusion	0	65634d	4137df
-389	Envy	Envies	Envy	0	618f55	4137df
-390	Famine	Famines	Famine	0	919f8f	4137df
-391	Fear	Fears	Fear	0	1f3347	4137df
-392	Greed	Greeds	Greed	0	c13f0b	4137df
-393	Haunting	Hauntings	Haunting	0	344860	4137df
-394	Locusts	Locusts	Locusts	0	43c95f	4137df
-395	Misery	Miseries	Misery	0	1c161a	4137df
-396	Plague	Plagues	Plague	0	42aa6c	4137df
-397	Poverty	Poverties	Poverty	0	2e2a2a	4137df
-398	War	Wars	War	0	a12700	4137df
-399	Miserable	Miserables	Miserable	0	1c161a	ceb0a4
-400	Twice Miserable	Twice Miserables	Twice Miserable	0	1c161a	ceb0a4
-401	Envious	Envious	Envious	0	618f55	ceb0a4
-402	Deluded	Deludeds	Deluded	0	65634d	ceb0a4
-403	Lost In The Woods	Lost In The Woods	Lost In The Woods	0	527052	ceb0a4
-404	Bard	Bards	a Bard	4	57932f	c4c0b4
-405	Blessed Village	Blessed Villages	a Blessed Village	4	8f7737	c4c0b4
-406	Changeling	Changelings	a Changeling	3	183442	30484e
-407	Cemetery	Cemeteries	a Cemetery	4	53735b	9cbe8a
-408	Cobbler	Cobblers	a Cobbler	5	5a501c	7a5622
-409	Conclave	Conclaves	a Conclave	4	9c6a14	c4c0b4
-410	Crypt	Crypts	a Crypt	5	0d494f	7a5622
-411	Cursed Village	Cursed Villages	a Cursed Village	5	265ea6	c4c0b4
-412	Den Of Sin	Dens Of Sin	a Den Of Sin	5	2c2226	7a5622
-413	Devil's Workshop	Devil's Workshops	a Devil's Workshop	4	7d5b83	30484e
-414	Druid	Druids	a Druid	2	49b921	c4c0b4
-415	Exorcist	Exorcists	an Exorcist	4	3763b5	30484e
-416	Faithful Hound	Faithful Hounds	a Faithful Hound	2	8c7640	8ca2be
-417	Fool	Fools	a Fool	3	a7af3f	c4c0b4
-418	Ghost Town	Ghost Towns	a Ghost Town	3	173b57	7a5622
-419	Guardian	Guardians	a Guardian	2	376db9	7a5622
-420	Idol	Idols	a Idol	5	b13700	d8c280
-421	Leprechaun	Leprechauns	a Leprechaun	3	5e7c04	c4c0b4
-422	Monastery	Monasteries	a Monastery	2	02268a	30484e
-423	Necromancer	Necromancers	a Necromancer	4	525a36	c4c0b4
-424	Night Watchman	Night Watchmen	a Night Watchman	3	464266	30484e
-425	Pixie	Pixies	a Pixie	2	a9db75	c4c0b4
-426	Pooka	Pookas	a Pooka	5	6b6700	c4c0b4
-427	Raider	Raiders	a Raider	6	00238b	7a5622
-428	Sacred Grove	Sacred Groves	a Sacred Grove	5	5e7632	c4c0b4
-429	Secret Cave	Secret Caves	a Secret Cave	3	be741c	dda561
-430	Shepherd	Shepherds	a Shepherd	4	9caa90	c4c0b4
-431	Skulk	Skulks	a Skulk	4	7e6060	c4c0b4
-432	Tormentor	Tormentors	a Tormentor	5	884c6a	c4c0b4
-433	Tragic Hero	Tragic Heroes	a Tragic Hero	5	5c88a4	c4c0b4
-434	Tracker	Trackers	a Tracker	2	87c7d9	c4c0b4
-435	Vampire	Vampires	a Vampire	5	523a4c	30484e
-436	Werewolf	Werewolves	a Werewolf	5	9f8193	666666
-437	Cursed Gold	Cursed Golds	a Cursed Gold	4	666666	d8c280
-438	Goat	Goats	a Goat	2	a1e15d	d8c280
-439	Haunted Mirror	Haunted Mirrors	a Haunted Mirror	0	666666	d8c280
-440	Lucky Coin	Lucky Coins	a Lucky Coin	4	9ed654	d8c280
-441	Magic Lamp	Magic Lamps	a Magic Lamp	0	8c3400	d8c280
-442	Pasture	Pastures	a Pasture	2	666666	a9c35d
-443	Pouch	Pouches	a Pouch	2	666666	d8c280
-444	Bat	Bats	a Bat	2	666666	30484e
-445	Ghost	Ghosts	a Ghost	4	13b12f	7a5622
-446	Imp	Imps	an Imp	2	936d69	c4c0b4
-447	Will-o'-wisp	Will-o'-wisps	a Will-o'-wisp	0	1d593f	c4c0b4
-448	Wish	Wishes	a Wish	0	0f6551	c4c0b4
-449	Zombie Apprentice	Zombie Apprentices	a Zombie Apprentice	3	292d23	c4c0b4
-450	Zombie Mason	Zombie Masons	a Zombie Mason	3	5f513d	c4c0b4
-451	Zombie Spy	Zombie Spies	a Zombie Spy	3	363438	c4c0b4
-452	Avanto	Avantos	an Avanto	5	9fa3af	c4c0b4
-453	Black Market	Black Markets	a Black Market	3	b5b5b5	c4c0b4
-454	Envoy	Envoys	an Envoy	4	425064	c4c0b4
-455	Governor	Governors	a Governor	5	8f9989	c4c0b4
-456	Prince	Princes	a Prince	8	a4863c	c4c0b4
-457	Sauna	Saunas	a Sauna	5	9f8d7b	c4c0b4
-458	Stash	Stashes	a Stash	5	666666	d8c280
-459	Summon	Summons	a Summon	5	c19b59	a9a39d
-460	Walled Village	Walled Villages	a Walled Village	4	6eaa70	c4c0b4
-461	Black Market Deck	Black Market Decks	a Black Market Deck	0	666666	666666
-462	Dismantle	Dismantles	a Dismantle	4	666666	c4c0b4
-463	Debt	Debt	Debt	0	666666	666666
-274	Peasant	Peasants	a Peasant	2	cab026	c2bfba
-297	Treasure Hunter	Treasure Hunters	a Treasure Hunter	3	494343	c2bfba
+COPY woodcutter_carddata (id, single_name, multi_name, phrase_name, cost, color, border_color, supply_type) FROM stdin;
+9	Artisan	Artisans	an Artisan	6	bc5a00	c4c0b4	0
+10	Bandit	Bandits	a Bandit	5	8a861e	c4c0b4	0
+11	Bureaucrat	Bureaucrats	a Bureaucrat	4	95633b	c4c0b4	0
+12	Cellar	Cellars	a Cellar	2	3e4646	c4c0b4	0
+13	Chapel	Chapels	a Chapel	2	605444	c4c0b4	0
+14	Council Room	Council Rooms	a Council Room	5	815121	c4c0b4	0
+15	Festival	Festivals	a Festival	5	636d61	c4c0b4	0
+16	Gardens	Gardens	a Gardens	4	5f792f	9cbe8a	0
+17	Harbinger	Harbingers	a Harbinger	3	8e8a3c	c4c0b4	0
+18	Laboratory	Laboratories	a Laboratory	5	614739	c4c0b4	0
+19	Library	Libraries	a Library	5	7a7e4a	c4c0b4	0
+20	Market	Markets	a Market	5	684830	c4c0b4	0
+21	Merchant	Merchants	a Merchant	3	917911	c4c0b4	0
+22	Militia	Militias	a Militia	4	856961	c4c0b4	0
+23	Mine	Mines	a Mine	5	433935	c4c0b4	0
+24	Moat	Moats	a Moat	2	586472	8ca2be	0
+25	Moneylender	Moneylenders	a Moneylender	4	7a644c	c4c0b4	0
+26	Poacher	Poachers	a Poacher	4	8f810d	c4c0b4	0
+27	Remodel	Remodels	a Remodel	4	8e7e4a	c4c0b4	0
+28	Sentry	Sentries	a Sentry	5	5a361e	c4c0b4	0
+29	Smithy	Smithies	a Smithy	4	6a523a	c4c0b4	0
+30	Throne Room	Throne Rooms	a Throne Room	4	d76315	c4c0b4	0
+31	Vassal	Vassals	a Vassal	3	ba6816	c4c0b4	0
+32	Village	Villages	a Village	3	7e9078	c4c0b4	0
+33	Witch	Witches	a Witch	5	52444e	c4c0b4	0
+34	Workshop	Workshops	a Workshop	3	8c6428	c4c0b4	0
+35	Courtyard	Courtyards	a Courtyard	2	74a454	c4c0b4	0
+36	Conspirator	Conspirators	a Conspirator	4	2b5989	c4c0b4	0
+37	Courtier	Courtiers	a Courtier	5	ac6228	c4c0b4	0
+38	Baron	Barons	a Baron	4	876341	c4c0b4	0
+39	Bridge	Bridges	a Bridge	4	859b6b	c4c0b4	0
+40	Diplomat	Diplomats	a Diplomat	4	91595f	8ca2be	0
+41	Duke	Dukes	a Duke	5	8a7e5e	9cbe8a	0
+42	Harem	Harems	a Harem	6	c3510d	a9c35d	0
+43	Nobles	Nobles	a Nobles	6	816155	aac298	0
+44	Ironworks	Ironworks	an Ironworks	4	7d3b1f	c4c0b4	0
+45	Lurker	Lurkers	a Lurker	2	909ab2	c4c0b4	0
+46	Masquerade	Masquerades	a Masquerade	3	635d51	c4c0b4	0
+47	Mill	Mills	a Mill	4	78b294	aac298	0
+48	Mining Village	Mining Villages	a Mining Village	4	aea090	c4c0b4	0
+49	Minion	Minions	a Minion	5	6c382e	c4c0b4	0
+50	Patrol	Patrols	a Patrol	5	98ae70	c4c0b4	0
+51	Pawn	Pawns	a Pawn	2	3f2f25	c4c0b4	0
+52	Replace	Replaces	a Replace	5	564850	c4c0b4	0
+53	Secret Passage	Secret Passages	a Secret Passage	4	261e12	c4c0b4	0
+54	Shanty Town	Shanty Towns	a Shanty Town	3	124e44	c4c0b4	0
+55	Steward	Stewards	a Steward	3	4f4d5d	c4c0b4	0
+56	Swindler	Swindlers	a Swindler	3	b78d49	c4c0b4	0
+57	Torturer	Torturers	a Torturer	5	842804	c4c0b4	0
+58	Trading Post	Trading Posts	a Trading Post	5	686434	c4c0b4	0
+59	Upgrade	Upgrades	an Upgrade	5	979773	c4c0b4	0
+60	Wishing Well	Wishing Wells	a Wishing Well	3	61756b	c4c0b4	0
+61	Ambassador	Ambassadors	an Ambassador	3	b8602c	c4c0b4	0
+62	Bazaar	Bazaars	a Bazaar	5	a6765e	c4c0b4	0
+63	Caravan	Caravans	a Caravan	4	b9ab7f	dda561	0
+64	Cutpurse	Cutpurses	a Cutpurse	4	826a4e	c4c0b4	0
+65	Embargo	Embargos	an Embargo	2	9da381	c4c0b4	0
+66	Explorer	Explorers	an Explorer	5	92887a	c4c0b4	0
+67	Fishing Village	Fishing Villages	a Fishing Village	3	7db9b3	dda561	0
+68	Ghost Ship	Ghost Ships	a Ghost Ship	5	59814d	c4c0b4	0
+69	Haven	Havens	a Haven	2	866846	dda561	0
+70	Island	Islands	an Island	4	5d9fbd	aac298	0
+71	Lighthouse	Lighthouses	a Lighthouse	2	559773	dda561	0
+72	Lookout	Lookouts	a Lookout	3	723a6a	c4c0b4	0
+73	Merchant Ship	Merchant Ships	a Merchant Ship	5	b58127	dda561	0
+74	Native Village	Native Villages	a Native Village	2	6f919f	c4c0b4	0
+75	Navigator	Navigators	a Navigator	4	5ba7ad	c4c0b4	0
+76	Outpost	Outposts	an Outpost	5	949ab2	dda561	0
+77	Pearl Diver	Pearl Divers	a Pearl Diver	2	00aee6	c4c0b4	0
+78	Pirate Ship	Pirate Ships	a Pirate Ship	4	7e9ec2	c4c0b4	0
+79	Salvager	Salvagers	a Salvager	4	397b7b	c4c0b4	0
+80	Sea Hag	Sea Hags	a Sea Hag	4	745a44	c4c0b4	0
+81	Smugglers	Smugglers	a Smugglers	3	464c50	c4c0b4	0
+82	Tactician	Tacticians	a Tactician	5	785c44	dda561	0
+83	Treasure Map	Treasure Maps	a Treasure Map	4	9d651b	c4c0b4	0
+84	Treasury	Treasuries	a Treasury	5	884a00	c4c0b4	0
+85	Warehouse	Warehouses	a Warehouse	3	59635b	c4c0b4	0
+86	Wharf	Wharves	a Wharf	5	7b778f	dda561	0
+87	Alchemist	Alchemists	an Alchemist	5	898573	c4c0b4	0
+88	Apothecary	Apothecaries	an Apothecary	4	a36713	c4c0b4	0
+89	Apprentice	Apprentices	an Apprentice	5	ce5800	c4c0b4	0
+90	Familiar	Familiars	a Familiar	5	aa6656	c4c0b4	0
+1	card	cards	a card	0	666666	666666	-1
+91	Golem	Golems	a Golem	6	5e6c80	c4c0b4	0
+92	Herbalist	Herbalists	a Herbalist	2	b8884e	c4c0b4	0
+93	Philosopher's Stone	Philosopher's Stones	a Philosopher's Stone	5	980642	d8c280	0
+94	Possession	Possessions	a Possession	8	736157	c4c0b4	0
+96	Scrying Pool	Scrying Pools	a Scrying Pool	4	a45e08	c4c0b4	0
+97	Transmute	Transmutes	a Transmute	2	764a76	c4c0b4	0
+98	University	Universities	a University	4	77714b	c4c0b4	0
+99	Vineyard	Vineyards	a Vineyard	2	8c9652	9cbe8a	0
+100	Bank	Banks	a Bank	7	616745	d8c280	0
+101	Bishop	Bishops	a Bishop	4	6a587c	c4c0b4	0
+102	Colony	Colonies	a Colony	11	9494d8	548C2B	0
+103	Contraband	Contrabands	a Contraband	5	68442c	d8c280	0
+104	Counting House	Counting Houses	a Counting House	5	6f5143	c4c0b4	0
+105	City	Cities	a City	5	a4a07c	c4c0b4	0
+106	Expand	Expands	an Expand	7	d77b07	c4c0b4	0
+107	Forge	Forges	a Forge	7	d05a2a	c4c0b4	0
+108	Grand Market	Grand Markets	a Grand Market	6	ab735b	c4c0b4	0
+109	Goons	Goons	a Goons	6	6d6129	c4c0b4	0
+110	Hoard	Hoards	a Hoard	6	917d25	d8c280	0
+111	King's Court	King's Courts	a King's Court	7	926634	c4c0b4	0
+112	Loan	Loans	a Loan	3	9d936f	d8c280	0
+113	Mint	Mints	a Mint	5	7a5e40	c4c0b4	0
+114	Monument	Monuments	a Monument	4	8191ab	c4c0b4	0
+115	Mountebank	Mountebanks	a Mountebank	5	866a6a	c4c0b4	0
+116	Peddler	Peddlers	a Peddler	8	9a5a2e	c4c0b4	0
+117	Platinum	Platina	a Platinum	9	948266	f1d14d	0
+118	Quarry	Quarries	a Quarry	4	b9b59f	d8c280	0
+119	Rabble	Rabbles	a Rabble	5	88422c	c4c0b4	0
+120	Royal Seal	Royal Seals	a Royal Seal	5	d8b08e	d8c280	0
+121	Talisman	Talismans	a Talisman	4	b28038	d8c280	0
+122	Trade Route	Trade Routes	a Trade Route	3	65a167	c4c0b4	0
+123	Vault	Vaults	a Vault	5	947e4e	c4c0b4	0
+124	Venture	Ventures	a Venture	5	624e36	d8c280	0
+125	Watchtower	Watchtowers	a Watchtower	3	7496c0	8ca2be	0
+126	Worker's Village	Worker's Villages	a Worker's Village	4	cd7119	c4c0b4	0
+127	Prize Pile	Prize Piles	a Prize Pile	0	666666	666666	0
+130	Fairgrounds	Fairgrounds	a Fairgrounds	6	9a8462	9cbe8a	0
+131	Farming Village	Farming Villages	a Farming Village	4	8d7f67	c4c0b4	0
+133	Fortune Teller	Fortune Tellers	a Fortune Teller	3	884214	c4c0b4	0
+134	Hamlet	Hamlets	a Hamlet	2	8e9886	c4c0b4	0
+135	Harvest	Harvests	a Harvest	5	cd9f49	c4c0b4	0
+136	Horse Traders	Horse Traders	a Horse Traders	4	595561	8ca2be	0
+137	Horn of Plenty	Horns of Plenty	a Horn of Plenty	5	7b4d27	d8c280	0
+138	Hunting Party	Hunting Parties	a Hunting Party	5	4e4e48	c4c0b4	0
+139	Jester	Jesters	a Jester	5	9f7967	c4c0b4	0
+140	Menagerie	Menageries	a Menagerie	3	8a7234	c4c0b4	0
+142	Remake	Remakes	a Remake	4	b46614	c4c0b4	0
+143	Tournament	Tournaments	a Tournament	4	937755	c4c0b4	0
+145	Young Witch	Young Witches	a Young Witch	4	7b653b	c4c0b4	0
+146	Border Village	Border Villages	a Border Village	6	758791	c4c0b4	0
+147	Cache	Caches	a Cache	5	6e7846	d8c280	0
+148	Cartographer	Cartographers	a Cartographer	5	a45a14	c4c0b4	0
+149	Crossroads	Crossroads	a Crossroads	2	a7a187	c4c0b4	0
+150	Develop	Develops	a Develop	3	c09864	c4c0b4	0
+151	Duchess	Duchesses	a Duchess	2	999b77	c4c0b4	0
+152	Embassy	Embassies	an Embassy	5	8e725c	c4c0b4	0
+153	Farmland	Farmlands	a Farmland	6	4fbb9d	9cbe8a	0
+154	Fool's Gold	Fool's Golds	a Fool's Gold	2	b8a62e	666666	0
+155	Haggler	Hagglers	a Haggler	5	a07a56	c4c0b4	0
+156	Highway	Highways	a Highway	5	a0be8c	c4c0b4	0
+157	Ill-Gotten Gains	Ill-Gotten Gains	an Ill-Gotten Gains	5	9d6d41	d8c280	0
+158	Inn	Inns	an Inn	5	71957d	c4c0b4	0
+159	Jack of All Trades	Jacks of All Trades	a Jack of All Trades	4	7aa2a4	c4c0b4	0
+160	Mandarin	Mandarins	a Mandarin	5	b38f2d	c4c0b4	0
+161	Noble Brigand	Noble Brigands	a Noble Brigand	4	645c46	c4c0b4	0
+162	Nomad Camp	Nomad Camps	a Nomad Camp	4	87a1b1	c4c0b4	0
+163	Oasis	Oases	an Oasis	3	8e9864	c4c0b4	0
+164	Oracle	Oracles	an Oracle	3	69491b	c4c0b4	0
+165	Margrave	Margraves	a Margrave	5	7c6c48	c4c0b4	0
+166	Scheme	Schemes	a Scheme	3	7f7d7d	c4c0b4	0
+167	Silk Road	Silk Roads	a Silk Road	4	948452	9cbe8a	0
+168	Spice Merchant	Spice Merchants	a Spice Merchant	4	af7b4d	c4c0b4	0
+169	Stables	Stables	a Stables	5	875d33	c4c0b4	0
+170	Trader	Traders	a Trader	4	988a34	8ca2be	0
+171	Tunnel	Tunnels	a Tunnel	3	545258	666666	0
+172	Ruins	Ruins	a Ruins	0	666666	b29462	0
+173	Knights	Knights	a Knights	5	819381	c4c0b4	0
+174	Abandoned Mine	Abandoned Mines	an Abandoned Mine	0	633b29	b29462	0
+175	Altar	Altars	an Altar	6	7e3800	c4c0b4	0
+176	Armory	Armories	an Armory	4	54564e	c4c0b4	0
+177	Band of Misfits	Bands of Misfits	a Band of Misfits	5	56505c	c4c0b4	0
+178	Bandit Camp	Bandit Camps	a Bandit Camp	5	42889e	c4c0b4	0
+144	Trusty Steed	Trusty Steeds	a Trusty Steed	0	6e726a	c4c0b4	1
+128	Bag of Gold	Bags of Gold	a Bag of Gold	0	b47214	c4c0b4	1
+132	Followers	Followers	a Followers	0	ab670b	c4c0b4	1
+95	Potion	Potions	a Potion	4	90563c	f1d14d	1
+129	Diadem	Diadems	a Diadem	0	ffba14	d8c280	1
+179	Beggar	Beggars	a Beggar	2	503626	8ca2be	0
+180	Catacombs	Catacombs	a Catacombs	5	472f1f	c4c0b4	0
+181	Count	Counts	a Count	5	58605c	c4c0b4	0
+182	Counterfeit	Counterfeits	a Counterfeit	5	a66e28	d8c280	0
+183	Cultist	Cultists	a Cultist	5	4b4957	c4c0b4	0
+189	Death Cart	Death Carts	a Death Cart	4	826636	c4c0b4	0
+190	Feodum	Feoda	a Feodum	4	b4a67e	9cbe8a	0
+191	Forager	Foragers	a Forager	3	a46618	c4c0b4	0
+192	Fortress	Fortresses	a Fortress	4	62524c	c4c0b4	0
+193	Graverobber	Graverobbers	a Graverobber	5	4e4052	c4c0b4	0
+194	Hermit	Hermits	a Hermit	3	977d5b	c4c0b4	0
+196	Hunting Grounds	Hunting Grounds	a Hunting Grounds	6	a08250	c4c0b4	0
+197	Ironmonger	Ironmongers	an Ironmonger	4	72787a	c4c0b4	0
+198	Junk Dealer	Junk Dealers	a Junk Dealer	5	7b5f2d	c4c0b4	0
+199	Madman	Madmen	a Madman	0	8b513d	c4c0b4	0
+200	Market Square	Market Squares	a Market Square	3	956d43	8ca2be	0
+201	Marauder	Marauders	a Marauder	4	7e4826	c4c0b4	0
+202	Mercenary	Mercenaries	a Mercenary	0	6b8193	c4c0b4	0
+203	Mystic	Mystics	a Mystic	5	695729	c4c0b4	0
+206	Pillage	Pillages	a Pillage	5	8d7f63	c4c0b4	0
+207	Poor House	Poor Houses	a Poor House	1	65573d	c4c0b4	0
+208	Procession	Processions	a Procession	4	775f3d	c4c0b4	0
+209	Rats	Rats	a Rats	4	795743	c4c0b4	0
+210	Rebuild	Rebuilds	a Rebuild	5	64748c	c4c0b4	0
+211	Rogue	Rogues	a Rogue	5	363c4c	c4c0b4	0
+212	Ruined Library	Ruined Libraries	a Ruined Library	0	806a34	b29462	0
+213	Ruined Market	Ruined Markets	a Ruined Market	0	6d5753	b29462	0
+214	Ruined Village	Ruined Villages	a Ruined Village	0	a4886a	b29462	0
+215	Sage	Sages	a Sage	3	89612f	c4c0b4	0
+216	Scavenger	Scavengers	a Scavenger	4	34404e	c4c0b4	0
+217	Sir Bailey	Sir Baileys	a Sir Bailey	5	506070	c4c0b4	0
+223	Storeroom	Storerooms	a Storeroom	3	69492f	c4c0b4	0
+224	Squire	Squires	a Squire	2	937b4b	c4c0b4	0
+225	Survivors	Survivors	a Survivors	0	706a46	b29462	0
+226	Urchin	Urchins	an Urchin	3	634b33	c4c0b4	0
+227	Vagrant	Vagrants	a Vagrant	2	593f2b	c4c0b4	0
+228	Wandering Minstrel	Wandering Minstrels	a Wandering Minstrel	4	905414	c4c0b4	0
+229	Advisor	Advisors	an Advisor	4	77675b	c4c0b4	0
+230	Baker	Bakers	a Baker	5	815b3b	c4c0b4	0
+231	Butcher	Butchers	a Butcher	5	9c6426	c4c0b4	0
+232	Candlestick Maker	Candlestick Makers	a Candlestick Maker	2	7d6137	c4c0b4	0
+233	Doctor	Doctors	a Doctor	3	895923	c4c0b4	0
+234	Herald	Heralds	a Herald	4	996941	c4c0b4	0
+235	Journeyman	Journeymen	a Journeyman	5	78704e	c4c0b4	0
+236	Masterpiece	Masterpieces	a Masterpiece	3	d5c361	d8c280	0
+237	Merchant Guild	Merchant Guilds	a Merchant Guild	5	a44410	c4c0b4	0
+238	Plaza	Plazas	a Plaza	4	87573f	c4c0b4	0
+239	Taxman	Taxmen	a Taxman	4	70583a	c4c0b4	0
+240	Soothsayer	Soothsayers	a Soothsayer	5	514135	c4c0b4	0
+241	Stonemason	Stonemasons	a Stonemason	2	915d23	c4c0b4	0
+242	Alms	Alms	an Alms	0	9f793f	a9a39d	0
+243	Amulet	Amulets	an Amulet	3	d39d25	dda561	0
+244	Artificer	Artificers	an Artificer	5	754f2b	c4c0b4	0
+245	Ball	Balls	a Ball	5	8b6323	a9a39d	0
+247	Borrow	Borrows	a Borrow	0	8a3620	a9a39d	0
+248	Bridge Troll	Bridge Trolls	a Bridge Troll	5	524830	dda561	0
+249	Caravan Guard	Caravan Guards	a Caravan Guard	3	7c8e68	a7a39b	0
+251	Coin of the Realm	Coins of the Realm	a Coin of the Realm	2	ae6c00	c2a85c	0
+253	Distant Lands	Distant Lands	a Distant Lands	5	c49e8c	666666	0
+254	Dungeon	Dungeons	a Dungeon	3	4f472d	dda561	0
+255	Duplicate	Duplicates	a Duplicate	4	8a887c	c5af85	0
+256	Expedition	Expeditions	an Expedition	3	ca8c28	a9a39d	0
+257	Ferry	Ferries	a Ferry	3	798593	a9a39d	0
+259	Gear	Gears	a Gear	3	877969	dda561	0
+260	Giant	Giants	a Giant	5	9c7c5a	c4c0b4	0
+261	Guide	Guides	a Guide	3	486e4a	c5af85	0
+262	Haunted Woods	Haunted Woods	a Haunted Woods	5	314b39	dda561	0
+264	Hireling	Hirelings	a Hireling	6	745666	dda561	0
+265	Inheritance	Inheritances	an Inheritance	7	657759	a9a39d	0
+266	Lost Arts	Lost Arts	a Lost Arts	6	ab4f1f	a9a39d	0
+267	Lost City	Lost Cities	a Lost City	5	969c6c	c4c0b4	0
+268	Magpie	Magpies	a Magpie	4	707870	c4c0b4	0
+269	Messenger	Messengers	a Messenger	4	99afc3	c4c0b4	0
+270	Miser	Misers	a Miser	4	726a60	c4c0b4	0
+184	Dame Anna	Dame Annas	a Dame Anna	5	775f35	c4c0b4	-1
+185	Dame Josephine	Dame Josephines	a Dame Josephine	5	635147	aac298	-1
+186	Dame Molly	Dame Mollies	a Dame Molly	5	946e50	c4c0b4	-1
+187	Dame Natalie	Dame Natalies	a Dame Natalie	5	56665a	c4c0b4	-1
+188	Dame Sylvia	Dame Sylvias	a Dame Sylvia	5	744c36	c4c0b4	-1
+222	Spoils	Spoils	a Spoils	0	646032	d8c280	1
+246	Bonfire	Bonfires	a Bonfire	3	844e52	a9a39d	2
+205	Overgrown Estate	Overgrown Estates	an Overgrown Estate	1	58664c	b4a65e	2
+204	Necropolis	Necropolis	a Necropolis	1	778793	d59f89	2
+195	Hovel	Hovels	a Hovel	1	25716f	a48892	2
+271	Mission	Missions	a Mission	4	7e767c	a9a39d	0
+275	Pilgrimage	Pilgrimages	a Pilgrimage	4	6e4e28	a9a39d	0
+276	Plan	Plans	a Plan	3	6c4630	a9a39d	0
+277	Port	Ports	a Port	4	586c6e	c4c0b4	0
+278	Quest	Quests	a Quest	0	685456	a9a39d	0
+279	Ranger	Rangers	a Ranger	4	8c7236	c4c0b4	0
+280	Raid	Raids	a Raid	5	4f4347	a9a39d	0
+273	Page	Pages	a Page	2	553d33	c2bfba	0
+281	Ratcatcher	Ratcatchers	a Ratcatcher	2	655d4f	c5af85	0
+282	Raze	Razes	a Raze	2	6b5949	c4c0b4	0
+283	Relic	Relics	a Relic	5	616959	d8c280	0
+284	Royal Carriage	Royal Carriages	a Royal Carriage	5	9a7450	c5af85	0
+285	Save	Saves	a Save	1	814d3b	a9a39d	0
+286	Scouting Party	Scouting Parties	a Scouting Party	2	97875b	a9a39d	0
+289	Storyteller	Storytellers	a Storyteller	5	ad735f	c4c0b4	0
+290	Swamp Hag	Swamp Hags	a Swamp Hag	5	8c462e	dda561	0
+292	Travelling Fair	Travelling Fairs	a Travelling Fair	2	d2942c	a9a39d	0
+293	Trade	Trades	a Trade	5	735941	a9a39d	0
+295	Transmogrify	Transmogrifies	a Transmogrify	4	6e6258	c5af85	0
+296	Treasure Trove	Treasure Troves	a Treasure Trove	5	95795f	d8c280	0
+299	Wine Merchant	Wine Merchants	a Wine Merchant	5	855b31	c5af85	0
+300	Encampment	Encampments	an Encampment	2	6d4527	c4c0b4	0
+301	Plunder	Plunders	a Plunder	5	666666	d8c280	0
+302	Patrician	Patricians	a Patrician	2	6a80a0	c4c0b4	0
+303	Emporium	Emporia	an Emporium	5	666666	c4c0b4	0
+304	Settlers	Settlers	a Settlers	2	784624	c4c0b4	0
+305	Bustling Village	Bustling Villages	a Bustling Village	5	666666	c4c0b4	0
+306	Catapult	Catapults	a Catapult	3	839f55	c4c0b4	0
+307	Rocks	Rocks	a Rocks	4	80963a	d8c280	0
+308	Gladiator	Gladiators	a Gladiator	3	b28674	c4c0b4	0
+309	Fortune	Fortunes	a Fortune	16	666666	d8c280	0
+310	Castles	Castles	a Castles	3	2d7bbb	9cbe8a	0
+311	Humble Castle	Humble Castles	a Humble Castle	3	63af7f	a9c35d	0
+319	Advance	Advances	an Advance	0	714d41	a9a39d	0
+320	Annex	Annexes	an Annex	8	7a5a36	a9a39d	0
+321	Archive	Archives	an Archive	5	7b5d47	dda561	0
+325	Banquet	Banquets	a Banquet	3	6f5735	a9a39d	0
+328	Battlefield	Battlefields	a Battlefield	0	528ec6	65ab6f	0
+329	Capital	Capitals	a Capital	5	765648	d8c280	0
+330	Charm	Charms	a Charm	5	756349	d8c280	0
+331	Chariot Race	Chariot Races	a Chariot Race	3	7f7569	c4c0b4	0
+332	City Quarter	City Quarters	a City Quarter	8	7e6a30	c4c0b4	0
+334	Conquest	Conquests	a Conquest	6	7c9692	a9a39d	0
+335	Crown	Crowns	a Crown	5	7b4b33	cec28a	0
+336	Delve	Delves	a Delve	2	716149	a9a39d	0
+337	Defiled Shrine	Defiled Shrines	a Defiled Shrine	0	5a746e	65ab6f	0
+338	Dominate	Dominates	a Dominate	14	896b71	a9a39d	0
+339	Donate	Donates	a Donate	8	886c7a	a9a39d	0
+340	Enchantress	Enchantresses	an Enchantress	3	a5855f	dda561	0
+341	Engineer	Engineers	an Engineer	4	733719	c4c0b4	0
+342	Farmers' Market	Farmers' Markets	a Farmers' Market	3	867642	c4c0b4	0
+343	Forum	Forums	a Forum	5	bc9256	c4c0b4	0
+344	Fountain	Fountains	a Fountain	0	7c5a34	65ab6f	0
+345	Groundskeeper	Groundskeepers	a Groundskeeper	5	978957	c4c0b4	0
+346	Keep	Keeps	a Keep	0	6f4f7d	65ab6f	0
+347	Labyrinth	Labyrinths	a Labyrinth	0	5e884c	65ab6f	0
+348	Legionary	Legionaries	a Legionary	5	714b41	c4c0b4	0
+349	Mountain Pass	Mountain Passes	a Mountain Pass	0	657d8d	65ab6f	0
+350	Museum	Museums	a Museum	0	c47a00	65ab6f	0
+351	Obelisk	Obelisks	an Obelisk	0	774d29	65ab6f	0
+352	Orchard	Orchards	an Orchard	0	707c5c	65ab6f	0
+353	Overlord	Overlords	an Overlord	8	9a8a90	c4c0b4	0
+356	Royal Blacksmith	Royal Blacksmiths	a Royal Blacksmith	8	69452b	c4c0b4	0
+357	Sacrifice	Sacrifices	a Sacrifice	4	9b675f	c4c0b4	0
+322	Aqueduct	Aqueducts	an Aqueduct	0	9a905c	65ab6f	2
+323	Arena	Arenas	an Arena	0	b0587c	65ab6f	2
+324	Bandit Fort	Bandit Forts	a Bandit Fort	0	b0a66e	65ab6f	2
+326	Basilica	Basilicas	a Basilica	0	835945	65ab6f	2
+327	Baths	Baths	a Baths	0	746c44	65ab6f	2
+263	Hero	Heroes	a Hero	5	423732	c2bfba	1
+258	Fugitive	Fugitives	a Fugitive	4	888095	c2bfba	1
+252	Disciple	Disciples	a Disciple	5	966a2c	c2bfba	1
+250	Champion	Champions	a Champion	6	594c3e	dda561	1
+359	Tax	Taxes	a Tax	2	a0745a	a9a39d	2
+358	Salt the Earth	Salt the Earths	a Salt the Earth	4	7b8383	a9a39d	2
+355	Ritual	Rituals	a Ritual	4	7a5224	a9a39d	2
+354	Palace	Palaces	a Palace	0	c07442	65ab6f	2
+287	Seaway	Seaways	a Seaway	5	7195a3	a9a39d	2
+294	Training	Trainings	a Training	6	533f33	a9a39d	2
+272	Pathfinding	Pathfindings	a Pathfinding	8	664820	a9a39d	2
+360	Temple	Temples	a Temple	4	d6b452	c4c0b4	0
+363	Triumph	Triumphs	a Triumph	5	913d05	a9a39d	0
+365	Villa	Villas	a Villa	4	87b34f	c4c0b4	0
+369	Wild Hunt	Wild Hunts	a Wild Hunt	5	15516f	c4c0b4	0
+370	Windfall	Windfalls	a Windfall	5	9e5402	a9a39d	0
+404	Bard	Bards	a Bard	4	57932f	c4c0b4	0
+405	Blessed Village	Blessed Villages	a Blessed Village	4	8f7737	c4c0b4	0
+406	Changeling	Changelings	a Changeling	3	183442	30484e	0
+407	Cemetery	Cemeteries	a Cemetery	4	53735b	9cbe8a	0
+408	Cobbler	Cobblers	a Cobbler	5	5a501c	7a5622	0
+409	Conclave	Conclaves	a Conclave	4	9c6a14	c4c0b4	0
+410	Crypt	Crypts	a Crypt	5	0d494f	7a5622	0
+411	Cursed Village	Cursed Villages	a Cursed Village	5	265ea6	c4c0b4	0
+412	Den Of Sin	Dens Of Sin	a Den Of Sin	5	2c2226	7a5622	0
+413	Devil's Workshop	Devil's Workshops	a Devil's Workshop	4	7d5b83	30484e	0
+414	Druid	Druids	a Druid	2	49b921	c4c0b4	0
+415	Exorcist	Exorcists	an Exorcist	4	3763b5	30484e	0
+416	Faithful Hound	Faithful Hounds	a Faithful Hound	2	8c7640	8ca2be	0
+417	Fool	Fools	a Fool	3	a7af3f	c4c0b4	0
+418	Ghost Town	Ghost Towns	a Ghost Town	3	173b57	7a5622	0
+419	Guardian	Guardians	a Guardian	2	376db9	7a5622	0
+420	Idol	Idols	a Idol	5	b13700	d8c280	0
+421	Leprechaun	Leprechauns	a Leprechaun	3	5e7c04	c4c0b4	0
+422	Monastery	Monasteries	a Monastery	2	02268a	30484e	0
+423	Necromancer	Necromancers	a Necromancer	4	525a36	c4c0b4	0
+424	Night Watchman	Night Watchmen	a Night Watchman	3	464266	30484e	0
+425	Pixie	Pixies	a Pixie	2	a9db75	c4c0b4	0
+426	Pooka	Pookas	a Pooka	5	6b6700	c4c0b4	0
+427	Raider	Raiders	a Raider	6	00238b	7a5622	0
+428	Sacred Grove	Sacred Groves	a Sacred Grove	5	5e7632	c4c0b4	0
+429	Secret Cave	Secret Caves	a Secret Cave	3	be741c	dda561	0
+430	Shepherd	Shepherds	a Shepherd	4	9caa90	c4c0b4	0
+431	Skulk	Skulks	a Skulk	4	7e6060	c4c0b4	0
+432	Tormentor	Tormentors	a Tormentor	5	884c6a	c4c0b4	0
+433	Tragic Hero	Tragic Heroes	a Tragic Hero	5	5c88a4	c4c0b4	0
+434	Tracker	Trackers	a Tracker	2	87c7d9	c4c0b4	0
+435	Vampire	Vampires	a Vampire	5	523a4c	30484e	0
+288	Soldier	Soldiers	a Soldier	3	a58e74	c2bfba	1
+298	Warrior	Warriors	a Warrior	4	564543	c2bfba	1
+291	Teacher	Teachers	a Teacher	6	bb7937	c5af85	1
+436	Werewolf	Werewolves	a Werewolf	5	9f8193	30484e	0
+367	Wolf Den	Wolf Dens	a Wolf Den	0	a1a18f	65ab6f	2
+366	Wall	Walls	a Wall	0	5e4a54	65ab6f	2
+364	Triumphal Arch	Triumphal Arches	a Triumphal Arch	0	8f8b51	65ab6f	2
+362	Tower	Towers	a Tower	0	bb9b3d	65ab6f	2
+361	Tomb	Tombs	a Tomb	0	8b8585	65ab6f	2
+368	Wedding	Weddings	a Wedding	7	715919	a9a39d	2
+437	Cursed Gold	Cursed Golds	a Cursed Gold	4	666666	d8c280	2
+438	Goat	Goats	a Goat	2	a1e15d	d8c280	2
+439	Haunted Mirror	Haunted Mirrors	a Haunted Mirror	0	666666	d8c280	2
+440	Lucky Coin	Lucky Coins	a Lucky Coin	4	9ed654	d8c280	2
+441	Magic Lamp	Magic Lamps	a Magic Lamp	0	8c3400	d8c280	2
+442	Pasture	Pastures	a Pasture	2	666666	a9c35d	2
+443	Pouch	Pouches	a Pouch	2	666666	d8c280	2
+452	Avanto	Avantos	an Avanto	5	9fa3af	c4c0b4	0
+453	Black Market	Black Markets	a Black Market	3	b5b5b5	c4c0b4	0
+454	Envoy	Envoys	an Envoy	4	425064	c4c0b4	0
+455	Governor	Governors	a Governor	5	8f9989	c4c0b4	0
+456	Prince	Princes	a Prince	8	a4863c	c4c0b4	0
+457	Sauna	Saunas	a Sauna	5	9f8d7b	c4c0b4	0
+458	Stash	Stashes	a Stash	5	666666	d8c280	0
+459	Summon	Summons	a Summon	5	c19b59	a9a39d	0
+460	Walled Village	Walled Villages	a Walled Village	4	6eaa70	c4c0b4	0
+461	Black Market Deck	Black Market Decks	a Black Market Deck	0	666666	666666	0
+462	Dismantle	Dismantles	a Dismantle	4	666666	c4c0b4	0
+463	Debt	Debt	Debt	0	666666	666666	0
+274	Peasant	Peasants	a Peasant	2	cab026	c2bfba	0
+0	nothing	nothing	nothing	0	666666	666666	-1
+2	Curse	Curses	a Curse	0	a2b8b8	b571b3	-1
+3	Copper	Coppers	a Copper	0	a05624	f1d14d	-1
+4	Silver	Silvers	a Silver	3	709aa4	f1d14d	-1
+5	Gold	Golds	a Gold	6	ffae06	f1d14d	-1
+6	Estate	Estates	an Estate	2	bfb597	548C2B	-1
+7	Duchy	Duchies	a Duchy	5	6aa09a	548C2B	-1
+8	Province	Provinces	a Province	8	efaf49	548C2B	-1
+333	Colonnade	Colonnades	a Colonnade	0	9f7b27	65ab6f	2
+297	Treasure Hunter	Treasure Hunters	a Treasure Hunter	3	494343	c2bfba	1
+312	Crumbling Castle	Crumbling Castles	a Crumbling Castle	4	ceb22c	9cbe8a	-1
+313	Small Castle	Small Castles	a Small Castle	5	96a692	aac298	-1
+314	Haunted Castle	Haunted Castles	a Haunted Castle	6	4a6064	9cbe8a	-1
+315	Opulent Castle	Opulent Castles	an Opulent Castle	7	4f9391	aac298	-1
+316	Sprawling Castle	Sprawling Castles	a Sprawling Castle	8	ffb300	9cbe8a	-1
+317	Grand Castle	Grand Castles	a Grand Castle	9	9e7e5a	9cbe8a	-1
+318	King's Castle	King's Castles	a King's Castle	10	cd8959	9cbe8a	-1
+371	Boon Drawpile	Boon Drawpiles	a Boon Drawpile	0	666666	dbcf00	-1
+372	Boon Discardpile	Boon Discardpiles	a Boon Discardpile	0	666666	dbcf00	-1
+373	The Earth's Gift	The Earth's Gifts	The Earth's Gift	0	6b6733	dbcf00	-1
+374	The Field's Gift	The Field's Gifts	The Field's Gift	0	d3cd17	dbcf00	-1
+375	The Flame's Gift	The Flame's Gifts	The Flame's Gift	0	ff8f00	dbcf00	-1
+376	The Forest's Gift	The Forest's Gifts	The Forest's Gift	0	3b8d0b	dbcf00	-1
+377	The Moon's Gift	The Moon's Gifts	The Moon's Gift	0	001ee4	dbcf00	-1
+378	The Mountain's Gift	The Mountain's Gifts	The Mountain's Gift	0	005cff	dbcf00	-1
+379	The River's Gift	The River's Gifts	The River's Gift	0	4e9c92	dbcf00	-1
+380	The Sea's Gift	The Sea's Gifts	The Sea's Gift	0	0071d7	dbcf00	-1
+381	The Sky's Gift	The Sky's Gifts	The Sky's Gift	0	1cbeff	dbcf00	-1
+387	Bad Omens	Bad Omens	Bad Omens	0	4d4135	4137df	-1
+450	Zombie Mason	Zombie Masons	a Zombie Mason	3	5f513d	c4c0b4	1
+451	Zombie Spy	Zombie Spies	a Zombie Spy	3	363438	c4c0b4	1
+444	Bat	Bats	a Bat	2	666666	30484e	1
+445	Ghost	Ghosts	a Ghost	4	13b12f	7a5622	1
+446	Imp	Imps	an Imp	2	936d69	c4c0b4	1
+447	Will-o'-wisp	Will-o'-wisps	a Will-o'-wisp	0	1d593f	c4c0b4	1
+448	Wish	Wishes	a Wish	0	0f6551	c4c0b4	1
+449	Zombie Apprentice	Zombie Apprentices	a Zombie Apprentice	3	292d23	c4c0b4	1
+382	The Sun's Gift	The Sun's Gifts	The Sun's Gift	0	fcbe00	dbcf00	-1
+383	The Swamp's Gift	The Swamp's Gifts	The Swamp's Gift	0	39650b	dbcf00	-1
+384	The Wind's Gift	The Wind's Gifts	The Wind's Gift	0	67d35b	dbcf00	-1
+385	Hex Drawpile	Hex Drawpiles	a Hex Drawpile	0	666666	4137df	-1
+386	Hex Discardpile	Hex Discardpiles	a Hex Discardpile	0	666666	4137df	-1
+388	Delusion	Delusions	Delusion	0	65634d	4137df	-1
+389	Envy	Envies	Envy	0	618f55	4137df	-1
+390	Famine	Famines	Famine	0	919f8f	4137df	-1
+391	Fear	Fears	Fear	0	1f3347	4137df	-1
+392	Greed	Greeds	Greed	0	c13f0b	4137df	-1
+393	Haunting	Hauntings	Haunting	0	344860	4137df	-1
+394	Locusts	Locusts	Locusts	0	43c95f	4137df	-1
+395	Misery	Miseries	Misery	0	1c161a	4137df	-1
+396	Plague	Plagues	Plague	0	42aa6c	4137df	-1
+397	Poverty	Poverties	Poverty	0	2e2a2a	4137df	-1
+398	War	Wars	War	0	a12700	4137df	-1
+399	Miserable	Miserables	Miserable	0	1c161a	ceb0a4	-1
+400	Twice Miserable	Twice Miserables	Twice Miserable	0	1c161a	ceb0a4	-1
+401	Envious	Envious	Envious	0	618f55	ceb0a4	-1
+402	Deluded	Deludeds	Deluded	0	65634d	ceb0a4	-1
+403	Lost In The Woods	Lost In The Woods	Lost In The Woods	0	527052	ceb0a4	-1
+218	Sir Destry	Sir Destries	a Sir Destry	5	797d7f	c4c0b4	-1
+219	Sir Martin	Sir Martins	a Sir Martin	4	cc9e60	c4c0b4	-1
+220	Sir Michael	Sir Michaels	a Sir Michael	5	47454b	c4c0b4	-1
+221	Sir Vander	Sir Vanders	a Sir Vander	5	9ca6ac	c4c0b4	-1
+141	Princess	Princesses	a Princess	0	804e10	c4c0b4	1
 \.
 
 
@@ -1488,14 +1546,14 @@ SELECT pg_catalog.setval('woodcutter_carddata_exceptions_id_seq', 1, false);
 
 
 --
--- Name: woodcutter_carddata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_carddata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('woodcutter_carddata_id_seq', 1, false);
 
 
 --
--- Data for Name: woodcutter_exceptiondata; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_exceptiondata; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_exceptiondata (id, source, destination, root_card_id) FROM stdin;
@@ -1511,20 +1569,24 @@ COPY woodcutter_exceptiondata (id, source, destination, root_card_id) FROM stdin
 10	1	1	28
 11	6	4	0
 16	4	3	441
-17	0	0	0
 19	4	3	406
+20	0	1	11
+17	0	0	0
+21	4	3	246
+22	1	3	78
+23	2	3	282
 \.
 
 
 --
--- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('woodcutter_exceptiondata_id_seq', 19, true);
+SELECT pg_catalog.setval('woodcutter_exceptiondata_id_seq', 23, true);
 
 
 --
--- Data for Name: woodcutter_exceptiondata_root_preds; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_exceptiondata_root_preds; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_exceptiondata_root_preds (id, exceptiondata_id, preddata_id) FROM stdin;
@@ -1565,18 +1627,28 @@ COPY woodcutter_exceptiondata_root_preds (id, exceptiondata_id, preddata_id) FRO
 39	19	9
 40	19	10
 41	19	11
+42	20	9
+43	20	10
+44	20	11
+45	21	42
+46	22	9
+47	22	10
+48	22	11
+49	23	9
+50	23	10
+51	23	11
 \.
 
 
 --
--- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('woodcutter_exceptiondata_root_preds_id_seq', 41, true);
+SELECT pg_catalog.setval('woodcutter_exceptiondata_root_preds_id_seq', 51, true);
 
 
 --
--- Data for Name: woodcutter_exceptiondata_target_cards; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_exceptiondata_target_cards; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_exceptiondata_target_cards (id, exceptiondata_id, carddata_id) FROM stdin;
@@ -1597,18 +1669,36 @@ COPY woodcutter_exceptiondata_target_cards (id, exceptiondata_id, carddata_id) F
 21	17	382
 22	17	383
 23	19	406
+24	20	4
+25	17	387
+26	17	388
+27	17	389
+28	17	390
+29	17	391
+30	17	392
+31	17	393
+32	17	394
+33	17	395
+34	17	396
+35	17	397
+36	17	398
+37	17	399
+38	17	400
+39	17	401
+40	17	402
+41	17	403
 \.
 
 
 --
--- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('woodcutter_exceptiondata_target_cards_id_seq', 23, true);
+SELECT pg_catalog.setval('woodcutter_exceptiondata_target_cards_id_seq', 41, true);
 
 
 --
--- Data for Name: woodcutter_exceptiondata_target_preds; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_exceptiondata_target_preds; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_exceptiondata_target_preds (id, exceptiondata_id, preddata_id) FROM stdin;
@@ -1628,18 +1718,24 @@ COPY woodcutter_exceptiondata_target_preds (id, exceptiondata_id, preddata_id) F
 16	16	7
 17	17	8
 18	19	7
+19	20	5
+20	17	117
+21	17	37
+22	21	7
+23	22	7
+24	23	7
 \.
 
 
 --
--- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
-SELECT pg_catalog.setval('woodcutter_exceptiondata_target_preds_id_seq', 18, true);
+SELECT pg_catalog.setval('woodcutter_exceptiondata_target_preds_id_seq', 24, true);
 
 
 --
--- Data for Name: woodcutter_gamelog; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_gamelog; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_gamelog (game_id, log, supply, player, players) FROM stdin;
@@ -1649,15 +1745,26 @@ COPY woodcutter_gamelog (game_id, log, supply, player, players) FROM stdin;
 10005861	000010005861/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10154:3|1:6~202e~20153:3|2:6~10011:fff~100b4:3~10021:b0~10153:3|2:6~20011:fff~200b3:3~20021:4~20154:3|1:6~10012:fff~100b3:3~10021:4~102e~10154:3|1:6~20012:fff~200b4:3~20021:b0~202e~20153:3|1:4|1:b0~10013:fff~100b4:3~10021:117~10152:3|2:6|1:b0~20013:fff~200b1:b0~21051:40~200b1:4|3:3~20021:1c~20152:3|2:6|1:40~10014:fff~100b1:b0~11051:117~100b2:3~10021:fb~102e~10152:3|1:4|2:117~20014:fff~200b1:40~11081:3~200b2:3~20021:117~202e~20153:3|2:6~10015:fff~100b1:117~115a~100b1:4|1:3~10021:fb~10154:3|1:fb~20015:fff~200b2:3~20021:fb~20151:3|1:4|1:6|1:40|1:117~10016:fff~100b1:fb|4:3~111b1:fb|Tavern mat:fff~10021:1c~10151:3|3:6|1:b0~20016:fff~200b1:40~11081:3~200b1:4|1:3~20021:1c~20153:3|1:1c|1:b0~10017:fff~100b1:b0~11051:117~102e~10152:3|1:4|2:117~20017:fff~200b1:1c~212e~21151:117~21172:3~21072:3~22502/Tomb:fff~200b1:117~215a~200b2:3~20021:fb~20151:3|1:6|1:1c|1:40|1:fb~10018:fff~100b1:117~115b~11152:6|1:1c|1:b0|1:fb~101c1:fb~100b1:1c~11151:3~11172:3~11072:3~12502/Tomb:fff~100b1:b0~11051:117~100b1:117~115a~100b1:fb|1:4|3:3~111b1:fb|Tavern mat:fff~10023:fb~10152:3|1:6|2:117~20018:fff~200b1:1c~21151:6~21171:3|1:6~21071:3|1:6~22502/Tomb:fff~200b1:40~11081:3~200b1:fb~211b1:fb|Tavern mat:fff~200b1:3~20021:117~202e~20152:3|1:4|1:b0|1:117~10019:fff~100b1:117~115b~112e~11151:3|1:6|1:b0|2:fb~101c1:fb~100b1:117~115a~100b1:b0~11051:fb~100b1:fb|2:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10022:fb~10151:3|1:4|1:6|1:fb|1:117~20019:fff~200b1:b0~21051:117~201c1:fb~200b1:117~215b~21151:3|1:6|1:1c|2:117~200b1:1c~21151:1c~21171:40|1:fb~21081:40~210c1:fb~200b1:1c~21151:fb~21171:3|1:6~21071:3|1:6~22502/Tomb:fff~200b1:117~215a~200b1:fb|1:4|3:3~211b1:fb|Tavern mat:fff~20021:5~202e~20151:3|1:6|1:40|1:fb|1:117~100110:fff~100b1:117~115b~11152:3|1:1c|1:fb|1:117~101c1:fb~100b1:1c~11151:fb~112e~11171:3|1:fb~11071:3~12501/Tomb:fff~110c1:fb~100b1:117~115a~100b1:fb|1:4|3:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10021:1c8~10151:6|1:b0|2:fb|1:117~200110:fff~200b1:117~215b~21151:4|1:1c|1:b0|2:117~201c1:fb~200b1:1c~21151:3~21171:5|1:1c~21081:1c~210c1:5~200b1:117~215a~200b1:117~215b~212e~21151:3|1:5|1:1c~200b1:fb~211b1:fb|Tavern mat:fff~200b1:4|1:5|2:3~20021:1c8~202e~20151:3|1:6|1:b0|1:117|1:1c8~100111:fff~100b1:b0~11051:28~101c1:fb~100b1:117~115b~11151:3|1:6|1:28|1:fb|1:117~100b1:28~112e~11151:6|1:1c8~101c1:fb~100b1:1c8~116d1:117|Prince:fff~100b1:fb|1:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10021:50~10151:3|1:4|1:1c|1:fb|1:117~200111:fff~200b1:1c8~216d1:117|Prince:fff~20151:3|1:5|2:1c|1:117~100112:fff~1048~110b1:117~125a~100b1:117~115b~112e~11152:3|1:fb|2:117~101c1:fb~100b1:1c~11151:3~11171:6|1:28~11071:6~12501/Tomb:fff~110c1:28~100b1:117~115a~100b1:117~115b~11151:6|1:28|1:50|1:b0|1:fb~101c1:fb~100b1:b0~11051:117~100b1:28~11151:6|1:117~101c1:fb~100b1:117~115a~100b1:50~21081:fb~21051:2~100b1:fb|1:4|4:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10021:aa|1:117~111a1:117~102e~10151:6|1:1c|1:fb|2:117~200112:fff~2048~210b1:117~225a~200b1:1c~21151:2~21171:3|1:40~21071:3|1:40~22502/Tomb:fff~200b1:1c~21151:117~212e~21171:4|1:fb~210c1:4|1:fb~200b1:117~215b~21151:3|1:4|1:6|1:b0|1:fb~201c1:fb~200b1:117~215a~200b1:b0~21051:aa~200b1:fb|1:4|2:3|1:5~211b1:fb|Tavern mat:fff~20021:4|1:1c~211a1:117~202e~20152:3|1:5|1:aa|1:b0~100113:fff~1048~110b1:117~125b~12153:3|1:28|1:b0~100b1:1c~11151:6~11171:4|1:fb~110c1:4|1:fb~100b1:117~115a~101c1:fb~100b1:117~115b~11151:4|1:50|2:fb|1:117~101c1:fb~100b1:117~115a~100b1:28~11151:3|1:aa~100b1:b0~11051:117~101c1:fb~100b1:50~21081:117~222d1:aa~22051:4~100b1:aa~11071:6~12501/Tomb:fff~11052:4~100b1:fb|1:4|4:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10021:8~111a1:117~102e~10151:4|1:50|3:117~200113:fff~2048~210b1:117~225b~22151:2|1:4|2:1c|1:fb~200b1:1c~21151:1c~21171:6|1:117~21071:6~22501/Tomb:fff~210c1:117~200b1:1c~21151:117~212e~21171:4|1:117~21081:117~210c1:4~200b1:aa~21071:4~22501/Tomb:fff~21053:4~201c1:fb~200b1:1c~21151:4~212e~21172:4~21072:4~22502/Tomb:fff~200b1:117~215a~200b1:b0~21051:aa~200b1:fb|1:4|2:3|1:5~211b1:fb|Tavern mat:fff~20021:1c8~211a1:117~202e~20151:3|2:4|1:aa|1:117~100114:fff~1048~110b1:117~125b~12151:8|1:aa|1:b0|2:117~100b1:117~115a~101c1:fb~100b1:117~115b~11152:3|1:1c|1:fb|1:117~100b1:1c~11151:fb~11171:6|1:28~11071:6~12501/Tomb:fff~110c1:28~100b1:117~115a~101c1:fb~100b1:117~115b~11152:3|1:4|1:28|1:fb~100b1:aa~11071:50~12501/Tomb:fff~11054:4~101c1:fb~100b1:117~115a~100b1:117~115b~112e~11155:4~101c1:fb~100b1:b0~11051:6~100b1:28~11151:6~100b1:fb|7:4|4:3~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~100b1:fb~111b1:fb|Tavern mat:fff~10027:6	00210~00614~00708~00808~00360~00440~00530~1c810~11710~0aa10~01c10~04010~0a210~0b010~05010~02810~0fb10~16301~16901	\N	breppert~ceviri
 11652601	000011652601/unrated:fff~10276:3|1:c3|1:cc|1:cd|1:1bb~20276:3|1:c3|1:cc|1:cd|1:1bb~102e~10153:3|1:cc|1:1bb~202e~20154:3|1:c3~10011:fff~100b1:1bb|3:3~10021:c5~10153:3|1:c3|1:cd~20011:fff~200b4:3~20021:c5~20152:3|1:cc|1:cd|1:1bb~10012:fff~100b3:3~10021:c2~102e~10153:3|1:c2|1:c5~20012:fff~200b1:1bb|2:3~20021:c2~202e~20152:3|1:c2|1:c3|1:cd~10013:fff~100b1:c5~11151:3~11171:cc~11081:cc~100b1:c2~11181:1~11071:cc~11051:c2~100b3:3~102a1:114~114cTrashing token/the Ironmonger pile:fff~11071:c2~11051:c7~10152:3|1:c3|1:cd|1:1bb~20013:fff~200b1:c2~21071:c3~21051:c2~21071:c2~21051:c7~20152:3|1:c5|1:cc|1:1bb~10014:fff~100b1:1bb|2:3~10021:4~102e~10153:3|1:c5|1:1bb~20014:fff~200b1:c5~21151:3~21171:3~21081:3~200b1:cc~200b1:1bb|3:3~20021:1b3~202e~20152:3|1:c5|1:cc|1:1bb~10015:fff~100b1:c5~11151:c7~11171:c3~11081:c3~100b1:c7~11211:c7|the Madman pile:fff~11151:3|1:4|1:c2|1:cd~100b1:c2~11181:1~11071:cd~12151:3~11051:4~100b1:1bb|5:3|1:4~10021:4|1:1b3~102e~10153:3|2:4~20015:fff~200b1:c5~21151:3~21171:c2~210c1:c2~200b1:cc~200b1:1bb|3:3~20021:c5~20152:3|1:c2|1:c7|1:cd~10016:fff~100b1:3|2:4~10021:1b3~10151:3|1:4|1:c2|1:1b3|1:1bb~20016:fff~200b1:c2~21181:cc|1:1bb|4:0|1:3~21071:cd~22151:3~21051:4~200b3:3~20021:4~202e~20152:3|1:4|1:c2|1:1b3~10017:fff~100b1:c2~11185:0|1:4~11051:4~100b1:1bb|1:3|1:4~10021:c5~100b1:1b3~1175Delusion:fff~2125Delusion:fff~2175Deluded:fff~1108Delusion:fff~11051:56~11231:1b3~11241:1bc~102e~10152:3|1:4|1:c3|1:c5~20017:fff~200b1:c2~21051:4~2023Deluded:fff~200b2:3|1:4~202a1:114~214cTrashing token/the Ironmonger pile:fff~200b1:1b3~2175Haunting:fff~1125Haunting:fff~110c1:3~2108Haunting:fff~21051:56~21231:1b3~21241:1bc~21071:c2~21051:c7~20152:c5|1:c7|1:cc|1:1bb~10018:fff~100b1:c5~11151:3~11171:1bc~110c1:1bc~100b2:3|1:4~102a1:c5~11071:c3~10051:c5~10151:3|1:4|1:c2|1:c5|1:1bc~20018:fff~200b1:c5~21151:3~21171:3~21081:3~200b1:c7~21211:c7|the Madman pile:fff~212e~21152:3|1:4|1:1bc~200b1:c5~21151:c7~21171:3~21081:3~200b1:c7~21211:c7|the Madman pile:fff~212e~21153:3|2:4|1:56~200b1:cc~200b1:56~200b1:1bb|4:3|3:4~20021:5|1:56|1:1b2~200b1:1bc~21072:3~21231:1bc~21241:1b3~202e~20151:3|1:4|1:5|1:c5|1:1b3~10019:fff~100b1:c5~11151:3~11171:3~11081:3~100b1:c2~11186:0~11051:1b2~100b1:1bc~11072:3~11231:1bc~11241:1b3~11071:c2~11051:c7~10151:3|2:4|1:56|1:1bb~20019:fff~2048~210d1:3|1:56~200b1:c5~21151:cc~21171:1b2~210c1:1b2~200b1:cc~200b1:56~21151:4|1:1b2~200b1:1b2~21750:179~21250:179~21080:179~200b1:5|2:3|2:4~20021:8~200b1:1b3~2175War:fff~1125War:fff~11171:1b3~112e~11171:3|1:c5|1:c7~11071:c5~11081:3|1:c7|1:1b3~2108War:fff~21051:c5~222d1:1b2~220c1:1~21231:1b3~21241:1bc~20151:3|1:4|2:c5|1:1bb~100110:fff~100b1:56~11151:c5|1:1b3~100b2:4~102a1:c5~11071:3~10051:c5~100b1:1b3~1175Greed:fff~2125Greed:fff~21051:3~1108Greed:fff~11051:56~11231:1b3~11241:1bc~10152:3|2:4|1:1b2~200110:fff~2048~210d2:3~200b1:c5~212e~21151:4~21171:1b2~210c1:1b2~200b1:c5~21151:1b2~21171:cc~21081:cc~200b1:1b2~21750:176~21250:176~200b1:1bb|1:3|2:4~202a1:c5~21071:3~20051:c5~212d1:1b2~210c1:1~202a1:c5~21071:3~20051:c5~212d1:1b2~210c1:1~20080:176~20152:3|1:56|2:c5~100111:fff~1048~112e~110d1:c5|1:1b3~100b1:c5~11151:c7~11171:56~110c1:56~100b1:c7~11211:c7|the Madman pile:fff~11151:3|1:4|1:56|1:c5|1:1bb|1:1bc~100b1:c5~11151:c5~11171:4~110c1:4~100b1:1b2~11750:180~11250:180~11151:4~11082:3~11080:180~100b1:c5~112e~11151:3~11171:3~11081:3~100b1:56~112e~11151:3~100b1:1bb|1:3|4:4~10021:c5~112d1:1b2~110c1:1~10021:56~112d1:1b2~110c1:1~10021:4~100b1:1b3~1175Envy:fff~2125Envy:fff~2175Envious:fff~1108Envy:fff~11051:56~122d1:1b2~120c1:1~11231:1b3~11241:1bc~100b1:1bc~11072:3~11231:1bc~11241:1b3~102e~10151:3|2:56|2:c5~200111:fff~200b1:c5~21151:c5~21171:5~210c1:5~200b1:c5~21151:5~21171:1bc~210c1:1bc~200b1:c5~21151:1bc~21171:8~21081:8~21151:4~200b1:56~212e~21151:4|1:1b2~2023Envious:fff~200b1:5|2:3|2:4~20021:1ac~200b1:1bc~21071:1b2~21231:1bc~21241:1b3~20151:3|1:4|1:c5|1:cc|1:1bb~100112:fff~1048~110d1:4|1:c5~100b1:c5~11151:1b2~11171:1b3~110c1:1b3~100b1:c5~11151:1b3~11171:4~11081:4~100b1:c5~11151:1bc~11171:c5~110c1:c5~100b1:56~11151:c5|1:1bb~100b1:c5~11151:4~11171:4~110c1:4~100b1:56~11152:4~100b1:1bb|4:4~10021:4|1:8~100b1:1bc~11071:3|1:1b2~11231:1bc~11241:1b3~100b1:1b3~1175Poverty:fff~2125Poverty:fff~21081:3|1:cc~1108Poverty:fff~11051:34~11231:1b3~11241:1bc~102e~10152:4|1:34|1:56|1:1b3~200112:fff~2048~210d1:8|1:56~200b1:c5~21151:c5~212e~21171:5~210c1:5~200b1:c5~21151:5~21171:1b3~210c1:1b3~200b1:56~21151:cc|1:1b3~200b1:1bb|1:5|1:4~20021:b5|1:1b2~200b1:1b3~2175Locusts:fff~1125Locusts:fff~11171:4~11071:4~11051:3~2108Locusts:fff~21051:56~21231:1b3~21241:1bc~20151:3|1:4|3:c5~100113:fff~1048~110d1:4|1:56|2:c5~100b1:c5~11151:4~11171:1bc~11081:1bc~100b1:c5~11151:1bb~11171:c5~110c1:c5~100b1:56~11151:8|1:c5~100b1:c5~11151:4~11171:c5~110c1:c5~100b1:56~112e~11151:c5|1:1bc~100b1:c5~11151:3~100b1:34~11071:8~11051:8~21051:2~100b1:1bb|5:4~10021:4|1:8~100b1:1b3~11750:183~21250:183~211d~21181:8|2:56|1:5|1:1b2|1:1bc|1:1ac|2:4|1:cc|1:b5|1:1bb|1:2|2:c5|2:3~210c2:3~11080:183~11051:4~11231:1b3~11241:1bc~100b1:1bc~11071:3~11231:1bc~11241:1b3~102e~10151:4|1:8|1:34|2:c5~200113:fff~2048~210d2:3~200b1:c5~212e~21151:5~21171:c5~210c1:c5~200b1:c5~21151:c5~21171:56~210c1:56~200b1:c5~21151:56~21171:c5~210c1:c5~200b1:c5~21151:c5~21171:4~210c1:4~200b1:56~21151:4|1:56~200b1:c5~21151:1ac~21171:2~21081:2~200b1:56~21151:b5|1:1bb~200b1:1ac~21750:17c~21250:17c~21151:cc~21080:17c~11151:4~200b1:b5~21081:3|1:cc~200b1:1bb|1:5|2:3|2:4~20022:8~202e~20151:3|1:4|1:8|1:1b2|1:1bc~100114:fff~1048~110d1:56|2:c5|1:1b3~100b1:c5~11151:4~11171:4~110c1:4~100b1:c5~11151:4~11171:4~110c1:4~100b1:c5~11151:4~11171:1bc~11081:1bc~100b1:c5~11151:56~11171:4~110c1:4~100b1:34~11071:8~11051:8~21051:2~100b3:4~10021:8~100b1:1b3~1175Misery:fff~2125Misery:fff~2175Miserable:fff~1108Misery:fff	00210~00608~00708~00808~00360~00440~00530~03410~0b510~0c210~07910~05610~0be08~0c510~1ac10~1b310~1b210~11601~11401~0c710~17501~17601~17701~17801~17901~17a01~17b01~17c01~17d01~17e01~17f01~18001~1bf12~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002~1bc10~1bb02~0cc02~0c302~0cd02	\N	ceviri~David Goldfarb
 11423201	000011423201/unrated:fff~10276:3|3:6|1:1bb~20276:3|3:6|1:1bb~102e~10154:3|1:6~202e~20153:3|2:6~10011:fff~100b3:3~10021:4~10152:3|2:6|1:1bb~20011:fff~200b3:3~20021:4~20153:3|1:6|1:1bb~10012:fff~100b1:1bb|2:3~10021:15~102e~10153:3|1:6|1:1bb~20012:fff~200b1:1bb|2:3~20021:15~202e~20152:3|1:4|1:6|1:15~10013:fff~100b1:1bb|3:3~10021:33|1:1b2~10152:3|1:4|1:6|1:15~20013:fff~200b1:15~21151:3~200b3:3|1:4~20021:8a~20153:3|2:6~10014:fff~100b1:15~11151:6~100b2:3|1:4~10021:8a~102e~10152:3|1:4|1:33|1:8a~20014:fff~200b3:3~20021:196~202e~20153:3|1:8a|1:1bb~10015:fff~100b1:8a~11151:6~11171:6|1:33|2:3|1:4~11174:3|1:1b2~11191:1b2~11084:3~100b1:33~100b1:1b2~11750:17f~11250:17f~11051:1bf~122d1:1b2~120c1:1~11080:17f~100b1:3|1:4~10021:8a~112d1:1b2~110c1:1~1132Changeling/Hunting Party:fff~10151:6|1:15|1:8a|1:1bb|1:1bf~20015:fff~200b1:8a~21151:4~21171:1bb|3:3|1:4~21171:6~21191:6~200b1:1bb|3:3|1:4~20021:8a~20152:3|2:6|1:196~10016:fff~100b1:1bf~11151:6~112e~11171:3~11191:3~100b1:15~11151:33~100b1:8a~11151:6~11171:1bb|3:6|1:33|1:3~11171:8a~11191:8a~100b1:8a~11151:3~11171:1bb|3:6|1:33|2:3~11171:1b2~11191:1b2~100b1:33~100b1:1b2~11750:17d~11250:17d~11082:0|1:6~11051:5~122d1:1b2~120c1:1~1232Changeling/Gold:fff~11080:17d~100b1:1bb|2:3~10021:8a~112d1:1b2~110c1:1~1132Changeling/Hunting Party:fff~10152:3|1:4|1:5|1:8a~20016:fff~200b2:3~20021:33~202e~20151:3|1:6|1:15|1:33|1:1bb~10017:fff~100b1:8a~11151:3~11173:3|1:5|1:4~11171:3~112e~11171:1bb~11191:1bb~11081:3~100b1:1bb|3:3|1:5|1:4~10021:15|1:8a~10151:3|2:6|1:15|1:1bf~20017:fff~200b1:15~21151:3~200b1:33~21151:4~200b1:1bb|2:3|1:4~20021:8a~20152:3|1:6|2:8a~10018:fff~100b1:1bf~11151:6~11171:33~11191:33~100b1:15~11151:3~100b1:33~11151:8a~100b1:8a~11151:8a~11173:6|2:3|1:8a~11171:1b2~11191:1b2~100b1:8a~112e~11151:8a~11173:6|2:3|1:1b2|1:8a~11171:3|1:15~11191:15~11081:3~100b1:8a~11151:1bb~11171:15|1:1bb|3:6|2:3|1:1b2~11171:8a~11191:8a~100b1:15~11151:5~100b1:8a~11151:3~11171:1bb|3:6|3:3|1:5|1:1b2~11171:4~11191:4~100b1:1b2~11750:179~11250:179~11181:3~11080:179~100b1:1bb|3:3|1:5|1:4~10021:8a~112d1:1b2~110c1:1~1132Changeling/Hunting Party:fff~10021:8a~112d1:1b2~110c1:1~1132Changeling/Hunting Party:fff~102e~10152:3|2:8a|1:1b2~20018:fff~200b1:8a~21151:3~21171:6|3:3|1:8a~21171:3|1:6|1:196~21191:196~21081:3|1:6~200b1:8a~212e~21151:33~21171:6|1:33|3:3|1:196~21171:15~21191:15~200b1:15~21151:3~200b1:33~21151:6~200b4:3~20021:15~200b1:196~21071:196~21051:8a~20152:3|1:4|1:8a|1:1bb~10019:fff~100b1:8a~11151:3~11173:3|1:1b2|1:8a~11171:6~11191:6~100b1:8a~11151:1bb~11171:1bb|1:6|3:3|1:1b2~11172:3|1:4|1:6~11191:4~11082:3|1:6~100b1:1b2~11750:177~11250:177~11071:6~11080:177~100b1:1bb|3:3|1:4~10021:10b~21151:6~112d1:1b2~110c1:1~1132Changeling/Lost City:fff~10021:33~112d1:1b2~110c1:1~10152:33|1:8a|1:10b|1:1bf~20019:fff~200b1:8a~212e~21151:15~21171:1bb|1:15|1:6|2:3|1:4~21173:3|1:6|1:15|1:8a~21191:8a~21083:3|1:6|1:15~200b1:15~21151:6~200b1:8a~21151:8a~21171:1bb|2:6|2:3|1:4|1:8a~21171:3|1:33|1:8a~21191:33~21081:3|1:8a~200b1:8a~212e~21151:3~21171:1bb|2:6|1:33|3:3|1:4~21171:3|1:8a~21191:8a~21081:3~200b1:8a~21151:15~21171:1bb|1:15|2:6|1:33|3:3|1:4~21172:3|1:6~212e~21171:3~21083:3|1:6~200b1:15~212e~21151:3~200b1:33~21151:3~200b1:1bb|5:3|1:4~20021:5|1:10b~11151:5~202e~20152:3|2:6|1:15~100110:fff~100b1:1bf~11151:15~11171:6~11191:6~100b1:10b~11152:8a~100b1:15~11151:15~100b1:15~11151:8a~100b1:33~11151:3~100b1:8a~112e~11151:3~11171:6|1:33|2:3|1:5|3:8a~11172:3|1:6|1:8a|1:1bb~11191:1bb~11082:3|1:6|1:8a~100b1:8a~11151:3~11171:1bb|1:6|1:33|3:3|1:5|2:8a~11171:4|1:8a~11191:4~11081:8a~100b1:8a~11151:1b2~11171:1bb|1:6|1:33|3:3|1:5|1:1b2|1:8a|1:4~11171:3~112e~11172:3|1:6|2:8a~11083:3|1:6|2:8a~100b1:8a~112e~11151:3~11171:1bb|1:6|1:33|4:3|1:5|1:1b2|1:4~11171:3|1:8a~11191:8a~11081:3~100b1:8a~11151:8a~11171:1bb|1:6|1:33|4:3|1:5|1:1b2|1:4|1:8a~11171:3|1:6~112e~11171:3~11082:3|1:6~100b1:8a~112e~11151:3~11171:1bb|1:6|1:33|5:3|1:5|1:1b2|1:4~11171:3|1:6~11081:3|1:6~100b1:33~100b1:1b2~11750:178~11250:178~100b1:1bb|5:3|1:5|1:4~10021:15~112d1:1b2~110c1:1~1132Changeling/Merchant:fff~10021:15~112d1:1b2~110c1:1~1132Changeling/Merchant:fff~10021:14b~112d1:1b2~110c1:1~1132Changeling/Chariot Race:fff~10021:14b~112d1:1b2~110c1:1~1132Changeling/Chariot Race:fff~10080:178~102e~10152:15|1:33|2:14b~200110:fff~200b1:15~21151:3~200b3:3~20021:14b~20151:4|1:5|1:15|2:8a~100111:fff~100b1:14b~11171:3~11191:3~21171:33~100b1:14b~11171:33~11191:33~21171:33~100b1:15~11151:8a~100b1:15~11151:10b~100b1:8a~11151:6~11171:6|2:33|1:10b|1:3~11171:8a~11191:8a~100b1:8a~11151:3~11171:6|2:33|1:10b|2:3~11171:3|1:6|1:8a~11191:8a~11081:3|1:6~100b1:8a~11151:4~11171:6|2:33|1:10b|2:3|1:4~11171:3|1:8a~11191:8a~11081:3~100b1:8a~11151:1bf~11171:6|2:33|1:10b|2:3|1:1bf|1:4~11171:3|1:8a~11191:8a~11081:3~100b1:10b~11151:5|1:8a~100b1:1bf~11151:1bb~11171:15~110c1:15~100b1:8a~11151:15~11171:1bb|1:15|1:6|2:33|2:3|1:5|1:4|1:8a~11171:1b2~11191:1b2~100b1:15~11151:15~100b1:8a~11151:3~11171:1bb|1:15|1:6|2:33|3:3|1:5|1:1b2|1:4~112e~11173:3|1:6~11083:3|1:6~100b1:15~112e~11151:3~100b1:33~11151:6~100b1:33~11151:3~100b1:1b2~11750:17c~11250:17c~11151:3~11080:17c~100b1:1bb|6:3|1:5|1:4~10021:10b~21151:33~112d1:1b2~110c1:1~1132Changeling/Lost City:fff~10021:10b~21151:8a~112d1:1b2~110c1:1~1132Changeling/Lost City:fff~102a1:170~116a3:fff~11051:5~114d1:fff~106b3:fff~102e~10151:33|2:10b|1:1bb|1:1bf~200111:fff~200b1:15~21151:3~200b1:8a~21151:10b~21171:33|1:10b|1:3|1:5|2:8a|1:4~21171:3|1:8a|1:1bb~21191:1bb~21081:3|1:8a~200b1:10b~21151:3|1:6~200b1:8a~212e~21151:3~21171:1bb|1:6|1:33|3:3|1:5|1:8a|1:4~21172:3|1:8a|1:14b~21191:14b~21082:3|1:8a~200b1:14b~21171:3~21191:3~11171:10b~200b1:8a~21151:6~21171:1bb|2:6|1:33|4:3|1:5|1:4~21171:6|1:15~21191:15~21081:6~200b1:15~212e~21151:6~200b1:33~21151:8a~200b1:8a~21151:3~21171:1bb|3:6|5:3|1:5|1:4~21171:3~21081:3~200b1:1bb|5:3|1:5|1:4~202a1:170~216a3:fff~21051:5~214d1:fff~206b3:fff~202a1:170~216a3:fff~21051:5~214d1:fff~206b3:fff~202e~20151:3|1:5|2:8a|1:1bb~100112:fff~100b1:10b~11151:3|1:10b~100b1:10b~11151:4|1:5~100b1:10b~11151:3|1:6~100b1:1bf~11151:8a~11171:8a~110c1:8a~100b1:8a~11151:8a~11171:1bb|1:6|1:33|2:3|1:5|1:4|1:8a~11171:3|1:14b~11191:14b~11081:3~100b1:14b~11171:8a~11191:8a~21171:3~114d1:fff~100b1:8a~11151:15~11171:1bb|1:15|1:6|1:33|2:3|1:5|1:4|1:8a~11172:3|1:6|3:15|2:8a|1:14b~11191:14b~11082:3|1:6|3:15|2:8a~100b1:14b~11171:5~11191:5~21171:3~114d1:fff~100b1:15~11151:8a~100b1:8a~11151:3~11171:1bb|1:6|1:33|3:3|2:5|1:4|1:8a~11171:1b2~11191:1b2~100b1:8a~11151:33~11171:1bb|1:6|2:33|3:3|2:5|1:1b2|1:4~112e~11171:15~11191:15~100b1:15~11151:3~100b1:33~11151:8a~100b1:33~11151:15~100b1:8a~11151:15~11171:1bb|2:15|1:6|4:3|2:5|1:1b2|1:4~11172:3|1:6|1:8a~11191:8a~11082:3|1:6~100b1:15~112e~11151:3~100b1:8a~11151:3~11171:1bb|1:15|1:6|6:3|2:5|1:1b2|1:4~11171:6~11081:6~100b1:15~112e~11151:6~100b1:1b2~11750:180~11250:180~11082:6~11080:180~100b1:1bb|6:3|2:5|1:4~10021:10b~21151:3~112d1:1b2~110c1:1~1132Changeling/Lost City:fff~10021:8|1:14b~112d1:1b2~110c1:1~1132Changeling/Chariot Race:fff~10021:14b~112d1:1b2~110c1:1~1132Changeling/Chariot Race:fff~102e~10151:3|1:33|1:10b|2:14b~200112:fff~200b1:8a~21151:33~21171:1bb|1:33|2:3|1:5|1:8a~21171:6~21191:6~200b1:8a~21151:6~21171:1bb|2:6|1:33|2:3|1:5~21171:10b~21191:10b~200b1:10b~21151:5|1:15~200b1:15~21151:3~200b1:33~21151:8a~200b1:8a~21151:3~21171:1bb|2:6|4:3|2:5~21171:5|1:8a~21191:8a~21081:5~200b1:8a~21151:3~21171:1bb|2:6|5:3|2:5~21171:14b~21191:14b~200b1:14b~21171:3~21191:3~11171:1b2~200b1:1bb|6:3|2:5~20021:8|1:10b~11151:1b2~202e~20151:3|1:4|1:5|1:6|1:15~100113:fff~100b1:14b~11171:33~11191:33~21171:8a~100b1:10b~11151:3|1:15~100b1:15~11151:3~100b1:14b~11171:5~11191:5~21171:8a~114d1:fff~100b1:33~11151:10b~100b1:10b~11151:8a|1:10b~100b1:33~11151:1bf~100b1:8a~11151:10b~11172:10b|3:3|1:5|1:1b2|1:1bf~11171:14b~11191:14b~100b1:1bf~11151:6~11171:8~110c1:8~100b1:10b~11151:8|1:8a~100b1:8a~11151:5~11171:6|1:10b|3:3|2:5|1:1b2|1:14b|1:8~11171:15~11191:15~100b1:14b~11171:8a~11191:8a~21171:8a~100b1:10b~11151:3|1:15~100b1:15~11151:8a~100b1:15~11151:1bb~100b1:8a~11151:14b~11171:1bb|1:6|4:3|2:5|1:1b2|1:14b|1:8|1:8a~11171:15~11191:15~100b1:8a~11151:8a~11171:1bb|1:15|1:6|4:3|2:5|1:1b2|1:14b|1:8|1:8a~11171:3|1:4~11191:4~11081:3~100b1:15~11151:8a~100b1:8a~11151:3~11171:1bb|1:6|5:3|2:5|1:1b2|1:14b|1:8|1:8a|1:4~11171:6~112e~11171:3~11081:3|1:6~100b1:8a~112e~11151:6~11171:1bb|2:6|5:3|2:5|1:1b2|1:14b|1:8|1:4~11171:3~11081:3~100b1:1b2~11750:176~11250:176~100b1:14b~112e~11171:3~11191:3~21171:8a~100b1:1bb|6:3|2:5|1:4~10022:8|1:10b~21151:8a~112d1:1b2~110c1:1~1132Changeling/Lost City:fff~10080:176~102e~10151:3|1:5|1:6|1:8a|1:10b~200113:fff~200b1:15~21151:10b~200b1:10b~21151:5|1:8a~200b1:8a~21151:33~21171:6|1:33|1:3|2:5|1:4|1:8a~21171:15~21191:15~200b1:15~21151:10b~200b1:10b~21152:3~200b1:8a~21151:1bb~21171:1bb|1:6|1:33|3:3|2:5|1:4~21171:8a~21191:8a~200b1:8a~21151:8a~21171:1bb|1:6|1:33|3:3|2:5|1:4|1:8a~21171:3|1:5|2:6|1:14b~21191:14b~21081:3|1:5|2:6~200b1:14b~21171:8~21191:8~11171:8a~214d1:fff~200b1:33~21151:3~200b1:8a~21151:3~21171:1bb|1:6|5:3|2:5|1:8|1:4~212e~21171:3|1:5|2:6~21081:3|1:5|2:6~200b1:1bb|5:3|2:5|1:4~20022:8~202e~20151:3|1:4|1:5|2:6~100114:fff~100b1:10b~11151:8|1:8a~100b1:8a~11151:8~11171:6|1:3|1:5|2:8|1:8a~11171:1bb~11191:1bb~100b1:8a~11151:10b~11171:1bb|1:6|1:10b|1:3|1:5|2:8~11171:8|1:14b~11191:14b~11081:8~100b1:14b~11171:5~11191:5~21171:5~100b1:10b~11151:3|1:8a~100b1:8a~11151:6~11171:1bb|2:6|2:3|2:5|2:8~11171:33~11191:33~100b1:33~11151:15~100b1:15~11151:10b~100b1:10b~11151:3|1:15~100b1:15~11151:3~100b1:1bb|4:3|2:5~10022:7~10151:3|2:8a|1:14b|1:1bf~200114:fff~200b1:5|1:4~20021:7~20152:3|1:5|1:8|1:10b~100115:fff~100b1:8a~11151:33~11171:33|1:3|1:14b|1:1bf|1:8a~11171:10b~11191:10b~100b1:1bf~11151:4~11171:8a~110c1:8a~100b1:10b~11151:15|1:8a~100b1:15~11151:3~100b1:14b~11171:14b~11191:14b~21171:3~114d1:fff~100b1:14b~11171:10b~11191:10b~21171:3~114d1:fff~100b1:10b~11151:15|1:14b~100b1:14b~11171:1b2~11191:1b2~21171:3~114d1:fff~100b1:15~112e~11151:15~100b1:15~11151:8a~100b1:8a~11151:8a~11171:33|2:3|1:1b2|3:8a|1:4~11171:10b~11191:10b~100b1:8a~11151:3~11171:33|1:10b|3:3|1:1b2|2:8a|1:4~11171:8|1:10b~11191:8~11081:10b~100b1:8a~11151:33~11172:33|1:10b|3:3|1:1b2|1:8|1:8a|1:4~11172:3|1:6|1:8|1:8a|1:10b~11191:6~11082:3|1:8|1:8a|1:10b~100b1:10b~11151:6|1:8~100b1:8a~11151:3~11172:6|2:33|4:3|1:1b2|2:8|1:4~11171:7~11191:7~100b1:33~11151:5~100b1:33~11151:1bb~100b1:1b2~11750:17e~11250:17e~11171:5|1:7|1:15|1:14b~11081:7~110c1:5|1:15|1:14b~11080:17e~100b1:1bb|4:3|1:5|1:4~10021:6|2:8	00210~00614~00708~00808~00360~00440~00530~03310~08a10~1cc10~19610~14b10~06e10~02a08~10b10~1b210~01510~17001~17501~17601~17701~17801~17901~17a01~17b01~17c01~17d01~17e01~17f01~18001~1bf12~1bb02	\N	ceviri~mongoose700
-11392820	000011392820/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20155:1~10011:fff~100b3:3~10021:48~10154:3|1:6~20011:fff~20155:1~10012:fff~100b3:3~10021:4~102e~10152:3|2:6|1:48~20012:fff~200b5:3~20021:25~202e~20155:1~10013:fff~100b1:48~11183:3~11071:3~11081:3~110c1:3~10153:3|1:4|1:6~20013:fff~200b3:3~20021:48~20155:1~10014:fff~100b3:3|1:4~10021:cb~102e~10152:3|2:6|1:cb~20014:fff~200b1:25~21171:6~21051:5~200b3:3~20021:48~202e~20155:1~10015:fff~100b1:cb~1116Copper/Silver:fff~100b1:3~10021:48~10152:3|1:4|1:6|1:48~20015:fff~200b1:48~21183:1~21071:6~21081:3~210c1:1~200b1:25~21171:6~21051:5~20155:1~10016:fff~100b1:48~112e~11182:3|1:6~11071:6~11081:3~110c1:3~100b1:3|1:4~10021:1a2~100b1:1a2~10153:3|1:6|1:48~20016:fff~200b1:48~212e~21183:1~21071:3~21081:3~210c1:1~200b2:3|1:5~20021:cb~20155:1~10017:fff~1048~11141:cb~100b1:48~112e~11182:3|1:48~11071:3~11081:3~110c1:48~100b1:cb~112fLookout:fff~100b1:48~11181:3|1:4|1:6~11071:6~11081:3~110c1:4~100b1:3~10021:1a2~100b1:1a2~102e~10152:3|1:4|1:48|1:1a2~20017:fff~200b1:48~212e~21183:1~21071:3~21081:3~210c1:1~200b1:25~21171:5~200b1:3|1:5~20021:6d~20155:1~10018:fff~1048~11141:3~100b1:48~11181:3|1:6|1:cb~11071:6~11081:3~110c1:cb~100b3:3~10021:1a2~100b1:1a2~100b1:1a2~102e~10152:3|1:4|1:48|1:cb~20018:fff~200b1:48~212e~21183:1~21071:6~21081:3~210c1:1~200b1:cb~212fGold:fff~200b3:3|1:5~20021:16d~21191:1~200b1:16d~20021:cb~20155:1~10019:fff~1048~11141:3|1:48~100b1:48~11182:3|1:1a2~11071:3~11081:3~110c1:1a2~100b1:48~112e~11181:3|1:1a2~11071:3~11081:1a2~100b1:cb~112e~112f0:1a2~100b2:3|1:4~10021:6d~100b1:1a2~102e~10151:3|1:4|2:48|1:1a2~20019:fff~200b1:48~212e~21183:1~21071:3~21081:5~210c1:1~200b1:25~21171:6~21051:5~200b1:3|1:5~20021:11~20155:1~100110:fff~1048~11141:1a2~100b1:48~11181:3|1:6d|1:cb~11071:3~11081:cb~110c1:6d~100b1:48~112e~11181:3|1:6d|1:cb~11071:3~11081:cb~110c1:6d~100b1:3|1:4~10021:15~100b1:1a2~100b1:1a2~102e~10151:3|1:15|1:48|1:6d|1:1a2~200110:fff~200b1:cb~212fLookout:fff~200b1:48~212e~21183:1~21071:6~21081:3~210c1:1~200b1:cb~212fVilla:fff~200b1:16d~200b1:6d~11081:3|1:1a2~200b2:3~202a1:11~214f1:fff~20051:11~202a1:cb~214f1:fff~20051:cb~20155:1~100111:fff~1048~11141:4|1:48~100b1:15~11151:cb~100b1:48~112e~11181:3|1:1a2~11071:3~11081:1a2~100b1:cb~112e~112f0:1a2~100b1:6d~21081:1|1:48~100b1:4~102a1:15~114f1:fff~10051:15~102a1:1a2~114f1:fff~10051:1a2~100b1:1a2~100b1:1a2~102e~10151:15|1:48|1:6d|1:cb|1:1a2~200111:fff~200b1:25~21171:5~200b2:5~20021:8~202e~20155:1~100112:fff~1048~11141:4|1:15~100b1:48~11181:48|1:1a2~11071:48~11081:1a2~100b1:15~112e~11151:1a2~100b1:15~100b1:cb~100b1:6d~21081:1|1:3~100b1:4~102a1:6d~114f1:fff~10051:6d~100b1:1a2~100b1:1a2~102e~10151:15|1:48|2:6d|1:cb~200112:fff~200b1:6d~11081:48|1:cb~200b1:3|1:5~202a1:11~214f1:fff~20051:11~202a1:11~214f1:fff~20051:11~20155:1~100113:fff~1048~11142:1a2~100b1:15~11151:15~100b1:15~11151:4~100b1:6d~21081:1|1:3~100b1:6d~100b1:4~102a1:15~114f2:fff~10051:15~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~102e~10151:4|2:15|1:48|1:1a2~200113:fff~200b1:cb~2116Goons/Villa:fff~200b1:25~21171:5~200b1:5~20021:8~20155:1~100114:fff~1048~11141:15|1:1a2~100b1:15~11151:cb~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:6d~100b1:6d~21081:1|1:16d~100b1:cb~100b1:6d~100b1:4~102a1:6d~114f2:fff~10051:6d~102a1:15~114f2:fff~10051:15~102a1:1a2~114f2:fff~10051:1a2~100b1:1a2~100b1:1a2~100b1:1a2~102e~10151:4|2:15|2:6d~200114:fff~200b1:11~21151:1~211815:1~210c1:1~200b1:11~21151:1~211814:1~210c1:1~200b1:48~21183:1~21071:48~21081:cb~210c1:1~200b1:6d~11082:15~200b1:5~202a1:cb~214f1:fff~20051:cb~202e~20155:1~100115:fff~1048~11142:15|1:cb~100b1:15~11151:1a2~100b1:15~11151:48~100b1:cb~1116Merchant/Goons:fff~100b1:6d~21081:1|1:16d~100b1:6d~100b1:4~102a1:1a2~114f2:fff~10051:1a2~102a1:1a2~114f2:fff~10051:1a2~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~100b1:1a2~102e~10152:15|1:6d|2:1a2~200115:fff~200b1:11~21151:1~21182:1~210c1:1~200b1:cb~212fVilla:fff~200b1:cb~2116Goons/Harbinger:fff~200b1:16d~200b1:5~20022:1a2~200b1:1a2~200b1:1a2~20155:1~100116:fff~1048~11143:15~100b1:15~11151:1a2~100b1:15~11151:15~100b1:15~11151:cb~100b1:15~11151:6d~100b1:15~11151:1a2~100b1:15~11151:48~100b1:cb~1116Goons/Silver:fff~100b1:6d~21081:1|1:25~100b1:6d~102a1:15~114f2:fff~10051:15~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~100b1:1a2~100b1:1a2~102e~10151:4|2:15|1:6d|1:1a2~200116:fff~2048~21142:1~200b1:11~21151:1~21188:1~210c1:1~200b1:cb~212fCourtier:fff~200b1:25~21171:6d~200b1:6d~11081:4|1:1a2~200b1:3|1:5~202a1:8~214f1:fff~20051:8~202a1:1a2~214f1:fff~20051:1a2~202a1:3~214f1:fff~20051:3~200b1:1a2~20155:1~100117:fff~1048~11143:15|1:1a2~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:15~100b1:15~11151:cb~100b1:15~11151:48~100b1:15~11151:1a2~100b1:cb~112e~112fSilver:fff~100b1:6d~21081:1|1:11~100b1:6d~100b1:6d~100b1:4~102a1:15~114f3:fff~10051:15~102a1:15~114f3:fff~10051:15~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:11~114f3:fff~10051:11~100b1:1a2~100b1:1a2~102e~10151:4|1:11|2:15|1:1a2~200117:fff~2048~21141:1~200b1:11~21151:1~211820:1~210c1:1~200b1:cb~212fGoons:fff~200b1:6d~11082:15~200b1:3|1:5~202a1:8~214f1:fff~20051:8~202a1:3~214f1:fff~20051:3~202e~20155:1~100118:fff~1048~11141:6d|1:16d~100b1:11~11151:6d~11182:15~110c1:15~100b1:16d~100b1:6d~21081:1|1:3~100b1:6d~100b1:4~102a1:11~114f2:fff~10051:11~102a1:11~114f2:fff~10051:11~102a1:3~114f2:fff~10051:3~102a1:3~114f2:fff~10051:3~100b1:1a2~10153:15|2:1a2~200118:fff~200b1:11~21151:1~21182:1~200b1:16d~200b1:25~21171:3~200b1:3~20021:7~20155:1~100119:fff~1048~11141:6d~100b1:15~11151:15~100b1:15~11151:48~100b1:15~11151:1a2~100b1:15~11151:16d~100b1:48~11182:15|1:1a2~11071:15~11081:15~110c1:1a2~100b1:16d~100b1:6d~21081:1|1:3~102a1:11~114f1:fff~10051:11~102a1:3~114f1:fff~10051:3~102a1:3~114f1:fff~10051:3~100b1:1a2~100b1:1a2~100b1:1a2~10152:15|1:cb|1:16d|1:1a2~200119:fff~200b1:cb~2116Goons/Harbinger:fff~200b1:cb~212fHarbinger:fff~200b1:11~21151:1~21189:1~210c1:1~200b1:5~20021:7~20155:1~100120:fff~1048~11141:15~112e~11141:48|1:6d~100b1:15~11151:15~100b1:15~11151:1a2~100b1:15~11151:3~100b1:48~11181:11|1:15|1:16d~11071:16d~11081:11~110c1:15~100b1:cb~112fMerchant:fff~100b1:15~11151:6d~100b1:15~11151:3~100b1:16d	00210~00614~00708~00808~00360~00440~00530~01510~04810~0df10~02510~01110~0cb10~16810~1a210~06d10~16d10~14001	\N	ceviri~ILYA
-11392418	000011392418/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20155:1~10011:fff~100b3:3~10021:7d~10154:3|1:6~20011:fff~200b4:3~20021:19~20155:1~10012:fff~100b4:3~10021:19~102e~10153:3|1:6|1:7d~20012:fff~200b3:3~20021:7d~202e~20155:1~10013:fff~100b3:3~10021:7d~112d1:7d~110c1:7d~10152:3|1:6|1:19|1:7d~20013:fff~200b1:19~21071:3~20021:4~212d1:7d~210c1:4~20155:1~10014:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~1132Watchtower/Villa:fff~1132Watchtower/Villa:fff~100b1:16d~100b1:7d~11152:3|1:6~112e~11151:6|1:7d~100b1:3~10021:112~112d1:7d~110c1:112~102e~10153:3|1:19|1:112~20014:fff~200b1:4|4:3~20021:16d~21191:16d~200b1:16d~20021:7d~202e~20155:1~10015:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~100b1:16d~100b1:112~100b1:3~10021:112~10231:112~10241:120~10151:3|1:6|2:7d|1:16d~20015:fff~200b1:19~21071:3~200b2:3~20021:1b4~20155:1~10016:fff~100b1:16d~100b1:7d~11152:3|1:6~100b3:3~10021:16d~11191:16d~1132Watchtower/Villa:fff~1132Watchtower/Villa:fff~100b1:16d~100b1:7d~11151:6~112e~11152:3|1:112~100b1:112~100b2:3~10021:9f~10231:112~10241:120~102e~10151:3|1:6|1:19|1:120|1:16d~20016:fff~200b1:16d~200b1:4|2:3~20021:16d~21191:16d~2132Watchtower/Villa:fff~2132Watchtower/Villa:fff~200b1:16d~200b1:7d~21154:1~212e~21152:1~200b1:7d~21151:1~200b1:19~21071:3~200b1:3~20021:5~200b1:1b4~21750:183~11250:183~111d~11181:9f|9:0|1:120|1:3~110c2:3~21080:183~202e~20155:1~10017:fff~100b1:16d~100b1:19~11071:3~100b1:120~21081:6~10021:1b4~10231:120~10241:102~102e~10152:3|1:19|1:7d|1:120~20017:fff~200b1:16d~200b1:4|1:5|1:3~20021:112|1:1b4~20155:1~10018:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~1132Watchtower/Villa:fff~1132Watchtower/Villa:fff~100b1:16d~100b1:120~21081:6~100b1:7d~11151:3|1:6|1:9f|1:102|2:16d~100b1:3~10021:16d~11191:16d~100b1:16d~100b1:16d~100b1:16d~100b1:102~11151:6|1:16d~11081:6~100b1:16d~100b1:9f~11051:4~11181:1b4~110c1:1b4~11151:3|1:6|1:7d|1:1b4~11071:6~100b1:1b4~112e~11151:4|1:6~100b1:4|1:3~10021:112|1:16d~11191:16d~1132Watchtower/Villa:fff~1132Watchtower/Villa:fff~100b1:16d~100b1:7d~112e~11151:112~100b1:112~10021:112~10231:102~10241:fc~10231:120~10241:102~10231:112~10241:120~102e~10151:3|1:4|1:19|1:9f|1:16d~20018:fff~200b1:19~21071:3~200b1:3~20021:16d~21191:16d~200b1:16d~200b1:1b4~21153:1~200b1:16d~200b1:7d~21152:1~212e~21153:1~200b1:112~200b1:4|2:3~20021:16d~21191:16d~2132Watchtower/Villa:fff~2132Watchtower/Villa:fff~200b1:16d~200b1:7d~21155:1~200b1:16d~200b1:5~20021:8~200b1:1b4~2175Misery:fff~1125Misery:fff~1175Miserable:fff~2108Misery:fff~20231:112~20241:120~202e~20155:1~10019:fff~100b1:16d~100b1:9f~11051:4~11181:6~11081:6~11151:3|1:1b4~100b1:19~11071:3~100b1:3~10021:1b4~100b1:1b4~1175Delusion:fff~2125Delusion:fff~2175Deluded:fff~1108Delusion:fff~10151:3|1:6|1:112|1:120|1:16d~20019:fff~200b1:120~11081:6~2023Deluded:fff~200b1:4~20021:4~200b1:1b4~2175Greed:fff~1125Greed:fff~11051:3~2108Greed:fff~20231:120~20241:102~20155:1~100110:fff~100b1:16d~100b1:112~100b1:120~21081:6~100b1:3~10021:1b4~10231:120~10241:102~10231:112~10241:120~10151:3|1:7d|1:fc|1:102|1:16d~200110:fff~200b1:7d~21153:1~200b1:3|1:5~20021:137~20155:1~100111:fff~100b1:102~11151:7d|1:16d~11081:3~100b1:16d~100b1:16d~100b1:7d~11152:16d~112e~11151:3|1:4~100b1:16d~100b1:16d~100b1:7d~11151:19|1:9f|1:16d~100b1:16d~100b1:19~11071:3~100b1:9f~11051:4~11181:6~11081:6~11151:6|1:102|1:1b4~11071:6~100b1:fc~110b1:1b4~12152:3|1:120~11091:1b4~12151:4|2:1b4~11051:1b4~100b1:102~112e~11151:16d|1:1b4~11081:3~100b1:16d~100b1:1b4~112e~11151:3|1:4|1:6~100b1:120~21081:3~100b3:4|2:3~10021:112|3:1b4~100b1:1b4~1175Locusts:fff~2125Locusts:fff~21171:16d~21071:16d~21051:7d~1108Locusts:fff~100b1:1b4~1175Poverty:fff~2125Poverty:fff~21081:3~1108Poverty:fff~10231:fc~10241:123~10231:102~10241:fc~10231:102~10241:fc~102e~10151:3|1:4|1:7d|1:16d|1:1b4~200111:fff~200b1:16d~200b1:16d~200b1:1b4~212e~21153:1~200b1:102~21152:1~21081:137~200b2:4|1:5~20021:138|1:1b4~21051:4~20231:102~20241:fc~20155:1~100112:fff~100b1:16d~100b1:7d~11151:112|2:1b4~100b1:112~100b1:4|1:3~10021:7~100b1:1b4~1175Fear:fff~2125Fear:fff~21081:7d~1108Fear:fff~100b1:1b4~1175Famine:fff~2125Famine:fff~21171:3|1:19|1:16d~21081:19|1:16d~211f1:3~1108Famine:fff~100b1:1b4~1175War:fff~2125War:fff~21171:7d~21071:7d~1108War:fff~10231:112~10241:120~10151:3|1:4|1:7d|2:16d~200112:fff~200b1:1b4~2175Haunting:fff~1125Haunting:fff~110c1:3~2108Haunting:fff~20155:1~100113:fff~100b1:16d~100b1:16d~100b1:7d~11151:3|1:9f|1:fc|1:120|1:1b4~100b1:fc~110b1:1b4~12153:16d~11091:1b4~12151:4|1:fc|1:1b4~100b1:16d~100b1:16d~100b1:fc~110b1:16d~11091:16d~100b1:1b4~11151:6|1:123|1:1b4~100b1:1b4~112e~11151:4|1:19|1:1b4~100b1:1b4~11151:7|1:7d|1:16d~100b1:16d~100b1:123~111b1:123|Tavern mat:fff~100b1:19~11071:3~100b1:120~21081:6~100b1:9f~11051:4~122d1:7d~12071:4~11181:1b4~110c1:1b4~11071:6~100b3:4~10021:7|2:8~10151:3|1:120|3:1b4~200113:fff~200b3:3~20021:7d~212d1:7d~21071:7d~202e~20155:1~100114:fff~1048~101c1:123~104c+Action token/the Werewolf pile:fff~100b1:1b4~117cc gets +1 Action (from Teacher):fff~112e~11151:19|1:120|1:1b4~100b1:1b4~117cc gets +1 Action (from Teacher):fff~11151:4|1:7|1:16d~100b1:1b4~117cc gets +1 Action (from Teacher):fff~11151:9f|2:1b4~100b1:16d	00210~00614~00708~00808~00360~00440~00530~1b410~10310~13e01~13d01~13c01~13b01~13a01~13901~13801~13701~09f10~04d10~07d10~11210~02908~01910~16d10~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002~12005~10205~0fc05~12305	\N	ceviri~ILYA
-11391788	000011391788/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20155:1~10011:fff~100b3:3~10021:112~10154:3|1:6~20011:fff~200b4:3~20021:127~20155:1~10012:fff~100b4:3~10021:127~102e~10153:3|2:6~20012:fff~200b2:3~20021:112~202e~20155:1~10013:fff~100b3:3~10021:112~10153:3|1:6|1:127~20013:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:112~200b1:3~20021:112~20231:112~20241:120~20155:1~10014:fff~100b1:127~111b1:127|Tavern mat:fff~100b3:3~10021:4~102e~10153:3|1:6|1:112~20014:fff~2048~201c1:127~20071:6~20051:112~200b1:112~200b4:3~20021:106~20231:112~20241:120~202e~20155:1~10015:fff~1048~101c1:127~10071:6~10051:4~100b1:112~100b3:3|1:4~102a1:f1~11052:127~10051:f1~10231:112~10241:120~10153:3|2:6~20015:fff~200b1:120~11081:6~200b3:3~20021:106~20231:120~20241:102~20155:1~10016:fff~100b3:3~10021:4~102e~10153:3|1:4|1:112~20016:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:120~11081:3~200b2:3~20021:127~20231:120~20241:102~202e~20155:1~10017:fff~100b1:112~100b2:3|1:4~10021:106~10231:112~10241:120~10151:3|1:4|1:6|1:f1|1:127~20017:fff~2048~201c1:127~20071:6~20051:4~200b1:127~211b1:127|Tavern mat:fff~200b2:3|1:4~20021:127~20155:1~10018:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:f1~11071:3~100b1:4~10021:112~10151:3|1:4|1:120|2:127~20018:fff~2048~200b1:106~20155:1~10019:fff~1048~100b1:127~111b1:127|Tavern mat:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:120~21081:3~100b1:3|1:4~10021:106~10231:120~10241:102~102e~10153:3|1:4|1:6~20019:fff~2048~212e~21103:1~200b1:102~21152:1~21081:3~200b1:102~21152:1~21081:112~200b1:106~200b3:3|1:4~20021:106~20231:102~20241:fc~20231:102~20241:fc~202e~20155:1~100110:fff~1048~101c1:127~10071:6~10051:4~101c1:127~10071:4~10051:127~101c1:127~10071:127~10051:106~100b1:106~100b3:3|1:4~10021:106~10152:3|1:6|1:112|1:120~200110:fff~2048~21103:1~201c1:127~20071:127~20051:106~200b1:127~211b1:127|Tavern mat:fff~200b1:106~200b5:3~202a1:106~210c1:1~20051:106~20155:1~100111:fff~1048~11101:3|1:f1|1:106~100b1:120~21081:6~100b3:3~102a1:106~110c1:6|1:f1|1:106|1:112~10051:106~10231:120~10241:102~10151:4|1:6|1:f1|1:106|1:112~200111:fff~2048~21103:1~201c1:127~20071:4~20051:127~200b1:fc~210b1:fc~220b1:127~231b1:127|Tavern mat:fff~22091:127~22051:127~21091:fc~220b1:106~22091:106~200b1:106~200b1:112~200b1:3~20021:112~20231:fc~20241:123~20231:112~20241:120~202e~20155:1~100112:fff~100b1:106~102e~10151:3|1:4|2:102|1:106~200112:fff~2048~21109:1~201c1:127~20071:6~20051:4~200b1:127~211b1:127|Tavern mat:fff~200b1:123~211b1:123|Tavern mat:fff~200b7:3|1:4~202a1:89~210c4:1~20051:89~20155:1~100113:fff~1048~11101:3|1:4|1:6~100b1:102~11151:3|1:106~11081:106~100b1:102~11151:3|1:127~11081:6~100b1:127~111b1:127|Tavern mat:fff~100b1:106~100b4:3|2:4~10021:8~10231:102~10241:fc~10231:102~10241:fc~10151:3|1:4|1:f1|1:112|1:127~200113:fff~2048~201c1:123~204c+Action token/the Haunted Woods pile:fff~200b1:106~217cL gets +1 Action (from Teacher):fff~200b1:106~217cL gets +1 Action (from Teacher):fff~200b1:106~217cL gets +1 Action (from Teacher):fff~200b1:120~11081:f1~202a1:7c~210c1:1~20051:7c~202e~20155:1~100114:fff~1048~11101:3|1:106|1:127~101c1:127~10071:112~10051:4~100b1:127~111b1:127|Tavern mat:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:106~100b2:3|2:4~10021:127~102e~10152:4|1:6|1:fc|1:106~200114:fff~2048~21109:1~201c1:127~20071:123~20051:5~200b1:fc~210b1:106~227cL gets +1 Action (from Teacher):fff~21091:106~227cL gets +1 Action (from Teacher):fff~200b1:106~217cL gets +1 Action (from Teacher):fff~200b1:127~211b1:127|Tavern mat:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:112~200b1:120~11081:4~200b1:5|1:89|4:3~21051:8~21071:89~20021:7|1:8~20155:1~100115:fff~1048~11101:3|1:fc|1:127~101c1:127~10071:6~10051:4~101c1:127~10071:127~10051:42~100b1:fc~110b1:fc~120b1:106~12091:106~11091:fc~120b1:42~13051:4~12091:42~13051:4~12051:42~100b1:3|4:4~10021:8~10231:fc~10241:123~10151:3|1:4|1:8|2:106~200115:fff~2048~212e~21109:1~201c1:127~20071:120~20051:f1~201c1:127~20071:f1~20051:f1~201c1:127~20071:f1~20051:f1~200b1:112~200b1:7c|6:3|1:4~21171:3|1:7|1:106|1:127~21081:7|1:106|1:127~210b1:3~202a1:f1~210c5:1~21052:f1~20051:f1~202a1:f1~21052:f1~20051:f1~20155:1	00210~00614~00708~00808~00360~00440~00530~08910~04210~12710~0df10~0f110~19810~04010~07c10~10610~11210~14001~16c01~12005~10205~0fc05~12305	\N	Bridge 4~ceviri
+11392418	000011392418/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20154:3|1:6~10011:fff~100b3:3~10021:7d~10154:3|1:6~20011:fff~200b4:3~20021:19~20153:3|2:6~10012:fff~100b4:3~10021:19~102e~10153:3|1:6|1:7d~20012:fff~200b3:3~20021:7d~202e~20151:3|2:6|1:19|1:7d~10013:fff~100b3:3~10021:7d~112d1:7d~110c1:7d~10152:3|1:6|1:19|1:7d~20013:fff~200b1:19~21071:3~20021:4~212d1:7d~210c1:4~20154:3|1:4~10014:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~11320:7d|Villa:fff~11320:7d|Villa:fff~100b1:16d~100b1:7d~11152:3|1:6~112e~11151:6|1:7d~100b1:3~10021:112~112d1:7d~110c1:112~102e~10153:3|1:19|1:112~20014:fff~200b4:3|1:4~20021:16d~21191:16d~200b1:16d~20021:7d~202e~20153:3|1:6|1:19~10015:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~100b1:16d~100b1:112~100b1:3~10021:112~10231:112~10241:120~10151:3|1:6|2:7d|1:16d~20015:fff~200b1:19~21071:3~200b2:3~20021:1b4~20152:3|1:4|1:7d|1:16d~10016:fff~100b1:16d~100b1:7d~11152:3|1:6~100b3:3~10021:16d~11191:16d~11320:7d|Villa:fff~11320:7d|Villa:fff~100b1:16d~100b1:7d~11151:6~112e~11152:3|1:112~100b1:112~100b2:3~10021:9f~10231:112~10241:120~102e~10151:3|1:6|1:19|1:120|1:16d~20016:fff~200b1:16d~200b2:3|1:4~20021:16d~21191:16d~21320:7d|Villa:fff~21320:7d|Villa:fff~200b1:16d~200b1:7d~21151:3|2:6|1:7d~212e~21151:3|1:1b4~200b1:7d~21151:19~200b1:19~21071:3~200b1:3~20021:5~200b1:1b4~21750:183~11250:183~111d~11181:9f|2/2/5:fff|1:120|1:3~110c2:3~21080:183~202e~20151:3|1:4|1:5|1:6|1:16d~10017:fff~100b1:16d~100b1:19~11071:3~100b1:120~21081:6~10021:1b4~10231:120~10241:102~102e~10152:3|1:19|1:7d|1:120~20017:fff~200b1:16d~200b1:3|1:5|1:4~20021:112|1:1b4~20152:3|1:6|1:19|1:1b4~10018:fff~100b1:19~11071:3~100b1:3~10021:16d~11191:16d~11320:7d|Villa:fff~11320:7d|Villa:fff~100b1:16d~100b1:120~21081:6~100b1:7d~11151:3|1:6|1:9f|1:102|2:16d~100b1:3~10021:16d~11191:16d~100b1:16d~100b1:16d~100b1:16d~100b1:102~11151:6|1:16d~11081:6~100b1:16d~100b1:9f~11051:4~11181:1b4~110c1:1b4~11151:3|1:6|1:7d|1:1b4~11071:6~100b1:1b4~112e~11151:4|1:6~100b1:3|1:4~10021:112|1:16d~11191:16d~11320:7d|Villa:fff~11320:7d|Villa:fff~100b1:16d~100b1:7d~112e~11151:112~100b1:112~10021:112~10231:102~10241:fc~10231:120~10241:102~10231:112~10241:120~102e~10151:3|1:4|1:19|1:9f|1:16d~20018:fff~200b1:19~21071:3~200b1:3~20021:16d~21191:16d~200b1:16d~200b1:1b4~21151:6|1:7d|1:16d~200b1:16d~200b1:7d~21151:3|1:7d~212e~21151:3|1:4|1:112~200b1:112~200b2:3|1:4~20021:16d~21191:16d~21320:7d|Villa:fff~21320:7d|Villa:fff~200b1:16d~200b1:7d~21151:5|2:6|1:16d|1:1b4~200b1:16d~200b1:5~20021:8~200b1:1b4~21750:18b~11250:18b~11750:18f~21080:18b~20231:112~20241:120~202e~20151:4|2:6|1:120|1:1b4~10019:fff~100b1:16d~100b1:9f~11051:4~11181:6~11081:6~11151:3|1:1b4~100b1:19~11071:3~100b1:3~10021:1b4~100b1:1b4~11750:184~21250:184~21750:192~11080:184~10151:3|1:6|1:112|1:120|1:16d~20019:fff~200b1:120~11081:6~20230:192~200b1:4~20021:4~200b1:1b4~21750:188~11250:188~11051:3~21080:188~20231:120~20241:102~20151:3|1:5|1:6|2:7d~100110:fff~100b1:16d~100b1:112~100b1:120~21081:6~100b1:3~10021:1b4~10231:120~10241:102~10231:112~10241:120~10151:3|1:7d|1:fc|1:102|1:16d~200110:fff~200b1:7d~21151:8|1:19|1:16d~200b1:3|1:5~20021:137~20152:3|2:16d|1:1b4~100111:fff~100b1:102~11151:7d|1:16d~11081:3~100b1:16d~100b1:16d~100b1:7d~11152:16d~112e~11151:3|1:4~100b1:16d~100b1:16d~100b1:7d~11151:19|1:9f|1:16d~100b1:16d~100b1:19~11071:3~100b1:9f~11051:4~11181:6~11081:6~11151:6|1:102|1:1b4~11071:6~100b1:fc~110b1:1b4~12152:3|1:120~11091:1b4~12151:4|2:1b4~11051:1b4~100b1:102~112e~11151:16d|1:1b4~11081:3~100b1:16d~100b1:1b4~112e~11151:3|1:4|1:6~100b1:120~21081:3~100b2:3|3:4~10021:112|3:1b4~100b1:1b4~11750:18a~21250:18a~21171:16d~21071:16d~21051:7d~11080:18a~100b1:1b4~11750:18d~21250:18d~21081:3~11080:18d~10231:fc~10241:123~10231:102~10241:fc~10231:102~10241:fc~102e~10151:3|1:4|1:7d|1:16d|1:1b4~200111:fff~200b1:16d~200b1:16d~200b1:1b4~212e~21151:4|1:5|1:102~200b1:102~21151:4|1:137~21081:137~200b1:5|2:4~20021:138|1:1b4~21051:4~20231:102~20241:fc~20152:6|1:8|1:7d|1:1b4~100112:fff~100b1:16d~100b1:7d~11151:112|2:1b4~100b1:112~100b1:3|1:4~10021:7~100b1:1b4~11750:187~21250:187~21081:7d~11080:187~100b1:1b4~11750:186~21250:186~21171:3|1:19|1:16d~21081:19|1:16d~211f1:3~11080:186~100b1:1b4~11750:18e~21250:18e~21171:7d~21071:7d~11080:18e~10231:112~10241:120~10151:3|1:4|1:7d|2:16d~200112:fff~200b1:1b4~21750:189~11250:189~110c1:3~21080:189~20153:3|1:6|1:7d~100113:fff~100b1:16d~100b1:16d~100b1:7d~11151:3|1:9f|1:fc|1:120|1:1b4~100b1:fc~110b1:1b4~12153:16d~11091:1b4~12151:4|1:fc|1:1b4~100b1:16d~100b1:16d~100b1:fc~110b1:16d~11091:16d~100b1:1b4~11151:6|1:123|1:1b4~100b1:1b4~112e~11151:4|1:19|1:1b4~100b1:1b4~11151:7|1:7d|1:16d~100b1:16d~100b1:123~111b1:123|Tavern mat:fff~100b1:19~11071:3~100b1:120~21081:6~100b1:9f~11051:4~122d1:7d~12071:4~11181:1b4~110c1:1b4~11071:6~100b3:4~10021:7|2:8~10151:3|1:120|3:1b4~200113:fff~200b3:3~20021:7d~212d1:7d~21071:7d~202e~20151:3|1:4|1:6|1:138|1:1b4~100114:fff~1048~101c1:123~104c+Action token/the Werewolf pile:fff~100b1:1b4~117cL gets +1 Action (from Teacher):fff~112e~11151:19|1:120|1:1b4~100b1:1b4~117cL gets +1 Action (from Teacher):fff~11151:4|1:7|1:16d~100b1:1b4~117cL gets +1 Action (from Teacher):fff~11151:9f|2:1b4~100b1:16d	00210~00614~00708~00808~00360~00440~00530~1b410~10310~13e01~13d01~13c01~13b01~13a01~13901~13801~13701~09f10~04d10~07d10~11210~02908~01910~16d10~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002~12005~10205~0fc05~12305	\N	ceviri~ILYA
+11392820	000011392820/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20152:3|3:6~10011:fff~100b3:3~10021:48~10154:3|1:6~20011:fff~20155:3~10012:fff~100b3:3~10021:4~102e~10152:3|2:6|1:48~20012:fff~200b5:3~20021:25~202e~20153:3|2:6~10013:fff~100b1:48~11183:3~11071:3~11081:3~110c1:3~10153:3|1:4|1:6~20013:fff~200b3:3~20021:48~20153:3|1:6|1:25~10014:fff~100b3:3|1:4~10021:cb~102e~10152:3|2:6|1:cb~20014:fff~200b1:25~21171:6~21051:5~200b3:3~20021:48~202e~20152:3|1:6|1:25|1:48~10015:fff~100b1:cb~1116Copper/Silver:fff~100b1:3~10021:48~10152:3|1:4|1:6|1:48~20015:fff~200b1:48~21181:3|1:6|1:48~21071:6~21081:3~210c1:48~200b1:25~21171:6~21051:5~20152:3|1:5|1:6|1:48~10016:fff~100b1:48~112e~11182:3|1:6~11071:6~11081:3~110c1:3~100b1:3|1:4~10021:1a2~100b1:1a2~10153:3|1:6|1:48~20016:fff~200b1:48~212e~21182:3|1:48~21071:3~21081:3~210c1:48~200b1:5|2:3~20021:cb~20151:3|1:5|1:6|1:25|1:48~10017:fff~1048~11141:cb~100b1:48~112e~11182:3|1:48~11071:3~11081:3~110c1:48~100b1:cb~112fLookout:fff~100b1:48~11181:3|1:4|1:6~11071:6~11081:3~110c1:4~100b1:3~10021:1a2~100b1:1a2~102e~10152:3|1:4|1:48|1:1a2~20017:fff~200b1:48~212e~21183:3~21071:3~21081:3~210c1:3~200b1:25~21171:5~200b1:5|1:3~20021:6d~20153:3|1:48|1:cb~10018:fff~1048~11141:3~100b1:48~11181:3|1:6|1:cb~11071:6~11081:3~110c1:cb~100b3:3~10021:1a2~100b1:1a2~100b1:1a2~102e~10152:3|1:4|1:48|1:cb~20018:fff~200b1:48~212e~21181:3|1:5|1:6~21071:6~21081:3~210c1:5~200b1:cb~212fGold:fff~200b1:5|3:3~20021:16d~21191:16d~200b1:16d~20021:cb~20151:3|1:5|1:6|1:25|1:48~10019:fff~1048~11141:3|1:48~100b1:48~11182:3|1:1a2~11071:3~11081:3~110c1:1a2~100b1:48~112e~11181:3|1:1a2~11071:3~11081:1a2~100b1:cb~112e~112f0:1a2~100b2:3|1:4~10021:6d~100b1:1a2~102e~10151:3|1:4|2:48|1:1a2~20019:fff~200b1:48~212e~21181:3|1:5|1:6d~21071:3~21081:5~210c1:6d~200b1:25~21171:6~21051:5~200b1:5|1:3~20021:11~20152:3|1:6d|2:cb~100110:fff~1048~11141:1a2~100b1:48~11181:3|1:6d|1:cb~11071:3~11081:cb~110c1:6d~100b1:48~112e~11181:3|1:6d|1:cb~11071:3~11081:cb~110c1:6d~100b1:3|1:4~10021:15~100b1:1a2~100b1:1a2~102e~10151:3|1:15|1:48|1:6d|1:1a2~200110:fff~200b1:cb~212fLookout:fff~200b1:48~212e~21181:3|1:6|1:16d~21071:6~21081:3~210c1:16d~200b1:cb~212fVilla:fff~200b1:16d~200b1:6d~11081:3|1:1a2~200b2:3~202a1:11~214f1:fff~20051:11~202a1:cb~214f1:fff~20051:cb~20152:5|1:11|1:25|1:48~100111:fff~1048~11141:4|1:48~100b1:15~11151:cb~100b1:48~112e~11181:3|1:1a2~11071:3~11081:1a2~100b1:cb~112e~112f0:1a2~100b1:6d~21081:11|1:48~100b1:4~102a1:15~114f1:fff~10051:15~102a1:1a2~114f1:fff~10051:1a2~100b1:1a2~100b1:1a2~102e~10151:15|1:48|1:6d|1:cb|1:1a2~200111:fff~200b1:25~21171:5~200b2:5~20021:8~202e~20152:3|1:5|1:48|1:6d~100112:fff~1048~11141:4|1:15~100b1:48~11181:48|1:1a2~11071:48~11081:1a2~100b1:15~112e~11151:1a2~100b1:15~100b1:cb~100b1:6d~21081:3|1:48~100b1:4~102a1:6d~114f1:fff~10051:6d~100b1:1a2~100b1:1a2~102e~10151:15|1:48|2:6d|1:cb~200112:fff~200b1:6d~11081:48|1:cb~200b1:5|1:3~202a1:11~214f1:fff~20051:11~202a1:11~214f1:fff~20051:11~20152:3|1:5|1:25|1:cb~100113:fff~1048~11142:1a2~100b1:15~11151:15~100b1:15~11151:4~100b1:6d~21082:3~100b1:6d~100b1:4~102a1:15~114f2:fff~10051:15~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~102e~10151:4|2:15|1:48|1:1a2~200113:fff~200b1:cb~2116Goons/Villa:fff~200b1:25~21171:5~200b1:5~20021:8~20151:5|1:8|1:11|1:48|1:16d~100114:fff~1048~11141:15|1:1a2~100b1:15~11151:cb~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:6d~100b1:6d~21081:8|1:16d~100b1:cb~100b1:6d~100b1:4~102a1:6d~114f2:fff~10051:6d~102a1:15~114f2:fff~10051:15~102a1:1a2~114f2:fff~10051:1a2~100b1:1a2~100b1:1a2~100b1:1a2~102e~10151:4|2:15|2:6d~200114:fff~200b1:11~21151:11~211815:1~210c1:6d~200b1:11~21151:6d~211814:1~210c1:1~200b1:48~21181:48|2:cb~21071:48~21081:cb~210c1:cb~200b1:6d~11082:15~200b1:5~202a1:cb~214f1:fff~20051:cb~202e~20151:8|1:11|2:cb|1:16d~100115:fff~1048~11142:15|1:cb~100b1:15~11151:1a2~100b1:15~11151:48~100b1:cb~1116Merchant/Goons:fff~100b1:6d~21081:8|1:16d~100b1:6d~100b1:4~102a1:1a2~114f2:fff~10051:1a2~102a1:1a2~114f2:fff~10051:1a2~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~100b1:1a2~102e~10152:15|1:6d|2:1a2~200115:fff~200b1:11~21151:5~21181:16d|1:8~210c1:16d~200b1:cb~212fVilla:fff~200b1:cb~2116Goons/Harbinger:fff~200b1:16d~200b1:5~20022:1a2~200b1:1a2~200b1:1a2~20151:3|1:5|1:11|1:25|1:cb~100116:fff~1048~11143:15~100b1:15~11151:1a2~100b1:15~11151:15~100b1:15~11151:cb~100b1:15~11151:6d~100b1:15~11151:1a2~100b1:15~11151:48~100b1:cb~1116Goons/Silver:fff~100b1:6d~21081:3|1:25~100b1:6d~102a1:15~114f2:fff~10051:15~102a1:15~114f2:fff~10051:15~100b1:1a2~100b1:1a2~100b1:1a2~100b1:1a2~102e~10151:4|2:15|1:6d|1:1a2~200116:fff~2048~21141:48|1:6d~200b1:11~21151:3~21182:cb|1:16d|1:8|1:25|1:5|1:11|1:3~210c1:25~200b1:cb~212fCourtier:fff~200b1:25~21171:6d~200b1:6d~11081:4|1:1a2~200b1:5|1:3~202a1:8~214f1:fff~20051:8~202a1:1a2~214f1:fff~20051:1a2~202a1:3~214f1:fff~20051:3~200b1:1a2~20151:3|1:5|2:11|1:cb~100117:fff~1048~11143:15|1:1a2~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:6d~100b1:15~11151:15~100b1:15~11151:15~100b1:15~11151:cb~100b1:15~11151:48~100b1:15~11151:1a2~100b1:cb~112e~112fSilver:fff~100b1:6d~21081:3|1:11~100b1:6d~100b1:6d~100b1:4~102a1:15~114f3:fff~10051:15~102a1:15~114f3:fff~10051:15~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:16d~114f3:fff~10051:16d~11191:16d~100b1:16d~102a1:11~114f3:fff~10051:11~100b1:1a2~100b1:1a2~102e~10151:4|1:11|2:15|1:1a2~200117:fff~2048~21141:8~200b1:11~21151:3~21183:cb|1:6d|1:16d|2:8|1:25|1:48|2:5|2:1a2|3:11|4:3~210c1:6d~200b1:cb~212fGoons:fff~200b1:6d~11082:15~200b1:5|1:3~202a1:8~214f1:fff~20051:8~202a1:3~214f1:fff~20051:3~202e~20151:3|1:8|1:11|1:25|1:16d~100118:fff~1048~11141:6d|1:16d~100b1:11~11151:6d~11182:15~110c1:15~100b1:16d~100b1:6d~21081:3|1:8~100b1:6d~100b1:4~102a1:11~114f2:fff~10051:11~102a1:11~114f2:fff~10051:11~102a1:3~114f2:fff~10051:3~102a1:3~114f2:fff~10051:3~100b1:1a2~10153:15|2:1a2~200118:fff~200b1:11~21151:3~21181:8|1:3~200b1:16d~200b1:25~21171:3~200b1:3~20021:7~20151:3|1:5|1:8|2:cb~100119:fff~1048~11141:6d~100b1:15~11151:15~100b1:15~11151:48~100b1:15~11151:1a2~100b1:15~11151:16d~100b1:48~11182:15|1:1a2~11071:15~11081:15~110c1:1a2~100b1:16d~100b1:6d~21081:3|1:8~102a1:11~114f1:fff~10051:11~102a1:3~114f1:fff~10051:3~102a1:3~114f1:fff~10051:3~100b1:1a2~100b1:1a2~100b1:1a2~10152:15|1:cb|1:16d|1:1a2~200119:fff~200b1:cb~2116Goons/Harbinger:fff~200b1:cb~212fHarbinger:fff~200b1:11~21151:8~21181:16d|2:8|1:25|3:3|1:11|1:7~210c1:25~200b1:5~20021:7~20152:11|1:25|1:cb|1:1a2~100120:fff~1048~11141:15~112e~11141:48|1:6d~100b1:15~11151:15~100b1:15~11151:1a2~100b1:15~11151:3~100b1:48~11181:11|1:15|1:16d~11071:16d~11081:11~110c1:15~100b1:cb~112fMerchant:fff~100b1:15~11151:6d~100b1:15~11151:3~100b1:16d	00210~00614~00708~00808~00360~00440~00530~01510~04810~0df10~02510~01110~0cb10~16810~1a210~06d10~16d10~14001	\N	ceviri~ILYA
 11382626	000011382626/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10154:3|1:6~202e~20154:3|1:6~10011:fff~100b3:3~10021:36~10153:3|2:6~20011:fff~200b3:3~20021:36~20153:3|2:6~10012:fff~100b3:3~10021:4~102e~10153:3|2:6~20012:fff~200b3:3~20021:4~202e~20155:3~10013:fff~100b3:3~10021:36~10152:3|1:4|1:6|1:36~20013:fff~200b5:3~20021:21~20152:3|1:4|2:6~10014:fff~100b1:36~11171:6|2:3|1:4~11152:3~100b3:3|1:4~10021:21~102e~10153:3|1:6|1:36~20014:fff~200b2:3|1:4~20021:36~202e~20152:3|1:6|2:36~10015:fff~100b1:36~11171:6|3:3~11151:6|1:36~100b1:36~11172:6|3:3~11151:3|1:4~100b3:3|1:4~10021:21~10153:3|1:6|1:21~20015:fff~200b1:36~21171:6|2:3|1:36~200b1:36~21171:6|2:3~21151:3|1:6~200b3:3~20021:4~20152:3|1:4|1:6|1:21~10016:fff~100b1:21~112e~11152:3~21051:2~100b5:3~10021:b6~10152:3|1:6|2:36~20016:fff~200b1:21~21152:3~11051:2~200b4:3|1:4~20021:21~202e~20152:3|2:6|1:21~10017:fff~100b1:36~11171:6|2:3|1:36~100b1:36~11171:6|2:3~11151:4|1:6~100b1:3|1:4~10021:36~102e~10151:2|1:3|1:6|1:21|1:36~20017:fff~200b1:21~21151:4|1:6~11051:2~200b2:3|1:4~20021:36~20152:3|1:4|2:36~10018:fff~100b1:36~11171:6|1:3|1:2|1:21~100b1:21~11151:3|1:6~21051:2~100b2:3~10021:e3~10151:3|1:6|1:21|1:36|1:b6~20018:fff~200b1:36~21172:3|1:36|1:4~200b1:36~21172:3|1:4~21151:2|1:21~200b1:21~21152:3~11051:2~200b4:3|1:4~20021:1b3~202e~20152:3|1:6|1:21|1:36~10019:fff~100b1:36~11171:6|1:3|1:21|1:b6~100b1:21~11151:4|1:36~21051:2~100b1:36~11171:6|1:3|1:b6|1:4~11152:3~100b1:b6~110b1:3~11091:3~11071:3~100b2:3|1:4~10021:e3|1:1b3~102e~10153:3|1:4|1:1b3~20019:fff~200b1:36~21171:6|2:3|1:21~200b1:21~21151:2|1:3~11051:2~200b3:3~20021:36~20151:3|1:6|1:21|1:36|1:1b3~100110:fff~100b3:3|1:4~10021:1b3~100b1:1b3~1175Misery:fff~2125Misery:fff~2175Miserable:fff~1108Misery:fff~11051:b6~11231:1b3~11241:1bc~10152:3|1:6|1:b6|1:e3~200110:fff~200b1:36~21171:6|1:3|1:1b3|1:21~200b1:21~21151:2|1:3~11051:2~200b2:3~20021:e3~200b1:1b3~21750:183~11250:183~111d~111817:0|1:2|1:e3|1:4|1:b6~110c2:3~21080:183~21051:b6~21231:1b3~21241:1bc~20152:3|2:4|1:36~100111:fff~100b1:e3~11151:3~11171:3~110c1:3~100b1:b6~110b1:3~11091:3~11071:3~100b2:3~10021:1b3~102e~10151:2|1:3|1:4|1:6|1:36~200111:fff~200b1:36~21172:3|2:4~212e~21151:3|1:6~200b3:3|2:4~20021:1b3~20152:3|2:6|1:36~100112:fff~100b1:36~11171:6|1:3|1:2|1:4~11151:3|1:e3~100b1:e3~11151:b6~11171:3~110c1:3~100b1:b6~110b1:3~11091:3~11071:3~100b1:3|1:4~10022:36~10152:2|1:3|1:6|1:e3~200112:fff~200b1:36~21172:6|2:3~21151:2|1:36~200b1:36~21172:6|2:3|1:2~21151:3|1:1bc~200b3:3~20021:36~200b1:1bc~21071:2|1:6~21231:1bc~21241:1b3~20151:2|2:21|1:36|1:b6~100113:fff~100b1:e3~11151:21~11171:2~11191:2~100b1:21~11151:21|1:b6~21051:2~100b1:b6~110b1:3~11091:3~11071:3~10021:14b~10152:3|2:36|1:1bc~200113:fff~200b1:36~21172:21|1:2|1:b6~200b1:21~21151:2|1:3~11051:2~200b1:21~212e~21151:6|1:e3~200b1:b6~210b1:3~21091:3~21071:3~20021:14b~20153:3|1:6|1:36~100114:fff~100b1:36~11172:3|1:36|1:1bc~100b1:36~11172:3|1:1bc~11151:2|1:1b3~100b1:1bc~11071:2|1:3~11231:1bc~11241:1b3~100b1:1b3~1175Envy:fff~2125Envy:fff~2175Envious:fff~1108Envy:fff~11051:21~11231:1b3~11241:1bc~102e~10151:2|2:6|1:b6|1:1b3~200114:fff~200b1:36~21171:6|3:3~21151:4|1:36~200b1:36~21171:6|3:3|1:4~21151:4|1:36~200b1:36~21171:6|3:3|2:4~21151:3|1:1b3~2023Envious:fff~200b4:3|2:4~20021:5~200b1:1b3~2175Haunting:fff~1125Haunting:fff~110c1:b6~2108Haunting:fff~21051:7~21231:1b3~21241:1bc~20151:2|2:3|1:36|1:1b3~100115:fff~100b1:1b3~1175Greed:fff~2125Greed:fff~21051:3~1108Greed:fff~11051:7~11231:1b3~11241:1bc~10151:3|1:36|1:b6|1:e3|1:1b3~200115:fff~200b1:36~21172:3|1:1b3|1:2~212e~21152:3~200b4:3~20021:1b~200b1:1b3~2175Famine:fff~1125Famine:fff~11171:2|1:6|1:e3~11081:e3~111f1:6|1:2~2108Famine:fff~21051:7~21231:1b3~21241:1bc~20151:2|1:3|1:4|1:7|1:14b~100116:fff~100b1:e3~11151:2~11171:2~11191:2~100b1:36~11171:3|1:1b3|2:2|1:b6~11152:36~100b1:36~11171:3|1:1b3|2:2|1:36|1:b6~100b1:36~11171:3|1:1b3|2:2|1:b6~11151:6|1:36~100b1:36~11171:6|1:3|1:1b3|2:2|1:b6~11151:21|1:1bc~100b1:21~11151:b6|1:14b~100b1:14b~11171:21~11191:21~21171:21~100b1:21~11151:3|1:4~100b1:b6~110b1:3~11091:3~11071:3~100b1:b6~110b1:3~11091:3~11071:3~100b1:4~10021:8~100b1:1b3~1175Delusion:fff~2125Delusion:fff~2175Deluded:fff~1108Delusion:fff~11051:7~11231:1b3~11241:1bc~100b1:1bc~11072:2~11231:1bc~11241:1b3~102e~10152:2|1:21|1:36|1:b6~200116:fff~200b1:14b~21171:21~21191:21~11171:36~214d1:fff~200b1:21~21152:36~2023Deluded:fff~200b1:3|1:4~20021:4~20151:2|1:5|1:6|1:21|1:e3~100117:fff~100b1:36~11172:2|1:21|1:b6~100b1:21~11151:36|1:1bc~100b1:36~11172:2|1:1bc|1:b6~11151:6|1:36~100b1:36~11171:6|2:2|1:1bc|1:b6~11151:2|1:36~100b1:36~11171:6|3:2|1:1bc|1:b6~11151:b6|1:14b~100b1:14b~11171:4~11191:4~21171:3~114d1:fff~100b1:4|1:b6~110b1:b6~11091:b6~11071:b6~10021:7~100b1:1bc~11072:2~11231:1bc~11241:1b3~10151:6|1:8|2:e3|1:1b3~200117:fff	00210~00614~00708~00808~00360~00440~00530~03610~02110~19810~01b10~14b10~0b610~1b310~0e310~05310~0ec10~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002~1bc10	\N	ceviri~dereeder
+11391788	000011391788/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20154:3|1:6~10011:fff~100b3:3~10021:112~10154:3|1:6~20011:fff~200b4:3~20021:127~20153:3|2:6~10012:fff~100b4:3~10021:127~102e~10153:3|2:6~20012:fff~200b2:3~20021:112~202e~20151:3|2:6|1:112|1:127~10013:fff~100b3:3~10021:112~10153:3|1:6|1:127~20013:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:112~200b1:3~20021:112~20231:112~20241:120~20154:3|1:6~10014:fff~100b1:127~111b1:127|Tavern mat:fff~100b3:3~10021:4~102e~10153:3|1:6|1:112~20014:fff~2048~201c1:127~20071:6~20051:112~200b1:112~200b4:3~20021:106~20231:112~20241:120~202e~20153:3|1:106|1:120~10015:fff~1048~101c1:127~10071:6~10051:4~100b1:112~100b1:4|3:3~102a1:f1~11052:127~10051:f1~10231:112~10241:120~10153:3|2:6~20015:fff~200b1:120~11081:6~200b3:3~20021:106~20231:120~20241:102~20152:3|1:112|1:120|1:127~10016:fff~100b3:3~10021:4~102e~10153:3|1:4|1:112~20016:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:120~11081:3~200b2:3~20021:127~20231:120~20241:102~202e~20152:3|2:6|1:127~10017:fff~100b1:112~100b1:4|2:3~10021:106~10231:112~10241:120~10151:3|1:4|1:6|1:f1|1:127~20017:fff~2048~201c1:127~20071:6~20051:4~200b1:127~211b1:127|Tavern mat:fff~200b1:4|2:3~20021:127~20153:3|2:106~10018:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:f1~11071:3~100b1:4~10021:112~10151:3|1:4|1:120|2:127~20018:fff~2048~200b1:106~20152:3|2:102|1:112~10019:fff~1048~100b1:127~111b1:127|Tavern mat:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:120~21081:3~100b1:4|1:3~10021:106~10231:120~10241:102~102e~10153:3|1:4|1:6~20019:fff~2048~212e~21103:3~200b1:102~21151:3|1:106~21081:3~200b1:102~21151:4|1:6~21081:112~200b1:106~200b1:4|3:3~20021:106~20231:102~20241:fc~20231:102~20241:fc~202e~20153:3|2:127~100110:fff~1048~101c1:127~10071:6~10051:4~101c1:127~10071:4~10051:127~101c1:127~10071:127~10051:106~100b1:106~100b1:4|3:3~10021:106~10152:3|1:6|1:112|1:120~200110:fff~2048~21102:3|1:6~201c1:127~20071:127~20051:106~200b1:127~211b1:127|Tavern mat:fff~200b1:106~200b5:3~202a1:106~210c1:6~20051:106~20151:4|1:6|2:fc|1:112~100111:fff~1048~11101:3|1:f1|1:106~100b1:120~21081:6~100b3:3~102a1:106~110c1:6|1:f1|1:106|1:112~10051:106~10231:120~10241:102~10151:4|1:6|1:f1|1:106|1:112~200111:fff~2048~21101:3|2:106~201c1:127~20071:4~20051:127~200b1:fc~210b1:fc~220b1:127~231b1:127|Tavern mat:fff~22091:127~22051:127~21091:fc~220b1:106~22091:106~200b1:106~200b1:112~200b1:3~20021:112~20231:fc~20241:123~20231:112~20241:120~202e~20155:3~100112:fff~100b1:106~102e~10151:3|1:4|2:102|1:106~200112:fff~2048~21102:3|1:6|2:106|1:112|1:120|1:123|1:127~201c1:127~20071:6~20051:4~200b1:127~211b1:127|Tavern mat:fff~200b1:123~211b1:123|Tavern mat:fff~200b1:4|7:3~202a1:89~210c2:106|1:112|1:120~20051:89~20153:106|1:112|1:120~100113:fff~1048~11101:3|1:4|1:6~100b1:102~11151:3|1:106~11081:106~100b1:102~11151:3|1:127~11081:6~100b1:127~111b1:127|Tavern mat:fff~100b1:106~100b2:4|4:3~10021:8~10231:102~10241:fc~10231:102~10241:fc~10151:3|1:4|1:f1|1:112|1:127~200113:fff~2048~201c1:123~204c+Action token/the Haunted Woods pile:fff~200b1:106~217cc gets +1 Action (from Teacher):fff~200b1:106~217cc gets +1 Action (from Teacher):fff~200b1:106~217cc gets +1 Action (from Teacher):fff~200b1:120~11081:f1~202a1:7c~210c1:112~20051:7c~202e~20151:fc|1:112|1:123|2:127~100114:fff~1048~11101:3|1:106|1:127~101c1:127~10071:112~10051:4~100b1:127~111b1:127|Tavern mat:fff~100b1:127~111b1:127|Tavern mat:fff~100b1:106~100b2:4|2:3~10021:127~102e~10152:4|1:6|1:fc|1:106~200114:fff~2048~21104:3|1:89|2:106|1:120|1:127~201c1:127~20071:123~20051:5~200b1:fc~210b1:106~227cc gets +1 Action (from Teacher):fff~21091:106~227cc gets +1 Action (from Teacher):fff~200b1:106~217cc gets +1 Action (from Teacher):fff~200b1:127~211b1:127|Tavern mat:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:127~211b1:127|Tavern mat:fff~200b1:112~200b1:120~11081:4~200b1:89|4:3|1:5~21051:8~21071:89~20021:7|1:8~20153:3|1:4|1:7c~100115:fff~1048~11101:3|1:fc|1:127~101c1:127~10071:6~10051:4~101c1:127~10071:127~10051:42~100b1:fc~110b1:fc~120b1:106~12091:106~11091:fc~120b1:42~13051:4~12091:42~13051:4~12051:42~100b4:4|1:3~10021:8~10231:fc~10241:123~10151:3|1:4|1:8|2:106~200115:fff~2048~212e~21103:3|2:8|2:106|1:112|1:120~201c1:127~20071:120~20051:f1~201c1:127~20071:f1~20051:f1~201c1:127~20071:f1~20051:f1~200b1:112~200b1:7c|1:4|6:3~21171:3|1:7|1:106|1:127~21081:7|1:106|1:127~210b1:3~202a1:f1~210c2:8|1:f1|2:106~21052:f1~20051:f1~202a1:f1~21052:f1~20051:f1	00210~00614~00708~00808~00360~00440~00530~08910~04210~12710~0df10~0f110~19810~04010~07c10~10610~11210~14001~16c01~12005~10205~0fc05~12305	\N	Bridge 4~ceviri
+11382099	000011382099/unrated:fff~10276:3|3:6|1:1b9~20276:3|3:6|1:1b9~102e~10154:3|1:6~202e~20152:3|2:6|1:1b9~10011:fff~100b4:3~10021:19f~10152:3|2:6|1:1b9~20011:fff~200b2:3|1:1b9~20021:134~20154:3|1:6~10012:fff~100b2:3|1:1b9~10021:55~102e~10154:3|1:55~20012:fff~200b4:3~20021:5f~202e~20152:3|1:6|1:5f|1:1b9~10013:fff~100b1:55~11151:3|1:6|1:19f~11082:fff|1:3~100b1:19f~11071:6~11051:1bf~102e~10151:3|2:6|1:55|1:1b9~20013:fff~200b2:3|1:5f|1:1b9~20021:5a~20153:3|1:6|1:134~10014:fff~100b1:55~11152:3|1:1bf~11082:fff|1:3~100b1:1bf~11151:19f~11171:3~11191:3~100b2:3|1:1b9~10021:1ad~100b1:19f~11071:6~11051:1bf~102e~10153:3|2:1bf~20014:fff~200b1:134~21171:6~21071:134~200b3:3~20021:5~202e~20153:3|1:6|1:5a~10015:fff~100b1:1bf~11151:19f~11171:3~11191:3~100b1:1bf~11151:1b9~11171:3~11191:3~100b1:1b9|3:3~10021:5f~100b1:19f~11071:3~102e~10152:3|1:6|1:55|1:1ad~20015:fff~200b1:5a~21151:5f~11051:2~200b3:3|1:5f~20021:5a~20151:3|1:5|2:6|1:1b9~10016:fff~100b1:1ad~11151:3~100b1:55~11151:3|2:1bf~11082:fff|1:3~100b1:1bf~11151:19f~11171:5f~110c1:5f~100b1:1bf~11151:5f~11171:3~11191:3~100b1:19f~11071:6~11051:1bf~102e~10151:3|1:19f|1:1ad|1:1b9|1:1bf~20016:fff~200b1:5|1:1b9~20021:19f~202e~20152:3|1:5|1:134|1:1b9~10017:fff~100b1:1bf~11151:3~11171:2~11191:2~100b1:1ad~11151:3~100b3:3|1:1b9~10021:19f~100b1:19f~11071:2~10152:3|1:55|2:1bf~20017:fff~200b1:134~21171:5~21071:134~200b1:5|1:1b9|2:3~20021:8~20151:3|2:6|1:5f|1:19f~10018:fff~100b1:1bf~11151:5f~112e~11171:3~11191:3~100b1:1bf~11151:1bf~11171:1b9~11191:1b9~100b1:55~11152:3|1:19f~11082:fff|1:3~100b1:1bf~11151:1ad~11171:19f~110c1:19f~100b1:1ad~11151:19f~100b1:5f|2:3|1:1b9~10021:5a~100b1:19f~11071:19f~11051:1be~102e~10152:3|1:55|1:5f|1:1bf~20018:fff~200b1:19f~21071:6~21051:1bf~20152:3|1:6|2:5a~10019:fff~100b1:1bf~11151:3~11171:1b9~11191:1b9~100b1:55~11151:3|1:5a|1:1bf~11082:fff|1:3~100b1:5a~11151:19f~21051:2~100b1:1bf~11151:1ad~11171:3~11191:3~100b1:1ad~11151:1be~100b1:1be~112e~11151:3|1:1bf~100b1:3|1:5f|1:1b9~11071:1b9~11053:1c0~100b1:3~10021:5a~100b1:19f~11071:3~102e~10152:3|1:55|1:5a|1:1bf~20019:fff~200b1:5a~21151:3~11051:2~200b1:5a~212e~21151:5f~11051:2~200b3:3|1:5f~20021:5a~20151:3|1:5|1:6|1:134|1:1b9~100110:fff~100b1:1bf~11151:1bf~11171:1c0~11191:1c0~100b1:1bf~11151:5a~11171:19f~110c1:19f~100b1:5a~11151:19f~21051:2~100b1:5a~11151:3~21051:2~100b1:55~11151:1ad|1:1be|1:1c0~11082:fff|1:3~100b1:1be~11151:5f|1:1bf~110b1:1ad~12151:3~100b1:1bf~11151:1c0~112e~11171:2~11191:2~100b1:1c0~11211:1c0|the Wish pile:fff~11051:55~100b1:55~11151:2|2:3~11082:fff|1:3~100b1:1c0~11211:1c0|the Wish pile:fff~11051:134~100b1:134~11171:19f~11071:134~100b1:5f|1:3~10021:5b~100b1:19f~11071:2~102e~10151:2|2:3|1:55|1:1ad~200110:fff~200b1:134~21171:5~200b1:5|1:1b9|1:3~202a1:135~216a8:fff~20051:135~21051:5~20152:3|1:8|1:19f|1:1bf~100111:fff~100b1:1ad~11151:1be~100b1:1be~11151:134|1:19f~110b1:55~12151:55|1:5a|1:5f~12082:fff|1:3~100b1:5a~11151:1bf~21051:2~100b1:1bf~11151:5b~11171:3~11191:3~100b1:55~11151:3|1:5a|1:1c0~11082:fff|1:3~100b1:5a~11151:1bf~21051:2~100b1:5b~11171:1bf~112e~11171:1c0~110b1:1bf~12151:3~12171:134~120c1:134~110b1:1c0~12211:1c0|the Wish pile:fff~12051:1ac~100b1:1bf~11151:134~11171:2~11191:2~100b1:134~11171:1ac~100b1:1ac~11750:178~11250:178~100b1:5f|2:3~102a1:135~116a8:fff~10051:135~11051:5~106c1/7:fff~100b1:19f~11071:2~10080:178~102e~10153:3|1:55|1:1ac~200111:fff~200b1:1bf~21151:2~212e~21171:2~21191:2~200b2:3~206c2/6:fff~200b1:19f~21071:2~20151:2|1:3|1:5|1:5f|1:134~100112:fff~100b1:55~11151:5b|1:135|1:1bf~11082:fff|1:3~100b1:5b~11171:3|1:5|1:134|1:1bf~11081:3|1:5~110b1:1bf~12151:1bf~12171:5a~120c1:5a~110b1:134~12171:1ac~100b1:1bf~11151:5a~11171:5f~110c1:5f~100b1:5a~11151:5f~21051:2~100b1:1bf~11151:1be~11171:5a~110c1:5a~100b1:1be~11151:55|1:5a~110b1:1ac~12750:176~12250:176~100b1:5a~11151:1ad~21051:2~100b1:1ad~11151:19f	00210~00614~00708~00808~00360~00440~00530~05f16~05a10~05b10~1ac10~19f10~13505~13405~0a010~0c410~1ad10~13e01~13d01~13c01~13b01~13a01~13901~13801~13701~05510~11f01~17501~17601~17701~17801~17901~17a01~17b01~17c01~17d01~17e01~17f01~18001~1bf12~1bd06~1be13~1c012~1b902	\N	ceviri~winlew
+11842573	000011842573/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10154:3|1:6~202e~20154:3|1:6~10011:fff~100b4:3~10021:1d~10153:3|2:6~20011:fff~200b4:3~20021:1d~20153:3|2:6~10012:fff~100b3:3~10021:4~102e~10153:3|1:4|1:6~20012:fff~200b3:3~20021:4~202e~20154:3|1:6~10013:fff~100b1:4|3:3~10021:32~10152:3|2:6|1:1d~20013:fff~200b4:3~20021:4~20153:3|1:4|1:1d~10014:fff~100b1:1d~112e~11152:3|1:6~100b3:3~10021:4~10153:3|1:4|1:32~20014:fff~200b1:1d~212e~21151:3|2:6~200b1:4|4:3~20021:1ab~20153:3|1:4|1:6~10015:fff~100b1:32~112e~11152:3|1:4~11171:3|3:6~11193:6~110c1:3~100b2:4|5:3~10021:1ab~102e~10154:3|1:1d~20015:fff~200b1:4|3:3~20021:32~202e~20152:3|1:4|1:6|1:1ab~10016:fff~100b1:1d~11151:3|1:6|1:32~100b5:3~10021:32~10151:3|2:4|1:6|1:1ab~20016:fff~200b1:4|2:3~20021:4~200b1:1ab~11081:3~20152:3|1:4|2:6~10017:fff~100b2:4~10021:4~100b1:1ab~21081:4~102e~10153:3|1:6|1:1d~20017:fff~2048~217cc gets +3 Coins (Raider).:fff~200b2:3~20021:32~20153:3|1:1d|1:32~10018:fff~1048~117cL gets +3 Coins (Raider).:fff~100b1:1d~11151:3|1:6|1:32~100b3:3~10021:1ab~10152:3|3:4~20018:fff~200b1:32~212e~21152:3|1:1ab~21172:4|1:6|1:32~21191:6~210c2:4|1:32~200b1:1ab~11173:4|2:3~20153:4|1:6|1:32~10019:fff~100b3:4|2:3~10021:8~102e~10151:3|1:6|1:32|2:1ab~20019:fff~2048~217cc gets +3 Coins (Raider).:fff~200b1:32~21152:3|1:6~212e~21172:3|1:6|1:32~21191:6~210c2:3|1:32~200b3:4|2:3~202a1:11e~21174:3|1:32~21083:3~210c1:3|1:32~20021:8~202e~20153:3|1:1d|1:32~100110:fff~100b1:32~11151:3|2:4~11173:3|1:6~11191:6~110c3:3~100b2:4|2:3~10021:1ab~100b1:1ab~21081:3~100b1:1ab~10154:3|1:32~200110:fff~200b1:32~21151:4|1:6|1:32~21171:3|2:4|1:1ab~210c1:3|2:4|1:1ab~20151:3|2:4|1:6|1:1ab~100111:fff~1048~117cL gets +3 Coins (Raider).:fff~117cL gets +3 Coins (Raider).:fff~100b1:32~11151:3|1:8|1:1d~112e~11171:3|1:4|1:6|1:32~11191:6~110c1:3|1:4|1:32~100b5:3~102a1:11e~11171:3|1:4|1:6|1:32|1:1ab~11082:fff|1:6~110c1:4|1:32~10021:8~10151:3|2:4|1:6|1:32~200111:fff~200b2:4~202a1:11e~21173:3|1:6|1:8~21082:3|1:6~210c1:3|1:8~202a1:11e~212e~21173:3|1:8|1:1d~21082:3|1:8~210c1:3|1:1d~200b1:1ab~11081:4~20151:3|1:4|1:1d|2:32~100112:fff~100b1:32~112e~11151:3|1:4|1:1ab~11172:3|1:4|1:1ab~110c2:3|1:4|1:1ab~100b2:4~102a1:11e~11173:3|1:4|1:1ab~11082:fff|1:3~110c1:4|1:1ab~100b1:1ab~21081:32~10151:3|1:4|1:1d|2:1ab~200112:fff~2048~217cc gets +3 Coins (Raider).:fff~200b1:32~21152:3|1:6~212e~21172:3|1:6|1:8~21191:6|1:8~210c2:3~200b1:4|3:3~20021:8~20153:3|1:6|1:32~100113:fff~1048~117cL gets +3 Coins (Raider).:fff~100b1:1d~11152:8|1:32~100b1:4~10021:7~100b1:1ab~21171:32|1:6|3:3~100b1:1ab~21171:32|1:6|3:3~102e~10151:3|1:4|2:6|1:1ab~200113:fff~200b1:32~21151:3|2:4~212e~21171:3|1:4|1:6|1:1ab~21191:6~210c1:3|1:4|1:1ab~200b2:4|4:3~20021:8~20152:3|1:4|1:8|1:1ab~100114:fff~1048~117cL gets +3 Coins (Raider).:fff~117cL gets +3 Coins (Raider).:fff~100b1:4~10021:8~100b1:1ab~21081:4~10153:3|1:4|1:8~200114:fff~200b2:3~20021:6~200b1:1ab~11081:3~20151:3|1:6|1:8|1:1d|1:32~100115:fff~1048~117cL gets +3 Coins (Raider).:fff~100b1:4|2:3~102a1:11e~11172:3|1:4|1:1d|1:32~11082:fff|1:3~110c1:4|1:32~10021:7~10151:4|1:7|1:8|2:32~200115:fff~2048~217cc gets +3 Coins (Raider).:fff~200b1:32~212e~21153:3~21171:3|1:4|1:6|1:8~21191:6|1:8~210c1:3|1:4~200b4:3~202a1:11e~21172:3|2:4|1:6~21082:3|1:6~210c2:4~20021:7~20151:3|2:4|1:6|1:32~100116:fff~100b1:32~112e~11152:3|1:6~11171:6|1:1d|2:1ab~11191:6~110c1:1d|2:1ab~100b1:4|2:3~10021:10~10151:4|1:6|1:1d|2:1ab~200116:fff~200b1:32~212e~21151:3|1:4|1:8~21171:3|2:8|1:1d~21192:8~210c1:3|1:1d~200b3:4|2:3~20021:8~20153:3|1:1d|1:1ab~100117:fff~100b1:1d~11151:3|1:8|1:1ab~100b1:4~10021:6~100b1:1ab~21081:1ab~100b1:1ab~100b1:1ab~10153:3|1:7|1:8~200117:fff~200b1:1d~21152:6|1:7~200b3:3~20021:6~202e~20152:3|1:6|1:8|1:32~100118:fff~1048~117cL gets +3 Coins (Raider).:fff~117cL gets +3 Coins (Raider).:fff~117cL gets +3 Coins (Raider).:fff~100b3:3~102a1:11e~112e~11171:3|3:4|1:7~11082:fff|1:4~110c2:4	00210~00614~00708~00808~00360~00440~00530~08510~10c10~01410~01008~03210~01d10~11710~1ab10~12810~15710~11e01~16e01	\N	ceviri~WalrusRunner
+11392598	000011392598/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10152:3|3:6~202e~20153:3|2:6~10011:fff~100b2:3~10021:1a0~10155:3~20011:fff~200b3:3~20021:19f~20154:3|1:6~10012:fff~100b5:3~10021:af~102e~10154:3|1:6~20012:fff~200b4:3~20021:19f~202e~20153:3|2:6~10013:fff~100b4:3~10021:4~10152:3|2:6|1:1a0~20013:fff~200b3:3~20021:103~20152:3|1:6|2:19f~10014:fff~102e~10153:3|1:4|1:af~20014:fff~200b1:19f~21071:6~21051:1bf~200b1:19f~21071:3~202e~20152:3|1:6|1:19f|1:1bf~10015:fff~100b1:af~11071:3~11051:e6~100b2:3|1:4~10021:50~10152:3|2:6|1:1a0~20015:fff~200b1:1bf~21151:6~21171:3~21191:3~200b3:3~20021:4~200b1:19f~21071:6~21051:1bf~20153:3|1:103|1:19f~10016:fff~100b1:1a0~11151:3|1:6~100b3:3~10021:15~102e~10151:3|1:4|2:6|1:af~20016:fff~200b1:103~212e~21151:3|1:1bf~216d2:1|Gear:fff~200b3:3~20021:15~20151:3|1:4|1:6|1:19f|1:1bf~10017:fff~100b1:af~11071:6~11051:e6~100b1:3|1:4~10021:15~10152:3|1:6|1:e6|1:1a0~20017:fff~2048~213e1:19f|1:1bf~200b1:1bf~21151:3~212e~21171:3~21191:3~200b1:1bf~21151:3~21171:3~21191:3~200b4:3|1:4~20021:af~200b1:19f~21071:6~21051:1bf~200b1:19f~21071:3~202e~20151:3|1:4|1:15|1:103|1:1bf~10018:fff~100b1:e6~11151:3~100b1:1a0~11151:3|1:15~100b4:3~10021:e6~102e~10152:3|1:15|1:50|1:af~20018:fff~200b1:1bf~21151:19f~21171:1bf~21191:1bf~200b1:1bf~21151:3~21171:3~21191:3~200b1:15~21151:3~200b1:103~21151:19f|1:1bf~216d2:1|Gear:fff~200b2:3|1:4~20021:11c~200b1:19f~21071:3~202e~20151:3|1:af|1:19f|2:1bf~10019:fff~100b1:15~11151:4~100b1:af~11071:50~11051:11c~100b2:3|1:4~10021:11c~10151:3|1:6|2:e6|1:1a0~20019:fff~2048~213e1:19f|1:1bf~200b1:1bf~21151:3~21171:11c~210c1:11c~200b1:1bf~21151:11c~21171:3~21191:3~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1bf~21151:4~21171:3~21191:3~200b1:af~21071:3~21051:14~201c1:11c~20091:af~21071:3~21051:11c~200b2:3|1:4~202a1:113~215aJourney token:fff~200b1:19f~21071:19f~21051:1be~202e~20151:3|1:14|1:15|2:11c~100110:fff~100b1:e6~11151:3~100b1:e6~11151:6~100b1:1a0~11151:3|1:e6~100b3:3~10021:11c~102e~10153:3|1:15|1:11c~200110:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:14~21151:1bf~200b1:1bf~21151:103~21171:1be~21191:1be~201c1:11c~20091:1bf~21151:af~21171:19f~210c1:19f~200b1:1be~21151:19f|1:1bf~210b1:15~22151:3~200b1:1bf~21151:4~21171:1bf~21191:1bf~200b1:af~21071:3~21051:11c~201c1:11c~20091:af~21071:3~21051:14~200b1:1bf~212e~21151:14~21171:11c~210c1:11c~200b1:14~21151:11c~200b1:11c~211b1:11c|Tavern mat:fff~200b1:4~20022:3|1:11c~200b1:19f~21071:103~21051:1be~202e~20151:4|1:14|1:af|1:11c|1:19f~100111:fff~100b1:11c~111b1:11c|Tavern mat:fff~100b1:15~11151:4~100b3:3|1:4~102a1:113~115aJourney token:fff~10151:3|1:6|1:e6|1:11c|1:1a0~200111:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:14~21151:14~201c1:11c~20091:14~21151:1bf~211c1:11c~21091:14~22151:1bf~200b1:1bf~21151:1be~21171:11c~210c1:11c~200b1:1be~21152:11c~200b1:11c~211b1:11c|Tavern mat:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1bf~21151:1bf~21171:15~210c1:15~200b1:1bf~21151:15~21171:3~21191:3~200b1:15~21151:3~200b1:14~21151:1be~200b1:af~21071:3~21051:e6~201c1:11c~20091:af~21071:3~21051:11c~200b1:1be~212e~21151:e6|1:11c~210b1:e6~221c1:11c~22091:e6~200b1:11c~211b1:11c|Tavern mat:fff~200b1:4~202a1:113~215bJourney token:fff~21051:14|1:e6|1:11c~20021:11c~202e~20151:4|1:af|1:11c|2:1bf~100112:fff~100b1:11c~111b1:11c|Tavern mat:fff~100b1:e6~11151:e6~100b1:e6~11151:11c~101c1:11c~10091:e6~11151:e6~100b1:e6~11151:af~100b1:1a0~11151:6|1:15~101c1:11c~10091:1a0~11152:3~100b1:15~112e~11151:3~100b1:11c~111b1:11c|Tavern mat:fff~100b1:af~11071:6~11051:e6~101c1:11c~10091:af~11071:6~11051:14~100b4:3~10021:e6~102e~10152:3|1:4|1:15|1:e6~200112:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1bf~21151:e6~21171:11c~210c1:11c~201c1:11c~20091:1bf~21151:11c~21171:1be~21191:1be~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1be~21151:11c|1:1be~210b1:e6~22151:11c~221c1:11c~22091:e6~23151:11c~231c1:11c~23091:e6~24151:14~200b1:11c~211b1:11c|Tavern mat:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1bf~21151:14~21171:1bf~21191:1bf~200b1:1bf~21151:15~21171:e6~210c1:e6~200b1:15~21151:e6~200b1:e6~21151:14~200b1:1be~21151:11c|1:19f~210b1:af~22071:19f~22051:e6~200b1:14~212e~21151:e6~200b1:11c~211b1:11c|Tavern mat:fff~200b1:e6~201c1:11c~20091:e6~211c1:11c~21091:e6~221c1:11c~22091:e6~231c1:11c~23091:e6~200b1:14~200b1:14~200b1:4~20021:14|2:15|1:1a0~202e~20151:4|1:11c|1:1be|2:1bf~100113:fff~100b1:15~11151:3~100b1:e6~11151:e6~100b1:e6~11151:11c~100b1:11c~111b1:11c|Tavern mat:fff~100b3:3|1:4~10021:14~10151:14|1:e6|2:11c|1:1a0~200113:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1be~21151:14|1:11c~210b1:11c~221b1:11c|Tavern mat:fff~200b1:1bf~21151:15~21171:e6~210c1:e6~200b1:1bf~21151:e6~21171:14~210c1:14~200b1:15~21151:14~200b1:e6~21151:11c~201c1:11c~20091:e6~21151:15~211c1:11c~21091:e6~22151:af~200b1:11c~211b1:11c|Tavern mat:fff~200b1:15~21151:11c~200b1:11c~211b1:11c|Tavern mat:fff~200b1:14~21151:1bf~201c1:11c~20091:14~21151:1a0~211c1:11c~21091:14~22151:11c~200b1:14~21151:14~200b1:14~21151:e6~200b1:11c~211b1:11c|Tavern mat:fff~200b1:1a0~21151:15|1:e6~200b1:15~21151:14~200b1:e6~21151:11c~201c1:11c~20091:e6~21151:11c~200b1:11c~211b1:11c|Tavern mat:fff~200b1:11c~211b1:11c|Tavern mat:fff~200b1:14~21151:1be~200b1:e6~201c1:11c~20091:e6~211c1:11c~21091:e6~200b1:4~202a1:113~215aJourney token:fff~20022:3|1:8|2:1a0~202e~20151:e6|1:1a0|2:1be|1:1bf~100114:fff~100b1:11c~111b1:11c|Tavern mat:fff~100b1:11c~111b1:11c|Tavern mat:fff~100b1:e6~11151:e6~100b1:e6~11151:3~100b1:14~11151:3~101c1:11c~10091:14~11151:af~100b1:1a0~11151:3|1:15~100b1:15~11151:e6~100b1:e6~112e~11151:4~100b1:af~11071:3~11051:e6~101c1:11c~10091:af~11071:3~11051:e6~100b1:3|1:4~10021:8~10151:3|1:14|1:15|2:e6~200114:fff~200b1:1be~21151:e6|1:11c~210b1:11c~221b1:11c|Tavern mat:fff~200b1:1be~21152:3~210b1:e6~22151:1bf~221c1:11c~22091:e6~23151:4~200b1:e6~21151:14~200b1:1bf~21151:11c~21171:14~210c1:14~200b1:1bf~21151:14~21171:e6~210c1:e6~200b1:11c~211b1:11c|Tavern mat:fff	00210~00614~00708~00808~00360~00440~00530~01510~10310~1a010~01410~11c10~19f10~0d210~0e610~0af10~05010~11301~16001~1bd06~1be13~1bf12	\N	ILYA~ceviri
+8808210	00008808210/unrated:fff~10277:3|1:c3|1:cc|1:cd~20277:3|1:c3|1:cc|1:cd~102e~10154:3|1:c3~202e~20155:1~10011:fff~100b3:3~10021:48~10153:3|1:cc|1:cd~20011:fff~200b5:3~20021:9e~21181:1~211f1:9e~20155:1~10012:fff~100b3:3~10021:48~102e~10153:3|1:48|1:c3~20012:fff~200b1:9e~212e~21152:1~21081:1|1:cc~200b3:3~20021:48~202e~20155:1~10013:fff~100b1:48~11183:3~11071:3~11081:3~110c1:3~100b3:3~10021:48~10152:3|1:48|1:cc|1:cd~20013:fff~200b1:48~21183:1~21071:c3~21081:cd~210c1:1~200b4:3~20021:5f~20155:1~10014:fff~100b1:48~112e~11181:3|1:48|1:c3~11071:c3~11081:3~110c1:48~100b2:3~10021:e0~10153:3|2:48~20014:fff~200b1:9e~212e~21152:1~21081:1|1:cc~200b4:3~20021:e0~20155:1~10015:fff~100b1:48~112e~11181:3|1:cd|1:e0~11071:cd~12151:3~11081:3~110c1:e0~100b1:48~11181:3|1:cc|1:e0~11071:e0~12051:11b~11081:cc~110c1:3~100b4:3~10021:5f~102e~10153:3|1:48|1:11b~20015:fff~200b1:48~212e~21183:1~21071:e0~22051:8b~21081:3~210c1:1~200b1:5f|3:3~20021:57~20155:1~10016:fff~100b1:48~11181:3|1:48|1:5f~11071:3~11081:5f~110c1:48~100b1:11b|3:3~214c-Card token/Draw Pile:fff~10021:8b~10152:3|2:48|1:cc~20016:fff~200b1:9e~22640:11b~224c-Card token/Token Limbo:fff~22151:1~21081:1|1:cc~200b2:3~20021:e0~202e~20155:1~10017:fff~100b1:48~112e~11182:3|1:48~11071:3~11081:48~110c1:3~100b1:48~11181:3|1:8b|1:11b~11071:3~11081:11b~110c1:8b~100b2:3~10021:e0~102e~10152:3|1:48|1:5f|1:8b~20017:fff~200b1:e0~200b1:8b~11081:3~11051:3~200b2:3~20021:8b~20155:1~10018:fff~100b1:48~11182:48|1:11b~11071:48~11081:48~110c1:11b~100b1:8b~21081:3~21051:3~100b1:5f|2:3~10021:57~102e~10151:3|1:5f|1:cc|1:e0|1:11b~20018:fff~200b1:9e~21152:1~21081:1|1:cc~200b1:5f|3:3~20021:57~202e~20155:1~10019:fff~100b1:e0~100b1:11b|1:5f|1:3~214c-Card token/Draw Pile:fff~10021:57~10153:3|1:48|1:57~20019:fff~200b1:48~21183:1~21071:3~21081:3~210c1:1~200b1:57~22640:11b~224c-Card token/Token Limbo:fff~22151:1~200b1:9e~21152:1~21081:1|1:3~200b1:5f|2:3~20021:e0~200c1:57~20155:1~100110:fff~100b1:48~112e~11181:48|1:57|1:8b~11071:48~11081:8b~110c1:57~100b1:57~11151:3|1:57~100b1:57~11151:5f|1:11b~100b1:11b|1:5f|4:3~214c-Card token/Draw Pile:fff~10021:57~100c2:57~102e~10151:3|2:57|1:cc|1:e0~200110:fff~200b1:57~22640:11b~224c-Card token/Token Limbo:fff~22151:1~200b1:8b~11081:8b~21051:8b~200b1:3~20021:a4~202e~20155:1~100111:fff~100b1:57~11151:3|1:11b~100b1:57~11151:3|1:57~100b1:57~11151:48|1:5f~100b1:48~112e~11181:3|1:8b~11071:3~11081:8b~100b1:cc~100b1:e0~100b1:11b|1:5f|3:3~214c-Card token/Draw Pile:fff~10021:57|1:a4~100c3:57~102e~10151:3|3:57|1:a4~200111:fff~200b1:57~22640:11b~224c-Card token/Token Limbo:fff~22151:1~200b1:8b~11081:3~11051:3~200b3:3~20021:9e~21181:1~211f1:9e~20155:1~100112:fff~100b1:57~11151:cc|1:e0~100b1:57~11151:3|1:48~100b1:57~11151:5f|1:11b~100b1:cc~100b1:48~112e~11181:3|1:57|1:8b~11071:3~11081:8b~110c1:57~100b1:a4~11171:3|1:57~110c1:3|1:57~21171:cd|1:e0~210c1:cd|1:e0~11151:3|1:57~100b1:57~112e~11151:8b~100b1:e0~100b1:11b|1:5f|3:3~214c-Card token/Draw Pile:fff~10021:57|1:e0~100c4:57~102e~10151:3|4:57~200112:fff~200b1:48~21183:1~21071:cd~23640:11b~234c-Card token/Token Limbo:fff~21081:cc~210c1:1~200b1:57~21152:1~200b1:9e~21152:1~21081:1|1:3~200b1:a4~21172:3~210c2:3~11171:8b|1:cc~11081:8b|1:cc~21152:1~200b1:9e~21152:1~21081:1|1:3~200b1:8b~11081:48~21051:48~200b1:e0~200b1:5f|1:3~20021:57~200c1:57~202e~20155:1~100113:fff~100b1:57~11151:3|1:e0~100b1:57~11151:3|1:11b~100b1:57~11151:57|1:5f~100b1:57~11151:a4|1:e0~100b1:57~112e~11151:48|1:8b~100b1:e0~100b1:8b~21081:48~21051:48~100b1:48~11181:cc~11071:cc~100b1:e0~100b1:11b|1:5f|3:3~214c-Card token/Draw Pile:fff~10021:3f|1:57|1:e0~100c5:57~10155:57~200113:fff~200b1:e0~200b1:a4~21171:3|1:48~21081:3|1:48~112e~11171:3|1:5f~11081:3|1:5f~22640:11b~224c-Card token/Token Limbo:fff~22151:1~200b1:57~21152:1~200b1:8b~11081:3f~21051:3f~200b1:5f~20021:57~200c1:57~20155:1~100114:fff~100b1:57~11151:3|1:e0~100b1:57~11151:3|1:8b~100b1:57~11151:48|1:a4~100b1:57~11152:e0~100b1:57~11151:57|1:11b~100b1:e0~100b1:8b~21081:8b~11051:8b~100b1:57~112e~11151:3f|1:8b~100b1:e0~100b1:8b~21081:3~21051:3~100b1:48~11181:3|1:5f~11071:3~11081:5f~100b1:3f~112e~11151:5f~100b1:e0~100b1:11b|1:5f|2:3~214c-Card token/Draw Pile:fff~10021:9e|1:11b~11181:11b|1:9e~111f1:9e~100c6:57~10155:57~200114:fff~200b1:57~22640:11b~224c-Card token/Token Limbo:fff~22151:1~200b1:57~21152:1~200b1:57~21152:1~200b1:9e~212e~21152:1~21081:1|1:3~200b1:48~21183:1~21071:48~21081:8b~210c1:1~200b1:9e~21152:1~21081:1|1:3~200b1:a4~21172:3~21082:3~11171:57|1:9e~11081:57|1:9e~21152:1~200b1:57~21152:1~200b1:8b~112e~11081:57~200b1:e0~200b1:8b~11081:11b~21051:11b~200b3:3~20021:8~202e~20155:1~100115:fff~1048~11111:e0~100b1:57~11151:3|1:8b~100b1:57~11151:48|1:9e~100b1:57~11151:8b|1:a4~100b1:57~11151:5f|1:e0~100b1:57~11151:3|1:e0~100b1:e0~100b1:8b~21081:57~100b1:9e~112e~11152:11b~11082:3~100b1:8b~21081:8~21051:2~100b1:48~112e~11182:3|1:57~11071:3~11081:3~110c1:57~100b1:e0~100b1:a4~112e~11171:3|1:57~110c1:3|1:57~21171:3|1:57~21081:3|1:57~11151:3|1:57~100b1:57~100b1:e0~100b1:11b|1:5f|1:3~214c-Card token/Draw Pile:fff~100b1:11b~10021:8|1:3f~100c6:57~10155:57~200115:fff~200b1:48~21183:1~21071:3~21081:3~210c1:1~200b1:3f~22640:11b~224c-Card token/Token Limbo:fff~200b1:e0~200b1:3~20021:e0~20155:1~100116:fff~100b1:57~112e~11151:57|1:e0~100b1:57~11151:8|1:48~100b1:57~11151:e0|1:11b~100b1:57~11152:8b~100b1:57~11151:3f|1:a4~100b1:3f~11151:11b~100b1:57~11151:3|1:5f~100b1:e0~100b1:a4~11171:3f|1:e0~11081:3f|1:e0~21171:8b|1:e0~21081:8b|1:e0~112e~11151:9e|1:e0~100b1:e0~100b1:8b~21081:57~100b1:9e~11151:3f~11081:3|1:8~100b1:8b~21081:3~21051:3~100b1:48~112e~11181:3|1:8~11071:3~11081:8~100b1:3f~112e~11151:8~100b1:e0~100b1:11b|1:5f~214c-Card token/Draw Pile:fff~100b1:11b~10021:8|1:a4~100c6:57~10155:57~200116:fff~2048~22640:11b~224c-Card token/Token Limbo:fff~200b1:57~21152:1~200b1:cc~200b1:a4~21171:8b|1:11b~21081:8b|1:11b~112e~11171:57|1:e0~11081:57|1:e0~21152:1~200b1:9e~212e~21152:1~21081:1|1:3~200b1:9e~21152:1~21081:1|1:3~200b1:e0~200b1:8b~11081:8~11051:2~200b1:48~21183:1~21071:3~21081:57~210c1:1~200b1:11b~114c-Card token/Draw Pile:fff~20021:11b~20155:1~100117:fff~1048~12640:11b~124c-Card token/Token Limbo:fff~11111:a4	00210~00608~00708~00808~00360~00440~00530~05f16~04810~08b10~0a410~11b10~0e010~06e10~03f10~09e10~03310~05710~11801~16f01~0cc02~0c302~0cd02	\N	Dan Brooks~Mercury444F
+11533288	000011533288/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10155:3~202e~20153:3|2:6~10011:fff~100b5:3~10021:b5~10152:3|3:6~20011:fff~200b3:3~20021:154~20154:3|1:6~10012:fff~100b2:3~10021:e0~102e~10153:3|1:6|1:e0~20012:fff~200b4:3~20021:8f~202e~20153:3|2:6~10013:fff~100b1:e0~11051:4~100b3:3~10021:2c~10153:3|2:6~20013:fff~200b3:3~20021:154~20152:3|1:6|1:8f|1:154~10014:fff~100b3:3~10021:154~102e~10152:3|1:6|1:b5|1:154~20014:fff~200b1:8f~21151:3~200b1:154~200b3:3~20021:8f~202e~20151:3|2:6|2:8f~10015:fff~100b1:154~117a0:154|Enchantress:fff~11151:6~100b1:b5~11051:3~11072:3|2:6~10154:3|1:2c~20015:fff~2048~210f2:3~200b1:8f~21151:3~200b1:8f~21151:3~200b5:3~20021:b5~202e~20152:3|1:6|2:154~10016:fff~100b1:2c~11051:8f~100b4:3~10021:8f~102e~10151:3|1:4|1:6|1:8f|1:e0~20016:fff~200b1:154~200b2:3~20021:e0~20152:3|2:6|1:8f~10017:fff~100b1:e0~117a0:e0|Enchantress:fff~11151:3~100b1:8f~11151:3~100b1:4|3:3~10021:5~10153:3|1:b5|1:154~20017:fff~2048~210f1:3|1:b5~200b1:8f~21151:3~200b1:b5~21051:3~21074:3|2:6~202e~20152:3|1:8f|1:e0|1:154~10018:fff~100b1:b5~110c1:154~11073:3~102e~10151:3|1:4|1:2c|1:8f|1:154~20018:fff~200b1:8f~21151:154~200b1:e0~200b1:154~200b1:154~200b2:3~20021:2c~20152:3|1:6|1:8f|1:b5~10019:fff~100b1:8f~117a0:8f|Enchantress:fff~11151:b5~100b1:2c~11051:8f~100b1:154~100b1:4|1:3~10021:154~10152:3|1:6|1:8f|1:e0~20019:fff~2048~212e~210f2:3|1:8f|1:e0~200b1:8f~217a0:8f|Enchantress:fff~21151:2c~200b1:e0~200b1:2c~21051:154~200b1:8f~212e~21151:154~200b1:154~200b1:b5~21051:3~21074:3|1:6~20021:e0~202e~20151:3|1:8f|1:b5|1:e0|1:154~100110:fff~1048~112e~110f1:5|1:8f~100b1:e0~117a0:e0|Enchantress:fff~11151:8f~100b1:8f~11151:2c~100b1:8f~11151:3~100b1:8f~11151:b5~100b1:2c~11051:8f~100b1:b5~110c1:5~11073:3|1:6~10021:154~102e~10151:4|1:5|2:8f|1:154~200110:fff~2048~210f1:2c|1:154~200b1:8f~21151:e0~200b1:e0~200b1:e0~200b1:b5~210c1:154~200b1:2c~21051:4~200b1:154~200b1:3~20021:8~202e~20151:8|2:8f|2:154~100111:fff~100b1:8f~117a0:8f|Enchantress:fff~11151:2c~100b1:8f~21171:8~100b1:2c~11051:e0~100b1:154~100b1:4|1:5~10021:4f~10151:8f|1:b5|1:e0|2:154~200111:fff~2048~210f1:3|1:b5~200b1:154~217a0:154|Enchantress:fff~21151:4~200b1:8f~21171:8~21081:8~21051:90~21151:90~200b1:90~21151:2c|1:e0~200b1:8f~21151:e0~200b1:e0~200b1:154~200b1:2c~21051:4f~200b1:b5~21081:3|1:e0~200b1:4~20021:8~202e~20151:8|2:8f|1:b5|1:e0~100112:fff~1048~112e~110f2:8f~100b1:8f~117a0:8f|Enchantress:fff~11151:e0~100b1:8f~21171:8~100b1:8f~21171:8~100b1:e0~100b1:e0~100b1:154~100b1:154~100b1:b5~10021:8f~10151:4|1:5|1:2c|1:4f|1:8f~200112:fff~2048~210f1:e0|1:154~200b1:154~217a0:154|Enchantress:fff~21151:8~200b1:8f~21171:8~21081:8~21051:84~21151:84~200b1:e0~200b1:84~21151:4|1:4f~21051:6~11051:2~11081:4|1:4f~200b1:8f~21151:3~200b1:e0~200b1:4f~21071:3~200b1:b5~210c1:8~200b1:4~20022:a6~202e~20151:8|1:2c|1:90|1:a6|1:154~100113:fff~1048~112e~110f1:2|1:8f|1:e0|1:154~100b1:8f~21171:8~100b1:8f~21171:8	00210~00614~00708~00808~00360~00440~00530~0e010~04f10~15410~08f10~0d710~02c10~0b510~02710~07810~0a610~16601~16f01~08001~08101~08401~08d01~09001	\N	Anders~Dan Brooks
+11969148	000011969148/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10152:3|3:6~202e~20155:3~10011:fff~10155:3~20011:fff~200b5:3~20021:a0~210c5:3~20155:3~10012:fff~100b5:3~10021:c6~102e~10154:3|1:6~20012:fff~200b5:3~20021:c6~20152:3|3:6~10013:fff~100b4:3~10021:35~10152:3|2:6|1:c6~20013:fff~202e~20152:3|2:6|1:a0~10014:fff~100b1:c6~11151:3~11071:6~100b3:3~10021:4~102e~10152:3|1:4|1:6|1:c6~20014:fff~200b1:a0~210c1:6~200b2:3~20021:c6~20153:3|2:6~10015:fff~100b1:c6~11151:3~11071:6~100b2:3|1:4~10021:c6~10154:3|1:6~20015:fff~200b3:3~20021:4~202e~20153:3|1:4|1:c6~10016:fff~100b4:3~10021:35~102e~10152:3|1:6|2:35~20016:fff~200b1:c6~21151:3~21071:3~200b3:3|1:4~20021:159~20152:3|1:6|1:a0|1:c6~10017:fff~100b1:35~11151:3|1:c6~110c1:6~100b1:c6~11151:6~11071:6~100b1:35~11152:3~110c1:3~100b4:3~10021:25~10153:3|1:4|1:c6~20017:fff~200b1:c6~21151:6~21071:6~200b1:a0~210c1:3~200b1:3~20021:159~202e~20153:3|1:6|1:c6~10018:fff~100b1:c6~112e~11151:25~11071:3~100b1:25~11171:3~11051:5~100b2:3|1:4~10021:159~10153:3|1:35|1:c6~20018:fff~200b1:c6~21151:4~21071:6~200b3:3|1:4~20021:159~20152:3|1:6|1:a0|1:159~10019:fff~100b1:35~11151:3|1:35~110c1:3~100b1:35~112e~11151:3|1:4~110c1:4~100b1:c6~11151:25~11071:3~100b1:25~11171:3~100b1:3~10021:159~10152:3|1:5|1:c6|1:159~20019:fff~200b1:a0~210c1:159~200b2:3~20021:159~202e~20152:3|1:c6|2:159~100110:fff~100b1:159~11151:4~100b1:c6~112e~11151:35~11071:3~100b1:35~11151:3|1:159~110c1:3~100b1:159~11151:3~100b2:3|1:5|1:4~10021:159~10152:3|1:25|1:35|1:c6~200110:fff~200b1:159~21151:159~200b1:159~21151:3~200b1:159~21151:159~200b1:159~21151:3~200b1:c6~21151:6~21071:6~200b4:3~20021:159~20152:3|1:4|1:a0|1:c6~100111:fff~100b1:35~112e~11151:5|1:c6~110c1:3~100b1:c6~11151:3~11071:3~100b1:c6~11151:159~11071:3~100b1:159~11151:35~100b1:35~11151:4|1:159~110c1:4~100b1:159~11151:3~100b1:25~11171:5~11051:5~100b1:3|1:5~102a1:11f~11051:35~114c+Buy token/the Secret Passage pile:fff~102e~10151:3|1:4|1:35|1:c6|1:159~200111:fff~200b1:c6~212e~21151:c6~21071:3~200b1:c6~21151:3~21071:3~200b1:3|1:4~20021:159~20151:3|4:159~100112:fff~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:3|1:35~110c1:3~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:25|1:159~110c1:159~100b1:159~11151:159~100b1:159~11151:c6~100b1:c6~11151:5~11071:c6~100b1:25~11171:5~11051:5~100b1:3|1:5|1:4~10021:6|1:159~114e2:fff~102e~10151:3|2:5|1:35|1:159~200112:fff~200b1:159~21151:159~200b1:159~21151:3~200b1:159~21151:3~200b1:159~212e~21151:a0~200b1:a0~210c1:159~200b3:3~202a1:11f~21051:35~214c+Buy token/the Secret Passage pile:fff~20151:3|1:4|2:c6|1:159~100113:fff~100b1:159~11151:35~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:3|1:159~110c1:3~100b1:159~11151:25~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:4|1:6~110c1:6~100b1:25~11171:5~11051:5~100b1:3|2:5|1:4~10021:8~114e2:fff~10151:5|1:35|1:c6|2:159~200113:fff~200b1:159~21151:159~200b1:159~212e~21151:3~200b1:c6~21151:159~21071:3~200b1:159~21151:3~200b1:c6~21151:159~21071:3~200b1:159~21151:35~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:3|1:a0~210c1:a0~200b2:3|1:4~20021:6|1:35~214e4:fff~202e~20151:4|1:a0|3:159~100114:fff~100b1:159~11151:3~100b1:159~11151:6~100b1:c6~112e~11151:3~11071:6~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:25|1:35~110c1:3~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:5|1:8~110c1:8~100b1:25~11171:5~100b1:3|2:5~10021:8~114e2:fff~10021:6~114e2:fff~10151:4|1:5|1:35|2:159~200114:fff~200b1:159~21151:c6~200b1:159~21151:35~200b1:159~21151:159~200b1:159~21151:159~200b1:159~21151:c6~200b1:35~217cc gets +1 Buy (from Seaway):fff~21152:3~210c1:a0~200b1:c6~21151:35~21071:3~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:6|1:159~210c1:6~200b1:159~21151:6~200b1:c6~21151:a0~21071:6~200b1:a0~210c1:3~200b1:4~20021:6~214e6:fff~20021:6~214e6:fff~20021:6~214e6:fff~202e~20151:3|1:4|1:35|1:c6|1:159~100115:fff~100b1:159~11151:5~100b1:159~11151:3~100b1:35~117cL gets +1 Buy (from Seaway):fff~112e~11151:8|1:159~110c1:8~100b1:159~11151:25~100b1:25~11171:5~100b1:3|2:5|1:4~10021:8~114e3:fff~10021:6~114e3:fff~10151:3|1:5|1:8|1:35|1:159~200115:fff~200b1:159~21151:6~200b1:c6~21151:159~21071:6~200b1:159~21151:6~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:6|1:159~210c1:6~200b1:159~21151:159~200b1:159~21151:c6~200b1:c6~21151:35~21071:6~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:a0|1:159~210c1:3~200b1:159~21151:159~200b1:159~21151:3~200b1:a0~210c1:3~200b1:4~20021:7~214e6:fff~20021:6~214e6:fff~20021:3~202e~20151:3|1:6|1:35|2:c6~100116:fff~100b1:159~11151:6~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:5|1:35~110c1:8~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:8|1:c6~110c1:8~100b1:c6~11151:8~11071:6~100b1:3|2:5~10021:8~114e1:fff~102e~10151:4|2:8|1:25|1:35~200116:fff~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:4|1:159~210c1:6~200b1:159~21151:159~200b1:159~21151:159~200b1:159~21151:159~200b1:159~21151:3~200b1:c6~21151:159~21071:3~200b1:159~21151:a0~200b1:a0~210c1:4~200b1:3~20021:7~214e5:fff~20151:4|1:6|1:7|1:35|1:159~100117:fff~100b1:35~117cL gets +1 Buy (from Seaway):fff~11152:8~110c1:8~100b1:25~11171:8~100b1:4~10021:7~10151:3|1:5|1:35|2:159~200117:fff~200b1:159~21151:6~200b1:35~217cc gets +1 Buy (from Seaway):fff~212e~21151:35|1:159~210c1:6~200b1:159~21151:159~200b1:159~21151:c6~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:3|1:159~210c1:7~200b1:159~21151:7~200b1:c6~21151:c6~21071:6~200b1:c6~21151:159~21071:3~200b1:159~21151:159~200b1:159~21151:a0~200b1:a0~210c1:4~20021:7~214e6:fff~20022:3~202e~20151:4|1:6|1:7|2:159~100118:fff~100b1:159~11151:c6~100b1:159~11151:159~100b1:159~11151:159~100b1:159~11151:5~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:6|1:35~110c1:35~100b1:c6~11151:3~11071:6~100b2:3|2:5~10021:8~114e4:fff~102e~10151:4|2:5|1:8|1:35~200118:fff~200b1:159~21151:3~200b1:159~21151:7~200b1:3|1:4~20021:4~20151:3|1:35|2:c6|1:159~100119:fff~100b1:35~117cL gets +1 Buy (from Seaway):fff~11152:8~110c1:8~100b2:5|1:4~10021:8~10151:3|1:25|1:c6|2:159~200119:fff~200b1:159~21151:a0~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:7|1:159~210c1:7~200b1:159~21151:159~200b1:159~21151:35~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:7|1:159~210c1:7~200b1:159~21151:7~200b1:c6~212e~21151:6~21071:c6~200b1:a0~210c1:6~200b1:3~20021:7~214e4:fff~20151:4|1:6|2:7|1:159~100120:fff~100b1:159~11151:7~100b1:159~11151:35~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:3|1:5~110c1:7~100b1:c6~11151:8~11071:3~100b1:25~11171:8~100b1:3|1:5~10021:8~114e2:fff~10151:5|1:8|1:35|2:159~200120:fff~200b1:159~21151:159~200b1:159~21151:4~200b2:4~202a1:170~216a3:fff~21051:5~214d1:fff~202e~20151:3|2:7|2:159~100121:fff~100b1:159~11151:8~100b1:159~11151:7~100b1:35~117cL gets +1 Buy (from Seaway):fff~112e~11152:8~110c1:5~10151:4|1:5|2:8|1:159~200121:fff~200b1:159~21151:35~200b1:159~21151:c6~200b1:35~217cc gets +1 Buy (from Seaway):fff~21151:4|1:5~210c1:7~200b1:c6~21151:6~21071:3~200b1:5|1:4~206b3:fff~20021:3|1:4~20151:3|1:7|1:35|2:159~100122:fff~100b1:159~11151:35~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:35|1:159~110c1:8~100b1:159~11151:8~100b1:35~117cL gets +1 Buy (from Seaway):fff~11151:5|1:c6~110c1:c6~100b2:5|1:4~10021:8~114e2:fff	00210~00614~00708~00808~00360~00440~00530~0a010~03510~07810~01d10~07010~02510~0c610~14110~15910~17110~11f01~17001	\N	Seprix~Lurker
+11968728	000011968728/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10154:3|1:6~202e~20154:3|1:6~10011:fff~100b4:3~102a1:f6~11072:3~10153:3|2:6~20011:fff~200b4:3~202a1:f6~21072:3~20153:3|2:6~10012:fff~100b3:3~10021:c8~102e~10153:3|1:6|1:c8~20012:fff~200b3:3~20021:c8~202e~20153:3|1:6|1:c8~10013:fff~100b3:3~102a1:f6~11072:3~122d1:c8~12081:c8~12051:5~102e~10153:3|2:6~20013:fff~200b3:3~202a1:f6~21072:3~222d1:c8~22081:c8~22051:5~202e~20152:3|1:5|2:6~10014:fff~100b3:3~10021:c8~102e~10152:3|1:5|1:6|1:c8~20014:fff~200b2:3|1:5~20021:31~202e~20151:3|2:6|1:31|1:c8~10015:fff~100b2:3|1:5~102a1:f6~11072:3~122d1:c8~12081:c8~12051:5~102e~10151:3|1:5|2:6|1:c8~20015:fff~200b1:31~200b1:3~202a1:f6~21071:3~222d1:c8~22081:c8~22051:5~202e~20152:3|1:5|2:6~10016:fff~100b1:c8~11151:5~100b2:5~10021:31~102e~10151:3|1:5|1:6|1:31|1:c8~20016:fff~200b2:3|1:5~20021:31~202e~20151:3|1:5|1:6|1:31|1:c8~10017:fff~100b1:31~11081:c8~11492/Arena:fff~100b1:5~10021:31~102e~10151:5|3:6|1:c8~20017:fff~200b1:c8~21151:31~200b1:31~200b1:31~21081:3|1:5|1:6~21151:3|1:5|2:6~11084:fff|1:c8~11151:3|1:5|1:31|1:c8~200b1:3|1:5~20021:31~202e~20151:5|1:6|2:31|1:c8~10018:fff~100b1:31~11081:c8~11492/Arena:fff~100b1:5~10021:31~102e~10151:6|3:31|1:c8~20018:fff~200b1:31~200b1:31~21081:5|1:6|1:c8~21151:3|2:6|1:31~11084:fff|1:31~11152:5|1:6|1:c8~200b1:31~21081:3|2:6~212e~21152:3|1:5|1:6~200b2:3|1:5~20021:31~202e~20151:5|2:6|1:31|1:c8~10019:fff~11081:c8~11492/Arena:fff~100b2:5~10021:31~102e~10151:3|1:5|2:6|1:31~20019:fff~200b1:c8~21151:31~200b1:31~200b1:31~21081:5|2:6~21151:3|1:5|1:6|1:31~11084:fff|1:3~11151:5|1:6|1:31|1:c8~200b1:31~21081:3|1:5|1:6~212e~21151:3|1:5|1:6|1:31~200b1:31~200b1:3|1:5~20021:31~202a1:f6~21071:3~202e~20151:3|1:5|2:6|1:31~100110:fff~100b1:31~11081:c8~11492/Arena:fff~100b1:5~10021:31~102e~10152:6|2:31|1:c8~200110:fff~200b1:31~21081:3|1:5|2:6~21153:31|1:c8~11084:fff|1:c8~11151:3|1:5|2:31~200b1:31~200b1:31~200b1:c8~21151:31~200b1:31~200b1:31~212e~21152:5|2:6~200b2:5~20021:8|1:f9~202e~20151:3|2:6|2:31~100111:fff~100b1:31~100b1:31~11081:3|1:5~11151:5|1:6|1:31|1:c8~21081:3|2:6|2:31~21151:6|1:31|1:c8|1:f9~100b1:c8~112e~11151:31~100b1:31~212d1:f9~210b1:f9~22151:31~100b1:31~11081:5|1:6~11151:3|1:6|1:31|1:c8~100b1:c8~11151:5~11081:31~11492/Arena:fff~100b1:3|1:5~10021:8~102e~10151:3|1:5|1:6|2:31~200111:fff~2048~217cc gets +1 Coin (Caravan Guard).:fff~200b1:31~200b1:31~21081:6|1:c8~21152:5|1:8|1:31~11084:fff|1:6~11151:5|1:6|1:31|1:c8~21081:31~21492/Arena:fff~200b2:5~20021:8~202e~20152:5|2:6|1:c8~100112:fff~100b1:c8~11151:c8~100b1:c8~11151:31~100b1:31~100b1:31~11081:5|1:6~112e~11152:6|1:8|1:31~21082:5|2:6|1:c8~21151:6|1:8|2:31~100b1:31~11082:fff|1:8~11152:5|1:6|1:31~100b1:31~100b2:5~10021:8~102e~10151:3|1:5|1:8|2:31~200112:fff~200b1:31~200b1:31~21081:6|1:8~21151:3|2:31|1:f9~11084:fff|1:31~11151:5|1:6|1:31|1:c8~200b1:31~200b1:f9~21151:31~200b1:31~200b1:31~200b1:3~20021:8~202e~20151:6|2:8|2:31~100113:fff~100b1:c8~11151:c8~100b1:c8~11151:31~100b1:31~100b1:31~11081:5|1:6~11152:6|1:8|1:31~21081:6|2:8|2:31~21152:5|1:6|1:31~100b1:31~11082:fff|1:6~112e~11151:5|2:8|1:31~100b1:31~11082:fff|1:8~11151:3|1:5|2:6~100b1:3|1:5~10021:7~102e~10151:3|1:6|1:7|1:31|1:c8~200113:fff~2048~217cc gets +1 Coin (Caravan Guard).:fff~200b1:31~200b2:5~20021:8~20151:3|1:6|2:31|1:c8~100114:fff~100b1:c8~11151:6~100b1:31~11083:fff|1:6~11151:5|1:6|1:8|1:31~21081:3|1:6|2:31|1:c8~212e~21151:6|1:8|2:31~100b1:31~11082:fff|1:5~11153:31|1:c8~100b1:c8~11151:5~100b1:31~100b1:31~100b1:31~100b1:5~10021:7|1:f9~102e~10151:3|1:7|1:8|2:31~200114:fff~200b1:31~200b1:31~21081:6|1:8~21151:3|1:5|1:8|1:f9~11084:fff|1:8~11151:5|1:6|1:8|1:c8~200b1:f9~21151:c8~200b1:c8~21151:8~200b1:3|1:5~20021:7~20151:5|2:6|1:8|1:31~100115:fff~100b1:c8~11151:31~100b1:31~100b1:5~10021:7~10151:5|2:6|1:7|1:c8~200115:fff~2048~217cc gets +1 Coin (Caravan Guard).:fff~200b1:31~200b1:5~20021:7~202e~20151:5|1:6|1:8|2:31~100116:fff~100b1:c8~11151:f9~100b1:f9~11151:31~100b1:31~100b1:5~10021:7~102e~10151:3|1:6|1:7|2:31~200116:fff~200b1:31~200b1:31~21081:5|1:6|1:8~21151:8|3:31~11084:fff|1:31~11151:5|2:8|1:31~200b1:31~200b1:31~200b1:31~20021:8~20151:7|2:8|1:c8|1:f9~100117:fff~1048~117cL gets +1 Coin (Caravan Guard).:fff~100b1:31~212d1:f9~210b1:f9~22151:6~11082:fff|1:5~11151:5|1:6|1:7|1:31~21081:6|1:7|2:8|1:c8~21151:3|1:5|1:6|1:7~100b1:31~100b1:5~10021:7~10151:6|2:7|1:31|1:c8~200117:fff~2048~217cc gets +1 Coin (Caravan Guard).:fff~200b1:3|1:5~20021:7~202e~20151:6|1:7|1:8|2:31~100118:fff~100b1:c8~11151:c8~100b1:c8~112e~11151:8~100b1:31~11083:fff|1:8~11151:5|1:6|2:7~21081:6|1:7|1:8|2:31~21152:6|1:7|1:8~100b1:5~10021:6~10151:3|1:5|2:31|1:f9~200118:fff~20021:3~20151:3|1:7|1:8|1:31|1:f9~100119:fff~100b1:f9~11151:7~100b1:31~212d1:f9~210b1:f9~22151:8~100b1:31	00210~00614~00708~00808~00360~00440~00530~0c810~14910~04a10~08710~0b310~03610~03110~0f910~0ce10~0ea10~0f601~14301~0de15	\N	Seprix~Trev
+11968343	000011968343/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10155:3~202e~20154:3|1:6~10011:fff~100b5:3~10021:f0~10152:3|3:6~20011:fff~200b3:3~20021:4~20153:3|2:6~10012:fff~102e~10152:3|2:6|1:f0~20012:fff~200b3:3~20021:7d~202e~20153:3|2:6~10013:fff~100b1:f0~11051:5~21051:2~21151:3~10154:3|1:6~20013:fff~200b3:3~20021:7d~20153:3|1:4|1:7d~10014:fff~100b4:3~10021:ea~102e~10153:3|2:6~20014:fff~200b1:4|3:3~20021:f0~212d1:7d~210c1:1~202e~20151:3|1:4|2:6|1:f0~10015:fff~100b3:3~10021:7d~10153:3|1:6|1:f0~20015:fff~200b1:f0~21051:5~11051:2~11151:5~200b1:4|1:3~20021:4~20153:3|1:6|1:7d~10016:fff~100b1:f0~11051:5~21051:2~222d1:7d~22071:2~21151:3~100b1:5|3:3~10021:2b~102e~10153:3|1:6|1:ea~20016:fff~200b1:7d~21151:7d~200b4:3~20021:4~212d1:7d~210c1:1~202e~20151:2|2:3|1:4|1:7d~10017:fff~100b1:ea~11151:3~11171:2~100b4:3~10021:1a7~10151:2|1:3|1:5|1:2b|1:7d~20017:fff~200b1:7d~21151:3|1:4~200b2:4|3:3~20021:6e~20153:3|1:4|1:6~10018:fff~100b1:2b~100b1:7d~11151:3|2:6~100b1:5|2:3~102a1:ea~11184:fff|1:1|1:ea|1:1a7~110c1:1~10051:ea~102e~10152:3|1:5|1:ea|1:f0~20018:fff~200b1:4|3:3~20021:d2~20151:3|1:5|1:6|1:7d|1:f0~10019:fff~100b1:ea~11151:2b~11171:3~100b1:2b~100b1:f0~11051:5~21051:2~222d1:7d~22071:2~21151:6~100b1:5|2:3~102a1:ea~11181:5~110c1:1~10051:ea~10151:3|1:5|2:6|1:ea~20019:fff~200b1:f0~21051:5~222d1:7d~220c1:1~11051:2~11151:6~200b1:5|1:3~20021:4~212d1:7d~210c1:1~202e~20153:4|1:5|1:6~100110:fff~100b1:ea~11151:3~11171:3~100b1:5|2:3~102a1:ea~11181:2|1:f0|2:3|1:2b|2:ea|1:5~110c1:1~10051:ea~10153:3|1:5|1:f0~200110:fff~200b3:4|1:5~20021:8~20152:3|1:6|1:7d|1:f0~100111:fff~100b1:f0~11051:5~21051:2~222d1:7d~22071:2~21151:3~100b1:5|3:3~102a1:ea~11181:2|4/2/4/3:fff|1:1|1:2b~110c1:1~11181:2|4/2/3/3:fff|1:1|1:2b~110c1:1~10051:ea~10151:2|1:7d|2:ea|1:1a7~200111:fff~200b1:f0~21051:5~222d1:7d~220c1:1~11051:2~122d1:7d~12071:2~112e~11151:3~200b3:3~20021:4~212d1:7d~210c1:1~20151:2|2:4|1:5|1:6e~100112:fff~100b1:ea~11151:5~11171:3~100b1:ea~11151:3~11171:ea~110b1:ea~12151:5~12171:6~100b1:1a7~110b1:1c2~12071:6~12051:1f~132d1:7d~130c1:1~100b2:5|2:3~10021:2b~112d1:7d~110c1:1~10151:2|1:3|1:6|1:1f|1:2b~200112:fff~200b2:4|1:5|1:6e~202a1:8~21051:5~20051:8~20151:3|1:5|1:6|1:7d|1:d2~100113:fff~100b1:2b~100b1:1f~11081:3~100b1:3~10021:1f~10151:3|2:5|1:6|1:ea~200113:fff~200b1:d2~216f0:8~21173:3~212e~21171:3|1:4|1:5|1:6|1:8|1:6e|1:7d~21084:3|1:4|1:5|1:8|1:6e|1:7d~21071:6~21051:7~200b1:7d~21151:3|1:4|1:6~200b1:4|1:5|2:3~20021:d2~20153:4|1:5|1:8~100114:fff~100b1:ea~11151:2b~11171:3~100b1:2b~11152:3|1:f0~100b2:5|3:3~102a1:ea~11182/4/3/3/2:fff|1:6|1:2b|1:1a7~110c1:1~11182/4/3/2/2:fff|1:6|1:2b|1:1a7~110c1:1~11182/4/3/2/2:fff|1:6|1:2b~110c1:1~11182/4/3/2:fff|1:6|1:2b|1:ea~110c1:1~11182/4/3/2:fff|1:6|1:2b~110c1:1~10051:ea~10151:2b|3:ea|1:1a7~200114:fff~200b3:4|1:5~20021:8~202e~20151:2|1:3|1:5|1:6|1:f0~100115:fff~100b1:ea~11151:ea~112e~11171:1f~110b1:1f~12081:2b~120b1:2b~13151:2|1:3|1:1f~100b1:ea~11151:7d~11171:5~100b1:ea~11151:5~11171:3~100b1:ea~11151:3~11171:3~100b1:2b~100b1:1a7~110b1:1c1~12071:1f~12151:3|1:6|1:ea~100b1:ea~11151:ea~11171:3~100b1:ea~11151:3~11171:3~100b1:7d~100b1:5|4:3~10021:14a~10151:2|2:3|2:5~200115:fff~200b1:f0~21051:5~11051:2~11151:5~200b1:5|1:3~20021:4~20152:4|1:5|1:8|1:d2~100116:fff~100b3:5|2:3~102a1:ea~11182/4/2/2/6:fff|1:14a|1:6|1:5|1:1a7~110c1:1~11182/4/2/2/5:fff|1:14a|1:6|1:5|1:1a7~110c1:1~11182/4/2/2/4:fff|1:14a|1:6|1:5|1:1a7~110c1:1~11182/4/2/2/3:fff|1:14a|1:6|1:5|1:1a7~110c1:1~11182/4/2/3:fff|1:14a|1:6|1:2b|1:5|1:1a7~110c1:1~11182/4/2/3:fff|1:14a|1:6|1:5|1:1a7~110c1:1~11182/4/2/2:fff|1:14a|1:6|1:5|1:1a7~110c1:1~10051:ea~10152:2b|3:ea~200116:fff~200b1:d2~216f0:6~21171:3|1:8|1:6e~21081:3|1:6e~21071:8~21051:8~200b1:4|1:5~20021:7~20151:3|2:4|1:5|1:6~100117:fff~100b1:ea~11151:ea~11171:ea~110b1:ea~12151:f0~12171:6~100b1:ea~11151:6~11171:3~100b1:2b~112e~11151:2|1:3|1:ea~100b1:ea~11151:6~11171:3~100b1:ea~11151:3~11171:5~100b1:ea~11151:5~11171:3~100b1:2b~11151:2|1:3|1:1f~100b1:5|3:3~102a1:126~114c+Coin token/the Herald pile:fff~10152:3|2:5|1:1a7~200117:fff~200b2:4|1:5|1:3~20021:8~20154:3|1:7d~100118:fff~100b1:1a7~110b1:1c2~12071:7d~12051:ea~100b2:5|2:3~102a1:ea~11182/3/2/2/7:fff|1:f0|1:1|1:5~110c1:1~11182/3/2/2/6:fff|1:f0|1:1|1:5~110c1:1~11182/3/2/2/5:fff|1:f0|1:1|1:5~110c1:1~11182/3/2/2/4:fff|1:f0|1:1|1:5~110c1:1~10051:ea~10151:5|4:ea~200118:fff~200b1:7d~21151:5|1:7~200b1:5|2:3~20021:7~202e~20151:4|1:6|1:8|1:7d|1:d2~100119:fff~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:14a~11171:3~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:3~11171:3~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:3~11171:ea~110b1:ea~127cL gets +1 Coin (from Training):fff~12151:2~122e~12171:6~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:6~11171:ea~110b1:ea~127cL gets +1 Coin (from Training):fff~12151:6~12171:2~100b1:14a|1:5|2:3~10021:2b|1:14a~10151:2|2:3|1:ea|1:f0~200119:fff~200b1:d2~216f0:6~21171:4|1:8|1:7d~21081:4|1:7d~21071:8~21051:8~200b1:7d~21151:5|1:6|1:7~200b1:4|1:5~20021:7~20153:4|1:7|1:6e~100120:fff~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:5~11171:3~100b1:f0~11051:5~21051:2~21151:2~100b1:5|2:3~102a1:ea~11181:2|2:14a|2:3|2:6|1:2b|6:ea|2:5~110c1:1~11181:2|2:14a|2:3|2:6|1:2b|5:ea|2:5~110c1:1~10051:ea~10153:3|2:ea~200120:fff~200b3:4|1:6e~202a1:8~21051:5~20051:8~20151:4|1:5|1:8|1:d2|1:f0~100121:fff~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:1f~11171:2b~110b1:2b~12151:2|1:5|1:ea~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:2b~11171:ea~110b1:ea~127cL gets +1 Coin (from Training):fff~12151:5~12171:1a7~120b1:1a7~130b1:1c1~14071:1f~142e~14152:ea|1:14a~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:5~11171:5~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:5~11171:3~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:3~11171:2b~110b1:2b~12151:6|1:ea|1:f0~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:ea~11171:3~100b1:ea~117cL gets +1 Coin (from Training):fff~11151:3~11171:14a~100b1:2b~11151:3|1:5|1:14a~100b1:f0~11051:5~21051:2~21151:5~100b2:14a|5:5|6:3~10022:2b|1:14a~10152:2|1:3|2:ea~200121:fff~200b1:d2~216f0:8~21174:3|2:5|1:7|1:8~21084:3|2:5|1:8~21071:7~21051:8~200b1:f0~21051:5	00210~00614~00708~00808~00360~00440~00530~0ea10~1a710~0f010~02b08~0d210~01f10~06e10~1b010~07d10~14a10~12601~1c101~1c201~1c301~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002~1be13	\N	Trev~Seprix
+11972955	000011972955/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10155:3~202e~20153:3|2:6~10011:fff~100b5:3~10021:121~10152:3|3:6~20011:fff~200b3:3~20021:112~20154:3|1:6~10012:fff~100b2:3~10021:112~102e~10152:3|2:6|1:121~20012:fff~200b4:3~20021:2c~202e~20152:3|2:6|1:2c~10013:fff~100b1:121~110b2:3~11152:3|1:112~100b1:112~100b2:3~102a1:f6~11072:3~10231:112~10241:120~102e~10154:3|1:6~20013:fff~200b1:2c~21051:27~200b2:3~20021:112~20153:3|1:6|1:112~10014:fff~100b4:3~10021:2c~10151:3|2:6|1:120|1:121~20014:fff~200b1:112~200b3:3~20021:ea~20231:112~20241:120~202e~20152:3|1:6|1:2c|1:ea~10015:fff~100b1:121~110b1:3~112e~11152:3~100b1:120~21081:6~100b2:3~102a1:f6~11072:3~10231:120~10241:102~102e~10152:3|2:6|1:2c~20015:fff~200b1:2c~21051:ea~200b1:ea~21151:6~21171:6~200b2:3~20021:112~20152:3|1:6|1:112|1:120~10016:fff~100b1:2c~11051:ea~100b2:3~10021:112~102e~10151:3|1:6|1:102|1:112|1:121~20016:fff~200b1:120~11081:6~200b2:3~20021:ea~20231:120~20241:102~202e~20154:3|1:27~10017:fff~100b1:102~11151:3|1:ea~11081:3~100b1:ea~11151:6~11171:6~100b1:121~110b1:3~11151:3|1:6~100b1:112~100b1:3~10021:112~10231:102~10241:fc~10231:112~10241:120~102e~10152:3|1:2c|1:ea|1:112~20017:fff~200b1:27~200b4:3~20021:112|1:157~20152:3|1:6|2:ea~10018:fff~100b1:ea~11151:fc~11171:6~100b1:fc~110b1:2c~12051:ea~11091:2c~12051:ea~11051:2c~100b1:112~100b2:3~102a1:f6~11072:3~10231:fc~10241:123~10231:112~10241:120~10151:3|3:6|1:121~20018:fff~200b1:ea~21151:6~21171:102~210b1:102~22151:ea|1:112~22081:6~200b1:ea~21151:3~21171:112~210b1:112~200b1:ea~21151:6~21171:2c~210b1:2c~22051:ea~200b1:112~200b3:3~20021:77~20231:102~20241:fc~20231:112~20241:120~20231:112~20241:120~202e~20151:3|1:27|2:ea|1:157~10019:fff~100b1:121~110b1:3~112e~11151:ea|1:120~100b1:ea~11151:2c~11171:123~110b1:123~121b1:123|Tavern mat:fff~100b1:2c~11051:ea~100b1:120~21081:3~10021:112~10231:120~10241:102~102e~10151:3|1:2c|2:ea|1:120~20019:fff~200b1:ea~21151:6~21171:ea~210b1:ea~22151:77~22171:3~200b1:ea~21151:3~21171:2c~210b1:2c~22051:ea~200b1:77~21151:3|1:ea|1:fc~11172:6|1:121~11081:121~110c2:6~200b1:fc~210b1:ea~22151:120~22171:6~21091:ea~22151:6~22171:120~220b1:120~13081:3~21051:ea~200b1:157~21152:3|1:6~21082:6~200b1:120~11081:2c~200b1:27~200b4:3~202a1:110~214c+Card token/the Herald pile:fff~20021:1b4~20231:fc~20241:123~20231:120~20241:102~20231:120~20241:102~202e~20152:3|1:27|1:ea|1:112~100110:fff~1048~101c1:123~104c+Card token/the Herald pile:fff~100b1:ea~11131:6|Teacher:fff~11151:6~11171:ea~110b1:ea~12131:2c|Teacher:fff~12151:102~12171:ea~120b1:ea~13131:1|Teacher:fff~13151:6~132e~13171:3~100b1:102~11151:3|1:2c~11081:120~100b1:ea~11131:121|Teacher:fff~112e~11151:120~100b1:2c~11051:27~100b1:121~112e~11151:27~100b1:27~100b1:2c~11051:77~100b1:112~100b1:120~21081:3~10021:77~10231:102~10241:fc~10231:120~10241:102~10231:112~10241:120~102e~10151:3|2:6|1:ea|1:120~200110:fff~200b1:ea~21131:1|Pathfinding:fff~21151:3~21171:3~200b1:102~21151:3|1:77~21081:112~200b1:27~200b3:3~20021:157~20231:102~20241:fc~20153:ea|1:123|1:157~100111:fff~100b1:ea~11131:123|Teacher:fff~11151:fc~11171:ea~110b1:ea~12131:77|Teacher:fff~12151:2c~12171:2c~120b1:2c~13051:112~100b1:fc~110b1:77~12151:6|2:ea~22172:6|1:ea~22081:ea~220c2:6~11091:77~12151:77|1:102|1:121~22173:6~220c3:6~11051:77~100b1:ea~11131:27|Teacher:fff~112e~11151:112~11171:77~110b1:77~22173:6~220c3:6~100b1:27~100b1:2c~11051:77~100b1:102~112e~11151:77~11081:6~100b1:123~111b1:123|Tavern mat:fff~10021:112~10231:102~10241:fc~102e~10151:3|1:6|1:2c|1:ea|1:fc~200111:fff~200b1:157~21153:6~21082:6~200b1:ea~21131:2c|Pathfinding:fff~21151:102~21171:3~200b1:ea~21131:3|Pathfinding:fff~21151:3~21171:3~200b1:ea~21131:3|Pathfinding:fff~21151:ea~21171:1b4~210b1:1b4~222e~22151:6|1:27|1:112~200b1:ea~21131:3|Pathfinding:fff~21151:157~21171:ea~210b1:ea~22131:3|Pathfinding:fff~22151:3~22171:ea~220b1:ea~23131:6|Pathfinding:fff~23151:fc~23171:77~230b1:77~24151:3~14171:27|1:ea|1:112~14081:27|1:ea|1:112~200b1:fc~210b1:27~21091:27~21051:27~200b1:2c~21051:5~200b1:157~212e~21151:5|1:27~21082:6~200b1:102~212e~21152:6~21081:6~200b1:123~211b1:123|Tavern mat:fff~200b7:3|1:5~20021:8|2:27|1:157~20231:102~20241:fc~202e~20151:6|2:27|1:ea|1:157~100112:fff~1048~101c1:123~104c+Action token/the Rabble pile:fff~100b1:ea~11131:ea|Teacher:fff~11151:77~11171:77~110b1:77~127cL gets +1 Action (from Teacher):fff~12151:2c|1:77|1:121~22171:3|1:ea|1:157~22081:3|1:ea|1:157~100b1:fc~110b1:77~127cL gets +1 Action (from Teacher):fff~12152:6|1:77~22171:3|1:2c|1:fc~22081:3|1:2c|1:fc~11091:77~127cL gets +1 Action (from Teacher):fff~12151:ea|1:fc|1:112~22171:8|1:ea|1:1b4~22081:ea|1:1b4~220c1:8~11051:77~100b1:fc~110b1:77~127cL gets +1 Action (from Teacher):fff~122e~12151:27|1:77|1:120~22171:3|1:8|1:ea~22081:3|1:ea~220c1:8~11091:77~127cL gets +1 Action (from Teacher):fff~12151:ea|1:112~22172:3|1:8~22082:3~220c1:8~11051:77~100b1:2c~11051:112~100b1:2c~11051:112~100b1:ea~112e~11131:1|Teacher:fff~11151:77~11171:112~110b1:112~100b1:77~117cL gets +1 Action (from Teacher):fff~21171:5|1:6|1:8~21081:5~210c1:6|1:8~100b1:77~117cL gets +1 Action (from Teacher):fff~21171:6|1:8|1:112~21081:112~210c1:6|1:8~100b1:77~117cL gets +1 Action (from Teacher):fff~21171:6|1:8|1:ea~21081:ea~210c1:6|1:8~100b1:112~100b1:112~100b1:120~21081:6~100b1:27~100b1:3~10021:8|1:77~10231:112~10241:120~10231:112~10241:120~10231:112~10241:120~102e~10151:6|1:2c|1:77|1:ea|1:fc~200112:fff~2048~201c1:123~204c+Action token/the Bridge pile:fff~200b1:157~21151:6|1:8|1:77~21081:6|1:8~200b1:ea~21131:27|Pathfinding:fff~21151:ea~21171:3~200b1:ea~21131:3|Pathfinding:fff~21151:27~21171:157~210b1:157~22151:3|1:6|1:fc~22081:3|1:6~200b1:fc~210b1:77~222e~22151:3|2:6~12171:8|1:77|1:112~12081:77|1:112~120c1:8~21091:77~22152:3|1:fc~12171:6|1:8|1:77~12081:77~120c1:6|1:8~21051:77~200b1:fc~210b1:27~227cc gets +1 Action (from Teacher):fff~21091:27~227cc gets +1 Action (from Teacher):fff~21051:27~200b1:27~217cc gets +1 Action (from Teacher):fff~200b1:27~217cc gets +1 Action (from Teacher):fff~200b1:27~217cc gets +1 Action (from Teacher):fff~200b4:3~20021:8|4:27|1:77	00210~00614~00708~00808~00360~00440~00530~07710~0ea10~12110~02c10~11210~06410~0a010~02710~15710~1b410~11001~0f601~12005~10205~0fc05~12305~18301~18401~18501~18601~18701~18801~18901~18a01~18b01~18c01~18d01~18e01~19202~19102~18f02~19002	\N	xXxseprixfan123xXx~1zzzzz
+11973294	000011973294/unrated:fff~10277:3|1:c3|1:cc|1:cd~20277:3|1:c3|1:cc|1:cd~102e~10154:3|1:cc~202e~20153:3|1:cc|1:cd~10011:fff~100b4:3~10021:5f~10153:3|1:c3|1:cd~20011:fff~200b3:3~20021:4~20154:3|1:c3~10012:fff~100b2:3~10021:11a~102e~10153:3|1:cd|1:11a~20012:fff~200b3:3~20021:4~202e~20153:3|1:cc|1:cd~10013:fff~100b1:11a~11071:cd~12151:3~11181:5f~11191:5f~100b2:3|1:5f~10021:58~10153:3|1:c3|1:cc~20013:fff~200b3:3~20021:4~20152:3|2:4|1:c3~10014:fff~100b2:3~10021:86~102e~10153:3|1:86|1:c3~20014:fff~200b1:3|2:4~20021:b5~202e~20152:3|2:4|1:cc~10015:fff~100b1:86~11151:cc~100b2:3~10021:86~10153:3|1:5f|1:11a~20015:fff~200b1:3|2:4~20021:b5~20152:3|1:4|1:c3|1:cd~10016:fff~100b1:11a~11071:3~100b2:3|1:5f~10021:58~102e~10153:3|1:58|1:86~20016:fff~200b1:4~20021:86~202e~20153:3|1:b5|1:cd~10017:fff~100b1:58~11151:3~11171:3|1:58|1:5f|1:11a~11191:3|1:5f~110c1:58|1:11a~100b1:86~11151:58~11081:3~100b1:58~11151:11a~11171:3|1:86|1:c3|1:cc~11191:3~110c1:86|1:c3|1:cc~100b1:11a~11071:3~100b4:3|1:5f~10021:58|1:130~102e~10151:58|2:86|1:c3|1:cc~20017:fff~200b1:b5~21051:3~21073:3|1:cd~22151:3~20152:3|2:4|1:c3~10018:fff~100b1:58~11151:58~11173:3|1:130~11193:3~110c1:130~100b1:58~11151:130~11172:3|1:5f|1:11a~11192:3|1:5f~110c1:11a~100b1:86~11151:11a~11081:3~100b1:11a~11071:c3~11181:58~11191:58~100b1:130~112e~11151:3~100b5:3|1:5f~10021:4|1:58~102e~10152:3|1:58|1:cc|1:11a~20018:fff~200b2:3|2:4~20021:5~20151:3|1:4|1:86|1:b5|1:cc~10019:fff~100b1:58~11151:4~11172:3|1:86|1:130~11192:3~110c1:86|1:130~100b1:11a~11071:cc~11181:86~11191:86~100b1:86~11151:130~11081:3~100b1:130~11151:58~11181:3~11191:3~100b1:58~11151:58~11171:3|1:58|1:5f|1:86~11191:3|1:5f~110c1:58|1:86~100b5:3|1:4|1:5f~10021:4|1:4e~102e~10151:3|2:58|1:86|1:11a~20019:fff~200b1:86~212e~21151:b5~21081:3~200b1:cc~200b1:b5~210c1:4~200b1:b5~20021:1d|1:86~20152:3|2:4|1:5~100110:fff~100b1:58~11151:4~11171:3|2:58|1:5f~11191:3|1:5f~110c2:58~100b1:86~11151:58~11081:3~100b1:58~11151:58~11171:3|1:4|1:86|1:130~11191:3~110c1:4|1:86|1:130~100b1:58~11151:130~11171:3|1:4|1:4e|1:86~11191:3~110c1:4|1:4e|1:86~100b1:130~11151:86~11181:3~11191:3~100b1:58~11151:4~11171:3|1:4e~11191:3~110c1:4e~100b1:86~11151:4e~11081:11a~100b1:4e~21171:3|1:c3~21071:3~21081:c3~100b5:3|2:4|1:5f~10021:4e|1:58|1:86~102e~10152:3|1:58|2:86~200110:fff~200b1:5|2:4~20021:5~202e~20151:3|2:4|2:5~100111:fff~100b1:58~11151:4~11171:4e|1:58|1:5f|1:130~11191:5f~110c1:4e|1:58|1:130~100b1:86~11151:130~11081:3~100b1:130~11151:58~11181:3~11191:3~100b1:58~11151:4e~11171:3|1:4|2:58~11191:3~110c1:4|2:58~100b1:86~11151:58~11081:3~100b1:58~11151:58~11171:3|1:4|1:58|1:11a~11191:3~110c1:4|1:58|1:11a~100b1:58~11151:58~11171:3|1:4|1:86|1:11a~11191:3~110c1:4|1:86|1:11a~100b1:58~11151:11a~112e~11171:3|1:4|1:4e|1:86~11191:3~110c1:4|1:4e|1:86~100b1:11a~11071:5f~11181:4|1:4e|1:86~11191:4e~11081:4|1:86~100b1:4e~21171:3|1:86~21071:3~21081:86~100b1:4e~21171:3|1:86~21071:3~21081:86~100b5:3|1:4~10021:1d|1:130~102e~10152:3|1:1d|1:4e|1:130~200111:fff~200b1:3|2:5|2:4~20021:8~20151:3|1:1d|2:b5|1:cc~100112:fff~100b1:130~11151:3~100b1:4e~21171:4|1:c3~21071:4~21081:c3~100b2:3~10021:130~10151:3|3:58|1:86~200112:fff~200b1:cc~200b1:1d~212e~21151:3|2:5~200b1:b5~210c1:5~200b2:3|1:5~20021:8~20151:5|1:8|2:86|1:c3~100113:fff~100b1:58~11151:3~11171:4|1:4e|1:58|1:11a~110c1:4|1:4e|1:58|1:11a~100b1:86~11151:4e~11081:3~100b1:58~11151:58~11172:4|1:58|1:11a~110c2:4|1:58|1:11a~100b1:58~11151:58~11172:4|1:86|1:11a~110c2:4|1:86|1:11a~100b1:58~11151:86~11172:4|1:86|1:11a~110c2:4|1:86|1:11a~100b1:58~11151:86~11172:4|1:11a|1:130~110c2:4|1:11a|1:130~100b1:86~11151:130~11081:3~100b1:130~11151:11a~11181:4e|2:130|5:3|1:1d~11191:3~100b1:86~11151:4~100b1:11a~11071:11a~112e~11181:4|1:130~11191:130~11081:4~100b1:130~11151:3~11181:4~100b1:4e~21172:4~21071:4~21081:4~100b2:3|1:4~10021:4e~10153:3|1:1d|1:4e~200113:fff~200b1:86~212e~21151:8~21082:8~200b1:86~21151:3~200b1:3|1:5~20021:86|1:1a3~200b1:1a3~20151:3|1:4|1:5|1:1d|1:cc~100114:fff~100b1:4e~10021:86~102e~10151:4|2:58|1:86|1:130~200114:fff~2048~217cc gets +1 Coin (Guardian).:fff~200b1:cc~200b1:1d~212e~21151:86|2:b5~200b1:86~21151:86~21081:3~200b1:86~21151:c3~21081:c3~200b1:b5~210c1:4~200b1:b5~21051:3~200b1:5~20021:8|1:1a3~200b1:1a3~20151:3|1:4|1:5|2:8~100115:fff~100b1:58~11151:3~11172:58|1:86|1:130~110c2:58|1:86|1:130~100b1:86~11151:86~11081:3~100b1:130~11151:58~11181:3~11191:3~100b1:86~11151:130~11081:3~100b1:130~11151:58~11181:3~11191:3~100b1:58~11151:4e~11171:3|1:4|1:1d|1:58~11191:3~110c1:4|1:1d|1:58~100b1:58~11151:1d~11171:3|1:4|1:58|1:86~11191:3~110c1:4|1:58|1:86~100b1:1d~11151:4|1:58|1:86~100b1:86~11151:3~11082:3~100b1:58~11151:4e~11171:3|1:4e|1:86|1:130~11191:3~110c1:4e|1:86|1:130~100b1:58~11151:130~112e~11172:3|1:4e|1:86~11192:3~110c1:4e|1:86~100b1:130~11151:86~100b1:86~110b1:86~12151:4e~12081:3~100b1:4e~100b1:4e~100b1:4e~100b4:3|2:4~10021:4e|2:130~102e~10152:3|2:58|1:130~200115:fff~2048~217cc gets +1 Coin (Guardian).:fff~200b1:3|1:4~20021:1d~202e~20151:3|1:5|1:8|1:86|1:b5~100116:fff~100b1:58~11151:1d~11171:3|1:4e|1:58|1:130~11191:3~110c1:4e|1:58|1:130~100b1:58~11151:130~11171:3|1:4e|2:58~11191:3~110c1:4e|2:58~100b1:130~11151:58~100b1:58~11151:58~11172:4e|2:130~110c2:4e|2:130~100b1:130~11151:4e~100b1:4e~110b1:86~12151:4e~12082:3~100b1:1d~11151:4|2:130~100b1:130~11151:130~11182:3~11191:3~100b1:130~11151:86~11181:3~11191:3~100b1:86~11151:4e~11082:3~100b1:130~11151:86~11182:3~11191:3~100b1:58~11151:86~11171:3|1:4|1:58|1:86~11191:3~110c1:4|1:58|1:86~100b1:86~11151:86~11081:3~100b1:86~110b1:1d~12151:4|1:4e|1:58~100b1:58~112e~11151:3~11171:3~11191:3~100b1:86~11081:3~100b1:4e~21171:cc|1:1a3~21081:cc|1:1a3~100b1:4e~21171:8|1:1d~21081:8|1:1d~100b1:4e~21171:3|1:4~21071:4~21081:3~100b4:3|2:4~10021:86|1:131~102e~10151:3|1:1d|1:58|2:86~200116:fff~200b1:86~21151:5~200b1:b5~21081:3|1:8~200b2:5~20021:8~20151:8|1:1d|2:86|1:1a3~100117:fff~100b1:58~11151:130~11171:4e|2:58|1:131~110c1:4e|2:58|1:131~100b1:86~11151:131~11081:3|1:130~100b1:131~11151:58~11181:130|1:3~11191:130~100b1:130~11151:58~11181:3~11191:3~100b1:58~11151:4e~11171:3|2:4|1:58~11191:3~110c2:4|1:58~100b1:1d~11152:4|1:58~100b1:58~11151:58~11172:86|2:130~110c2:86|2:130~100b1:86~11151:130~11082:3~100b1:130~11151:130~11182:3~11191:3~100b1:130~11151:86~11181:3~11191:3~100b1:58~11151:86~11171:4e|1:86|2:130~110c1:4e|1:86|2:130~100b1:86~11151:86~11081:3~100b1:86~11151:130~11081:3~100b1:130~11151:130~11182:3~11191:3~100b1:130~11151:4e~11181:3~11191:3~100b1:58~11151:3~11172:3|2:4e~11192:3~110c2:4e~100b1:86~110b1:1d~12152:4e~100b1:4e~21171:3|1:b5~21071:3~21081:b5~100b1:4e~212e~21171:8|1:c3~21081:8|1:c3~100b1:4e~21171:5|1:1a3~21071:5~21081:1a3~100b1:4e~110b1:4e~22171:8|1:86~22081:8|1:86~100b5:3|2:4~10021:1d|1:131~102e~10151:3|1:1d|2:4e|1:86~200117:fff~200b1:86~21151:cc~21081:8~200b1:1d~21151:3|1:5|1:b5~200b1:86~21151:3~200b1:b5~210c1:cc~200b2:3|1:5~20021:8~200b1:1a3~202e~20151:5|1:8|1:1d|1:b5|1:cc~100118:fff~100b1:86~110b1:86~12151:58~12081:3~100b1:58~11151:58~11171:3|2:58|1:86~11191:3~110c2:58|1:86~100b1:1d~11152:58|1:86~100b1:58~11151:130~11171:4|1:58|1:130|1:131~110c1:4|1:58|1:130|1:131~100b1:86~11151:131~11081:3|1:130~100b1:131~11151:130~11181:130|2:3~11191:130~100b1:130~11151:58~11182:3~11191:3~100b1:130~11151:4~11181:3~11191:3~100b1:58~11151:4e~11172:3|1:1d|1:130~11192:3~110c1:1d|1:130~100b1:58~11151:130~11171:1d|3:86~110c1:1d|3:86~100b1:58~11151:86~11171:3|1:1d|2:86~11191:3~110c1:1d|2:86~100b1:86~11151:1d~11082:3~100b1:130~11151:86~11182:3~11191:3~100b1:1d~11151:4|1:86|1:131~100b1:86~11151:130~11081:3|1:130~100b1:131~11151:4e~11181:130|2:3~11191:130~100b1:130~11151:130~11182:3~11191:3~100b1:86~112e~11151:3~11082:3~100b1:130~112e~11151:3~100b1:4e~100b1:4e~100b1:4e~100b1:4e~110b1:4e~100b4:3|2:4~10022:7|3:8	00210~00608~00708~00808~00360~00440~00530~05f16~05810~08610~0b510~04510~11a10~0b110~1a310~13105~13005~01d10~04e10~16f01~0cc02~0c302~0cd02	\N	ceviri~gawawa_124
+12086221	000012086221/unrated:fff~10277:3|3:6~20277:3|3:6~102e~10153:3|2:6~202e~20153:3|2:6~10011:fff~100b3:3~10021:f9~10154:3|1:6~20011:fff~200b3:3~20021:4~20154:3|1:6~10012:fff~100b4:3~102a1:f9~116a8:fff~10051:f9~106c4/4:fff~102e~10153:3|2:6~20012:fff~200b4:3~20021:4~202e~20153:3|1:4|1:6~10013:fff~100b3:3~106c3/1:fff~10153:3|1:6|1:f9~20013:fff~200b3:3|1:4~20021:1c7~20153:3|2:6~10014:fff~100b1:f9~110b1:1c7~12051:5~22051:4~100b3:3~106b1:fff~102a1:159~116a8:fff~10051:159~106c2/6:fff~102e~10152:3|2:f9|1:159~20014:fff~200b3:3~20021:4~202e~20152:3|2:4|1:6~10015:fff~100b1:f9~11151:6~100b1:f9~110b1:8a~12151:3~12171:159|3:3|1:6~12172:3|1:5|1:6~12191:5~12082:3|1:6~100b1:159~110b1:117~125aJourney token:fff~100b3:3|1:5~106b6:fff~102e~10153:3|1:6|1:f9~20015:fff~200b2:3|2:4~20021:1c7~20152:3|1:4|1:6|1:1c7~10016:fff~1048~117cL gets +1 Coin (Caravan Guard).:fff~100b1:f9~110b1:8a~12151:6~12173:3|2:6~12171:6|1:159~12191:159~12081:6~100b1:159~110b1:8a~12151:3~12174:3|2:6~12171:3|1:5~12191:5~12081:3~100b4:3|1:5~102a1:8a~116a8:fff~10051:8a~106b8:fff~102e~10154:3|1:8a~20016:fff~200b1:1c7~21071:6~21051:117~11071:3~200b2:3|1:4~20021:117~20153:3|1:4|1:6~10017:fff~100b1:8a~110b1:117~125bJourney token:fff~12152:3|1:5|2:f9~100b1:3|1:5~10021:16d~11191:16d~100b1:16d~100b1:f9~11151:6~100b1:f9~110b1:117~125aJourney token:fff~100b4:3~10021:8a~102e~10152:3|2:6|1:159~20017:fff~200b3:3|1:4~20021:8a~202e~20152:3|3:4~10018:fff~1048~117cL gets +1 Coin (Caravan Guard).:fff~100b1:159~110b1:8a~12151:6~12172:3|3:6~12171:3|1:8a~12191:8a~12081:3~100b1:8a~11151:5~11172:3|3:6|1:5~11171:3|1:8a~11191:8a~11081:3~100b1:8a~110b1:1c7~12071:6~12051:117~22071:3~100b1:3|1:5~10021:8a~102e~10152:3|1:6|1:f9|1:16d~20018:fff~200b1:3|3:4~202a1:161~216a8:fff~20051:161~206c7/1:fff~20152:3|2:6|1:117~10019:fff~100b1:16d~100b1:f9~110b1:117~125bJourney token:fff~12152:3|1:8a|1:117|1:159~100b1:8a~110b1:8a~12151:6~12171:159|4:3|2:6|1:117~12171:8a~12191:8a~100b1:8a~11151:f9~11171:159|4:3|2:6|1:117|1:f9~11171:8a~11191:8a~100b1:8a~11151:3~11171:159|5:3|2:6|1:117|1:f9~11171:5~11191:5~100b1:f9~11151:3~100b1:159~110b1:1c7~12071:6~12051:117~22071:6~22051:4~100b1:117~115aJourney token:fff~100b6:3|1:5~10021:64|1:f9~102e~10152:3|1:64|1:8a|1:159~20019:fff~200b1:117~215aJourney token:fff~200b1:3~206b1:fff~20153:3|1:8a|1:117~100110:fff~1048~117cL gets +1 Coin (Caravan Guard).:fff~100b1:8a~11151:117~11171:159|2:3|1:64|1:117~11171:f9|1:117~11191:f9~11081:117~100b1:f9~11151:3~100b1:117~115bJourney token:fff~11151:3|1:5|2:8a|1:f9~100b1:3|1:5~10021:16d~11191:16d~100b1:16d~100b1:8a~11151:6~11171:159|3:3|1:64|1:8a|1:6|1:f9~11171:3|1:16d~11191:16d~11081:3~100b1:8a~110b1:8a~12151:3~12171:159|4:3|1:16d|1:64|1:6|1:f9~122e~12171:3|1:117~12191:117~12081:3~100b1:16d~100b1:f9~110b1:f9~122e~12151:3~100b1:159~110b1:1c7~12051:5~22051:4~100b1:117~115aJourney token:fff~100b5:3|1:64~10023:8a~102e~10151:5|1:6|1:64|1:8a|1:16d~200110:fff~200b1:8a~21151:1c7~21173:3|1:1c7|1:117~21171:4|1:1c7~21191:4~21081:1c7~200b1:1c7~21071:4~21051:8a~11071:5~11051:64~200b1:117~215bJourney token:fff~212e~21151:3|2:4|1:161|1:1c7~200b2:4~20021:16d~21191:16d~200b1:16d~200b1:161~210b1:8a~22151:3~22175:3|1:1c7~22171:6~22191:6~200b1:1c7~21151:3|1:8a|1:117~11151:117~200b1:8a~21151:4~21176:3|1:4|1:6|1:117~21172:4~21082:4~200b1:117~215aJourney token:fff~200b6:3|1:4~20021:1c7~202a1:161~216a8:fff~20051:161~206c4/4:fff~202e~20151:3|1:4|1:8a|1:161|1:1c7~100111:fff~1048~117cL gets +1 Coin (Caravan Guard).:fff~117cL gets +1 Coin (Caravan Guard).:fff~100b1:8a~11151:5~11171:16d|1:64|1:6|1:117|1:5~11171:8a~11191:8a~100b1:16d~100b1:117~115bJourney token:fff~11152:3|2:8a|1:f9~100b1:8a~11151:3~11173:3|1:64|1:6|2:8a|1:5|1:f9~11172:3|1:8a|1:159|1:16d~11191:16d~11082:3|1:8a|1:159~100b1:8a~11151:8a~11173:3|1:16d|1:64|1:6|2:8a|1:5|1:f9~11171:3|1:117~11191:117~11081:3~100b1:f9~112e~11151:64~100b1:8a~11151:3~11174:3|1:16d|2:64|1:6|1:8a|1:5|1:117~11171:8a~11191:8a~100b1:8a~11151:3~11175:3|1:16d|2:64|1:6|1:8a|1:5|1:117~11171:3|1:159~11081:3|1:159~100b1:16d~100b1:117~115aJourney token:fff~100b5:3|1:5~10021:64|1:16d~11191:16d~100b1:8a~110b1:8a~122e~12151:159~12171:159|1:16d|2:64|1:6~12171:3|1:64~12191:3~12081:64~100b1:16d~100b1:159~110b1:159~122e~12151:64~100b1:3|3:64	00210~00614~00708~00808~00360~00440~00530~01008~15910~1c710~16110~08a10~11710~0f910~06410~0a110~16d10~11601~15a01	\N	xXxseprixfan123xXx~Launchywiggin
 \.
 
 
 --
--- Data for Name: woodcutter_preddata; Type: TABLE DATA; Schema: public; Owner: u_ceviri
+-- Data for Name: woodcutter_preddata; Type: TABLE DATA; Schema: public; Owner: ceviri
 --
 
 COPY woodcutter_preddata (id, regex, source, destination) FROM stdin;
@@ -1783,21 +1890,21 @@ COPY woodcutter_preddata (id, regex, source, destination) FROM stdin;
 119	^Druid sets (?P<cards>.*) aside\\.$	0	0
 120	^(?P<player>.*) gets +3 Coins \\(Raider\\)\\.$	0	0
 121	^(?P<player>.*) gets +3 Coins \\(Secret Cave\\)\\.$	0	0
-122	^(?P<player>.*) is enchanted by (?P<cards>.*)$	0	0
 123	^Between Turns$	0	0
 255	^(.*)$	0	0
+122	^(?P<cards>.*) is enchanted by (.*)$	0	0
 \.
 
 
 --
--- Name: woodcutter_preddata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_preddata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: ceviri
 --
 
 SELECT pg_catalog.setval('woodcutter_preddata_id_seq', 1, false);
 
 
 --
--- Name: auth_group_name_key; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_name_key; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group
@@ -1805,7 +1912,7 @@ ALTER TABLE ONLY auth_group
 
 
 --
--- Name: auth_group_permissions_group_id_permission_id_0cd325b0_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_group_id_permission_id_0cd325b0_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group_permissions
@@ -1813,7 +1920,7 @@ ALTER TABLE ONLY auth_group_permissions
 
 
 --
--- Name: auth_group_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group_permissions
@@ -1821,7 +1928,7 @@ ALTER TABLE ONLY auth_group_permissions
 
 
 --
--- Name: auth_group_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group
@@ -1829,7 +1936,7 @@ ALTER TABLE ONLY auth_group
 
 
 --
--- Name: auth_permission_content_type_id_codename_01ab375a_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_content_type_id_codename_01ab375a_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_permission
@@ -1837,7 +1944,7 @@ ALTER TABLE ONLY auth_permission
 
 
 --
--- Name: auth_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_permission
@@ -1845,7 +1952,7 @@ ALTER TABLE ONLY auth_permission
 
 
 --
--- Name: auth_user_groups_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_groups
@@ -1853,7 +1960,7 @@ ALTER TABLE ONLY auth_user_groups
 
 
 --
--- Name: auth_user_groups_user_id_group_id_94350c0c_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_user_id_group_id_94350c0c_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_groups
@@ -1861,7 +1968,7 @@ ALTER TABLE ONLY auth_user_groups
 
 
 --
--- Name: auth_user_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user
@@ -1869,7 +1976,7 @@ ALTER TABLE ONLY auth_user
 
 
 --
--- Name: auth_user_user_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_user_permissions
@@ -1877,7 +1984,7 @@ ALTER TABLE ONLY auth_user_user_permissions
 
 
 --
--- Name: auth_user_user_permissions_user_id_permission_id_14a6b632_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_user_id_permission_id_14a6b632_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_user_permissions
@@ -1885,7 +1992,7 @@ ALTER TABLE ONLY auth_user_user_permissions
 
 
 --
--- Name: auth_user_username_key; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_username_key; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user
@@ -1893,7 +2000,7 @@ ALTER TABLE ONLY auth_user
 
 
 --
--- Name: django_admin_log_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_admin_log
@@ -1901,7 +2008,7 @@ ALTER TABLE ONLY django_admin_log
 
 
 --
--- Name: django_content_type_app_label_model_76bd3d3b_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_content_type_app_label_model_76bd3d3b_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_content_type
@@ -1909,7 +2016,7 @@ ALTER TABLE ONLY django_content_type
 
 
 --
--- Name: django_content_type_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_content_type_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_content_type
@@ -1917,7 +2024,7 @@ ALTER TABLE ONLY django_content_type
 
 
 --
--- Name: django_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_migrations
@@ -1925,7 +2032,7 @@ ALTER TABLE ONLY django_migrations
 
 
 --
--- Name: django_session_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_session_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_session
@@ -1941,7 +2048,7 @@ ALTER TABLE ONLY woodcutter_carddata_exceptions
 
 
 --
--- Name: woodcutter_carddata_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_carddata_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_carddata
@@ -1949,7 +2056,7 @@ ALTER TABLE ONLY woodcutter_carddata
 
 
 --
--- Name: woodcutter_exceptiondata_exceptiondata_id_carddat_10212e45_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_exceptiondata_id_carddat_10212e45_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
@@ -1957,7 +2064,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
 
 
 --
--- Name: woodcutter_exceptiondata_exceptiondata_id_preddat_35db78c1_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_exceptiondata_id_preddat_35db78c1_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
@@ -1965,7 +2072,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
 
 
 --
--- Name: woodcutter_exceptiondata_exceptiondata_id_preddat_fa668097_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_exceptiondata_id_preddat_fa668097_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
@@ -1973,7 +2080,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
 
 
 --
--- Name: woodcutter_exceptiondata_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata
@@ -1981,7 +2088,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata
 
 
 --
--- Name: woodcutter_exceptiondata_root_preds_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
@@ -1989,7 +2096,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
 
 
 --
--- Name: woodcutter_exceptiondata_target_cards_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
@@ -1997,7 +2104,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
 
 
 --
--- Name: woodcutter_exceptiondata_target_preds_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
@@ -2005,7 +2112,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
 
 
 --
--- Name: woodcutter_gamelog_game_id_3a924450_pk; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_gamelog_game_id_3a924450_pk; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_gamelog
@@ -2013,7 +2120,7 @@ ALTER TABLE ONLY woodcutter_gamelog
 
 
 --
--- Name: woodcutter_gamelog_game_id_3a924450_uniq; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_gamelog_game_id_3a924450_uniq; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_gamelog
@@ -2021,7 +2128,7 @@ ALTER TABLE ONLY woodcutter_gamelog
 
 
 --
--- Name: woodcutter_preddata_pkey; Type: CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_preddata_pkey; Type: CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_preddata
@@ -2029,147 +2136,147 @@ ALTER TABLE ONLY woodcutter_preddata
 
 
 --
--- Name: auth_group_name_a6ea08ec_like; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_group_name_a6ea08ec_like; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_group_name_a6ea08ec_like ON auth_group USING btree (name varchar_pattern_ops);
 
 
 --
--- Name: auth_group_permissions_group_id_b120cbf9; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_group_id_b120cbf9; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_group_permissions_group_id_b120cbf9 ON auth_group_permissions USING btree (group_id);
 
 
 --
--- Name: auth_group_permissions_permission_id_84c5c92e; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_permission_id_84c5c92e; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_group_permissions_permission_id_84c5c92e ON auth_group_permissions USING btree (permission_id);
 
 
 --
--- Name: auth_permission_content_type_id_2f476e4b; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_content_type_id_2f476e4b; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_permission_content_type_id_2f476e4b ON auth_permission USING btree (content_type_id);
 
 
 --
--- Name: auth_user_groups_group_id_97559544; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_group_id_97559544; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_user_groups_group_id_97559544 ON auth_user_groups USING btree (group_id);
 
 
 --
--- Name: auth_user_groups_user_id_6a12ed8b; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_user_id_6a12ed8b; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_user_groups_user_id_6a12ed8b ON auth_user_groups USING btree (user_id);
 
 
 --
--- Name: auth_user_user_permissions_permission_id_1fbb5f2c; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_permission_id_1fbb5f2c; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_user_user_permissions_permission_id_1fbb5f2c ON auth_user_user_permissions USING btree (permission_id);
 
 
 --
--- Name: auth_user_user_permissions_user_id_a95ead1b; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_user_id_a95ead1b; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_user_user_permissions_user_id_a95ead1b ON auth_user_user_permissions USING btree (user_id);
 
 
 --
--- Name: auth_user_username_6821ab7c_like; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: auth_user_username_6821ab7c_like; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX auth_user_username_6821ab7c_like ON auth_user USING btree (username varchar_pattern_ops);
 
 
 --
--- Name: django_admin_log_content_type_id_c4bce8eb; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_content_type_id_c4bce8eb; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX django_admin_log_content_type_id_c4bce8eb ON django_admin_log USING btree (content_type_id);
 
 
 --
--- Name: django_admin_log_user_id_c564eba6; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_user_id_c564eba6; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX django_admin_log_user_id_c564eba6 ON django_admin_log USING btree (user_id);
 
 
 --
--- Name: django_session_expire_date_a5c62663; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: django_session_expire_date_a5c62663; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX django_session_expire_date_a5c62663 ON django_session USING btree (expire_date);
 
 
 --
--- Name: django_session_session_key_c0390e0f_like; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: django_session_session_key_c0390e0f_like; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX django_session_session_key_c0390e0f_like ON django_session USING btree (session_key varchar_pattern_ops);
 
 
 --
--- Name: woodcutter_exceptiondata_root_card_id_4f934848; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_card_id_4f934848; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_root_card_id_4f934848 ON woodcutter_exceptiondata USING btree (root_card_id);
 
 
 --
--- Name: woodcutter_exceptiondata_root_preds_exceptiondata_id_430e88ac; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_exceptiondata_id_430e88ac; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_root_preds_exceptiondata_id_430e88ac ON woodcutter_exceptiondata_root_preds USING btree (exceptiondata_id);
 
 
 --
--- Name: woodcutter_exceptiondata_root_preds_preddata_id_a5210211; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_root_preds_preddata_id_a5210211; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_root_preds_preddata_id_a5210211 ON woodcutter_exceptiondata_root_preds USING btree (preddata_id);
 
 
 --
--- Name: woodcutter_exceptiondata_target_cards_carddata_id_51a7c461; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_carddata_id_51a7c461; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_target_cards_carddata_id_51a7c461 ON woodcutter_exceptiondata_target_cards USING btree (carddata_id);
 
 
 --
--- Name: woodcutter_exceptiondata_target_cards_exceptiondata_id_46769911; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_cards_exceptiondata_id_46769911; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_target_cards_exceptiondata_id_46769911 ON woodcutter_exceptiondata_target_cards USING btree (exceptiondata_id);
 
 
 --
--- Name: woodcutter_exceptiondata_target_preds_exceptiondata_id_d00d0b5a; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_exceptiondata_id_d00d0b5a; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_target_preds_exceptiondata_id_d00d0b5a ON woodcutter_exceptiondata_target_preds USING btree (exceptiondata_id);
 
 
 --
--- Name: woodcutter_exceptiondata_target_preds_preddata_id_2d329488; Type: INDEX; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exceptiondata_target_preds_preddata_id_2d329488; Type: INDEX; Schema: public; Owner: ceviri
 --
 
 CREATE INDEX woodcutter_exceptiondata_target_preds_preddata_id_2d329488 ON woodcutter_exceptiondata_target_preds USING btree (preddata_id);
 
 
 --
--- Name: auth_group_permissio_permission_id_84c5c92e_fk_auth_perm; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissio_permission_id_84c5c92e_fk_auth_perm; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group_permissions
@@ -2177,7 +2284,7 @@ ALTER TABLE ONLY auth_group_permissions
 
 
 --
--- Name: auth_group_permissions_group_id_b120cbf9_fk_auth_group_id; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_group_permissions_group_id_b120cbf9_fk_auth_group_id; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_group_permissions
@@ -2185,7 +2292,7 @@ ALTER TABLE ONLY auth_group_permissions
 
 
 --
--- Name: auth_permission_content_type_id_2f476e4b_fk_django_co; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_permission_content_type_id_2f476e4b_fk_django_co; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_permission
@@ -2193,7 +2300,7 @@ ALTER TABLE ONLY auth_permission
 
 
 --
--- Name: auth_user_groups_group_id_97559544_fk_auth_group_id; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_group_id_97559544_fk_auth_group_id; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_groups
@@ -2201,7 +2308,7 @@ ALTER TABLE ONLY auth_user_groups
 
 
 --
--- Name: auth_user_groups_user_id_6a12ed8b_fk_auth_user_id; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_groups_user_id_6a12ed8b_fk_auth_user_id; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_groups
@@ -2209,7 +2316,7 @@ ALTER TABLE ONLY auth_user_groups
 
 
 --
--- Name: auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_user_permissions
@@ -2217,7 +2324,7 @@ ALTER TABLE ONLY auth_user_user_permissions
 
 
 --
--- Name: auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY auth_user_user_permissions
@@ -2225,7 +2332,7 @@ ALTER TABLE ONLY auth_user_user_permissions
 
 
 --
--- Name: django_admin_log_content_type_id_c4bce8eb_fk_django_co; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_content_type_id_c4bce8eb_fk_django_co; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_admin_log
@@ -2233,7 +2340,7 @@ ALTER TABLE ONLY django_admin_log
 
 
 --
--- Name: django_admin_log_user_id_c564eba6_fk; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: django_admin_log_user_id_c564eba6_fk; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY django_admin_log
@@ -2257,7 +2364,7 @@ ALTER TABLE ONLY woodcutter_carddata_exceptions
 
 
 --
--- Name: woodcutter_exception_carddata_id_51a7c461_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_carddata_id_51a7c461_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
@@ -2265,7 +2372,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
 
 
 --
--- Name: woodcutter_exception_exceptiondata_id_430e88ac_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_exceptiondata_id_430e88ac_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
@@ -2273,7 +2380,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
 
 
 --
--- Name: woodcutter_exception_exceptiondata_id_46769911_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_exceptiondata_id_46769911_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
@@ -2281,7 +2388,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_cards
 
 
 --
--- Name: woodcutter_exception_exceptiondata_id_d00d0b5a_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_exceptiondata_id_d00d0b5a_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
@@ -2289,7 +2396,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
 
 
 --
--- Name: woodcutter_exception_preddata_id_2d329488_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_preddata_id_2d329488_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
@@ -2297,7 +2404,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_target_preds
 
 
 --
--- Name: woodcutter_exception_preddata_id_a5210211_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_preddata_id_a5210211_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
@@ -2305,7 +2412,7 @@ ALTER TABLE ONLY woodcutter_exceptiondata_root_preds
 
 
 --
--- Name: woodcutter_exception_root_card_id_4f934848_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: u_ceviri
+-- Name: woodcutter_exception_root_card_id_4f934848_fk_woodcutte; Type: FK CONSTRAINT; Schema: public; Owner: ceviri
 --
 
 ALTER TABLE ONLY woodcutter_exceptiondata
@@ -2323,202 +2430,182 @@ GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
 --
--- Name: TABLE auth_group; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_group; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_group FROM PUBLIC;
-REVOKE ALL ON TABLE auth_group FROM u_ceviri;
-GRANT ALL ON TABLE auth_group TO u_ceviri;
+REVOKE ALL ON TABLE auth_group FROM ceviri;
 GRANT ALL ON TABLE auth_group TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_group_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_group_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_group_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_group_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_group_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_group_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_group_id_seq TO ceviri;
 
 
 --
--- Name: TABLE auth_group_permissions; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_group_permissions; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_group_permissions FROM PUBLIC;
-REVOKE ALL ON TABLE auth_group_permissions FROM u_ceviri;
-GRANT ALL ON TABLE auth_group_permissions TO u_ceviri;
+REVOKE ALL ON TABLE auth_group_permissions FROM ceviri;
 GRANT ALL ON TABLE auth_group_permissions TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_group_permissions_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_group_permissions_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_group_permissions_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_group_permissions_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_group_permissions_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_group_permissions_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_group_permissions_id_seq TO ceviri;
 
 
 --
--- Name: TABLE auth_permission; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_permission; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_permission FROM PUBLIC;
-REVOKE ALL ON TABLE auth_permission FROM u_ceviri;
-GRANT ALL ON TABLE auth_permission TO u_ceviri;
+REVOKE ALL ON TABLE auth_permission FROM ceviri;
 GRANT ALL ON TABLE auth_permission TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_permission_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_permission_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_permission_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_permission_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_permission_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_permission_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_permission_id_seq TO ceviri;
 
 
 --
--- Name: TABLE auth_user; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_user; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_user FROM PUBLIC;
-REVOKE ALL ON TABLE auth_user FROM u_ceviri;
-GRANT ALL ON TABLE auth_user TO u_ceviri;
+REVOKE ALL ON TABLE auth_user FROM ceviri;
 GRANT ALL ON TABLE auth_user TO ceviri;
 
 
 --
--- Name: TABLE auth_user_groups; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_user_groups; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_user_groups FROM PUBLIC;
-REVOKE ALL ON TABLE auth_user_groups FROM u_ceviri;
-GRANT ALL ON TABLE auth_user_groups TO u_ceviri;
+REVOKE ALL ON TABLE auth_user_groups FROM ceviri;
 GRANT ALL ON TABLE auth_user_groups TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_user_groups_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_user_groups_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_user_groups_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_user_groups_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_user_groups_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_user_groups_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_user_groups_id_seq TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_user_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_user_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_user_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_user_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_user_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_user_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_user_id_seq TO ceviri;
 
 
 --
--- Name: TABLE auth_user_user_permissions; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE auth_user_user_permissions; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE auth_user_user_permissions FROM PUBLIC;
-REVOKE ALL ON TABLE auth_user_user_permissions FROM u_ceviri;
-GRANT ALL ON TABLE auth_user_user_permissions TO u_ceviri;
+REVOKE ALL ON TABLE auth_user_user_permissions FROM ceviri;
 GRANT ALL ON TABLE auth_user_user_permissions TO ceviri;
 
 
 --
--- Name: SEQUENCE auth_user_user_permissions_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE auth_user_user_permissions_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE auth_user_user_permissions_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE auth_user_user_permissions_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE auth_user_user_permissions_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE auth_user_user_permissions_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE auth_user_user_permissions_id_seq TO ceviri;
 
 
 --
--- Name: TABLE django_admin_log; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE django_admin_log; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE django_admin_log FROM PUBLIC;
-REVOKE ALL ON TABLE django_admin_log FROM u_ceviri;
-GRANT ALL ON TABLE django_admin_log TO u_ceviri;
+REVOKE ALL ON TABLE django_admin_log FROM ceviri;
 GRANT ALL ON TABLE django_admin_log TO ceviri;
 
 
 --
--- Name: SEQUENCE django_admin_log_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE django_admin_log_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE django_admin_log_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE django_admin_log_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE django_admin_log_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE django_admin_log_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE django_admin_log_id_seq TO ceviri;
 
 
 --
--- Name: TABLE django_content_type; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE django_content_type; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE django_content_type FROM PUBLIC;
-REVOKE ALL ON TABLE django_content_type FROM u_ceviri;
-GRANT ALL ON TABLE django_content_type TO u_ceviri;
+REVOKE ALL ON TABLE django_content_type FROM ceviri;
 GRANT ALL ON TABLE django_content_type TO ceviri;
 
 
 --
--- Name: SEQUENCE django_content_type_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE django_content_type_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE django_content_type_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE django_content_type_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE django_content_type_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE django_content_type_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE django_content_type_id_seq TO ceviri;
 
 
 --
--- Name: TABLE django_migrations; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE django_migrations; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE django_migrations FROM PUBLIC;
-REVOKE ALL ON TABLE django_migrations FROM u_ceviri;
-GRANT ALL ON TABLE django_migrations TO u_ceviri;
+REVOKE ALL ON TABLE django_migrations FROM ceviri;
 GRANT ALL ON TABLE django_migrations TO ceviri;
 
 
 --
--- Name: SEQUENCE django_migrations_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE django_migrations_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE django_migrations_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE django_migrations_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE django_migrations_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE django_migrations_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE django_migrations_id_seq TO ceviri;
 
 
 --
--- Name: TABLE django_session; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE django_session; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE django_session FROM PUBLIC;
-REVOKE ALL ON TABLE django_session FROM u_ceviri;
-GRANT ALL ON TABLE django_session TO u_ceviri;
+REVOKE ALL ON TABLE django_session FROM ceviri;
 GRANT ALL ON TABLE django_session TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_carddata; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_carddata; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_carddata FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_carddata FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_carddata TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_carddata FROM ceviri;
 GRANT ALL ON TABLE woodcutter_carddata TO ceviri;
 
 
@@ -2541,122 +2628,110 @@ GRANT ALL ON SEQUENCE woodcutter_carddata_exceptions_id_seq TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_carddata_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_carddata_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_carddata_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_carddata_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_carddata_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_carddata_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_carddata_id_seq TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_exceptiondata; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_exceptiondata; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_exceptiondata FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_exceptiondata FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_exceptiondata TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_exceptiondata FROM ceviri;
 GRANT ALL ON TABLE woodcutter_exceptiondata TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_exceptiondata_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_exceptiondata_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_exceptiondata_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_exceptiondata_id_seq TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_exceptiondata_root_preds; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_exceptiondata_root_preds; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_exceptiondata_root_preds FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_exceptiondata_root_preds FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_exceptiondata_root_preds TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_exceptiondata_root_preds FROM ceviri;
 GRANT ALL ON TABLE woodcutter_exceptiondata_root_preds TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_exceptiondata_root_preds_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_exceptiondata_root_preds_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_root_preds_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_root_preds_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_exceptiondata_root_preds_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_root_preds_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_exceptiondata_root_preds_id_seq TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_exceptiondata_target_cards; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_exceptiondata_target_cards; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_exceptiondata_target_cards FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_exceptiondata_target_cards FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_exceptiondata_target_cards TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_exceptiondata_target_cards FROM ceviri;
 GRANT ALL ON TABLE woodcutter_exceptiondata_target_cards TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_exceptiondata_target_cards_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_exceptiondata_target_cards_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_cards_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_cards_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_exceptiondata_target_cards_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_cards_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_exceptiondata_target_cards_id_seq TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_exceptiondata_target_preds; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_exceptiondata_target_preds; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_exceptiondata_target_preds FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_exceptiondata_target_preds FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_exceptiondata_target_preds TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_exceptiondata_target_preds FROM ceviri;
 GRANT ALL ON TABLE woodcutter_exceptiondata_target_preds TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_exceptiondata_target_preds_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_exceptiondata_target_preds_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_preds_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_preds_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_exceptiondata_target_preds_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_exceptiondata_target_preds_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_exceptiondata_target_preds_id_seq TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_gamelog; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_gamelog; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_gamelog FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_gamelog FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_gamelog TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_gamelog FROM ceviri;
 GRANT ALL ON TABLE woodcutter_gamelog TO ceviri;
 
 
 --
--- Name: TABLE woodcutter_preddata; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: TABLE woodcutter_preddata; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON TABLE woodcutter_preddata FROM PUBLIC;
-REVOKE ALL ON TABLE woodcutter_preddata FROM u_ceviri;
-GRANT ALL ON TABLE woodcutter_preddata TO u_ceviri;
+REVOKE ALL ON TABLE woodcutter_preddata FROM ceviri;
 GRANT ALL ON TABLE woodcutter_preddata TO ceviri;
 
 
 --
--- Name: SEQUENCE woodcutter_preddata_id_seq; Type: ACL; Schema: public; Owner: u_ceviri
+-- Name: SEQUENCE woodcutter_preddata_id_seq; Type: ACL; Schema: public; Owner: ceviri
 --
 
 REVOKE ALL ON SEQUENCE woodcutter_preddata_id_seq FROM PUBLIC;
-REVOKE ALL ON SEQUENCE woodcutter_preddata_id_seq FROM u_ceviri;
-GRANT ALL ON SEQUENCE woodcutter_preddata_id_seq TO u_ceviri;
+REVOKE ALL ON SEQUENCE woodcutter_preddata_id_seq FROM ceviri;
 GRANT ALL ON SEQUENCE woodcutter_preddata_id_seq TO ceviri;
 
 
