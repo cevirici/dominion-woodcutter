@@ -108,3 +108,6 @@ ENV/
 
 #Distribution local stuff
 /staticfiles
+
+#log
+log.txt
