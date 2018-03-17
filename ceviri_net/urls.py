@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from django.views.generic import RedirectView
+from django.conf.urls import handler404, handler500
+from woodcutter import views as woodcutter_views
 
 urlpatterns = [
     path('', RedirectView.as_view(url='/woodcutter/')),
@@ -23,3 +25,5 @@ urlpatterns = [
     path('woodcutter/', include('woodcutter.urls')),
 ]
 
+handler404 = woodcutter_views.error_404
+handler500 = woodcutter_views.error_500
