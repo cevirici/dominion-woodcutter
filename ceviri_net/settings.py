@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '&4#c$c4wzszqt875u5a3h0_$l&f3lhd@mi8=_334$5^8vx630o')
 
 # SECURITY WARNING: don't run with debug turned on in production
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', False))
+DEBUG = not bool(os.environ.get('DJANGO_DEBUG', False))
 
 ALLOWED_HOSTS = ['159.65.46.76', '127.0.0.1', 'ceviri.me']
 
