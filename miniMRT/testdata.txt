@@ -1,0 +1,2184 @@
+21:21:29.417607
+ADM
+[[1, 'Jurong East'], [2, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+ALJ
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+CBLY
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Bartley']]
+CBFT
+[[3, 'Stadium'], [8, 'Stadium'], [1, 'Marina Bay'], [6, 'Marina Bay']]
+BDK
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CBSH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley'], [1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CBTN
+[[3, 'HarbourFront'], [6, 'HarbourFront']]
+BDL
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBBS
+[[4, 'HarbourFront'], [9, 'HarbourFront'], [5, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut']]
+BGS
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[3, 'Jurong East'], [10, 'Jurong East'], [10, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+BGB
+[[1, 'Jurong East'], [8, 'Jurong East'], [12, 'Ang Mo Kio'], [5, 'Marina South Pier']]
+CBNV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Bartley'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+CCDT
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CGA
+[[5, 'Tanah Merah'], [5, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [4, 'Pasir Ris']]
+CCK
+[[4, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [8, 'Marina South Pier']]
+CTH
+[[2, 'Jurong East'], [6, 'Jurong East'], [3, 'Joo Koon'], [3, 'Joo Koon'], [2, 'Marina South Pier'], [5, 'Marina South Pier'], [4, 'Pasir Ris'], [9, 'Pasir Ris']]
+CLE
+[[3, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+COM
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[3, 'HarbourFront'], [6, 'HarbourFront']]
+CDBG
+[[2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut'], [1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+DVR
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CEPN
+[[6, 'HarbourFront'], [11, 'HarbourFront'], [3, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+XPO
+[[1, 'Changi Airport'], [7, 'Changi Airport'], [1, 'Tanah Merah'], [7, 'Tanah Merah']]
+CFRR
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+GCL
+[[5, 'Do not board'], [5, 'Do not board'], [1, 'Tuas Link'], [12, 'Tuas Link']]
+CHBF
+[[7, 'Dhoby Ghaut'], [2, 'Do not board']]
+CHPV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+CHLV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [4, 'Pasir Ris']]
+JUR
+[[6, 'Ang Mo Kio'], [6, 'Ang Mo Kio'], [1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+KAL
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+KEM
+[[3, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CKRG
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [3, 'Jurong East'], [5, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+KRJ
+[[2, 'Jurong East'], [4, 'Jurong East'], [4, 'Marina South Pier'], [8, 'Marina South Pier']]
+CLBD
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+LKS
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+LVR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CLRC
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CMPS
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CMRB
+[[3, 'Marina Bay'], [13, 'Marina Bay'], [2, 'Jurong East'], [4, 'Jurong East']]
+MSP
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [2, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+CMRM
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+CMBT
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+NEW
+[[4, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CNCH
+[[5, 'HarbourFront'], [2, 'Stadium']]
+NOV
+[[6, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CONH
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+ORC
+[[2, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+OTP
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CPPJ
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+PSR
+[[3, 'Joo Koon'], [3, 'Joo Koon']]
+CPYL
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[2, 'Pasir Ris'], [5, 'Pasir Ris']]
+CPMN
+[[2, 'HarbourFront'], [5, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+RFP
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Jurong East'], [4, 'Jurong East'], [3, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CSER
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+SIM
+[[4, 'Pasir Ris'], [7, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+SOM
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CSDM
+[[2, 'HarbourFront'], [4, 'Stadium'], [2, 'Dhoby Ghaut'], [4, 'Marina Bay'], [2, 'Dhoby Ghaut'], [4, 'Marina Bay']]
+CTSG
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+TAM
+[[1, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [8, 'Joo Koon'], [2, 'Changi Airport'], [8, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+TIB
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+TCR
+[[2, 'Gul Circle'], [12, 'Gul Circle']]
+TLK
+[[1, 'Gul Circle'], [1, 'Gul Circle']]
+TWR
+[[9, 'Gul Circle'], [9, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [2, 'Jurong East'], [4, 'Marina South Pier'], [8, 'Marina South Pier']]
+YWT
+[[2, 'Jurong East'], [6, 'Jurong East'], [4, 'Marina South Pier'], [12, 'Marina South Pier']]
+YCK
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [1, 'Jurong East'], [3, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+######
+21:22:29.370785
+ADM
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CBLY
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Bartley']]
+CBFT
+[[2, 'Stadium'], [7, 'Stadium'], [5, 'Marina Bay'], [11, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CBSH
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley'], [1, 'Jurong East'], [3, 'Jurong East'], [4, 'Marina South Pier'], [6, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [7, 'Joo Koon']]
+CBTN
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Bartley']]
+BDL
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+CBBS
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [4, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+BGS
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [2, 'Joo Koon']]
+BBT
+[[2, 'Jurong East'], [9, 'Jurong East'], [9, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+BGB
+[[1, 'Jurong East'], [7, 'Jurong East'], [11, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+CBNV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Bartley'], [1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CCDT
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+CGA
+[[4, 'Tanah Merah'], [4, 'Tanah Merah']]
+CNG
+[[3, 'Joo Koon'], [4, 'Joo Koon']]
+CCK
+[[3, 'Jurong East'], [8, 'Jurong East'], [2, 'Marina South Pier'], [8, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [5, 'Jurong East'], [2, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier'], [3, 'Pasir Ris'], [8, 'Pasir Ris']]
+CLE
+[[3, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CDBG
+[[1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut'], [1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+DVR
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CEPN
+[[5, 'HarbourFront'], [10, 'HarbourFront'], [2, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+XPO
+[[1, 'Changi Airport'], [5, 'Changi Airport'], [5, 'Tanah Merah'], [5, 'Tanah Merah']]
+CFRR
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley']]
+GCL
+[[4, 'Do not board'], [4, 'Do not board'], [1, 'Tuas Link'], [11, 'Tuas Link']]
+CHBF
+[[6, 'Dhoby Ghaut'], [1, 'Do not board']]
+CHPV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+CHLV
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+JUR
+[[5, 'Ang Mo Kio'], [1, 'Pasir Ris'], [1, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [3, 'Joo Koon'], [8, 'Joo Koon']]
+KEM
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+CKRG
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [6, 'Jurong East'], [4, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [3, 'Jurong East'], [3, 'Marina South Pier'], [8, 'Marina South Pier']]
+CLBD
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+LKS
+[[2, 'Pasir Ris'], [4, 'Pasir Ris']]
+LVR
+[[2, 'Pasir Ris'], [7, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+CMPS
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CMRB
+[[2, 'Marina Bay'], [12, 'Marina Bay'], [1, 'Jurong East'], [4, 'Jurong East']]
+MSP
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CMRM
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+CMBT
+[[5, 'Tai Seng'], [3, 'HarbourFront']]
+NEW
+[[3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CNCH
+[[4, 'HarbourFront'], [1, 'Stadium']]
+NOV
+[[5, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CONH
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+ORC
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+OTP
+[[5, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CPPJ
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+PSR
+[[2, 'Joo Koon'], [2, 'Joo Koon']]
+CPYL
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [4, 'Pasir Ris']]
+CPMN
+[[1, 'HarbourFront'], [4, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [3, 'Jurong East'], [5, 'Jurong East'], [2, 'Joo Koon'], [5, 'Joo Koon'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CSER
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+SIM
+[[3, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CSDM
+[[1, 'HarbourFront'], [3, 'Stadium'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay']]
+CTSG
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+TAM
+[[4, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon'], [2, 'Changi Airport'], [7, 'Changi Airport']]
+TPG
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+TIB
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+TCR
+[[1, 'Gul Circle'], [11, 'Gul Circle']]
+TLK
+[[6, 'Gul Circle'], [6, 'Gul Circle']]
+TWR
+[[8, 'Gul Circle'], [8, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [1, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [5, 'Jurong East'], [3, 'Marina South Pier'], [11, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [1, 'Jurong East'], [2, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+######
+21:23:29.453543
+ADM
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CBLY
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Bartley']]
+CBFT
+[[1, 'Stadium'], [6, 'Stadium'], [4, 'Marina Bay'], [10, 'Marina Bay']]
+BDK
+[[3, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CBSH
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley'], [2, 'Jurong East'], [5, 'Jurong East'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CBTN
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Bartley']]
+BDL
+[[2, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CBBS
+[[2, 'HarbourFront'], [7, 'HarbourFront'], [3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+BGS
+[[4, 'Pasir Ris'], [9, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+BBT
+[[2, 'Jurong East'], [8, 'Jurong East'], [8, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+BGB
+[[6, 'Jurong East'], [11, 'Jurong East'], [10, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+CBNV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley'], [1, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CCDT
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+CGA
+[[4, 'Tanah Merah'], [4, 'Tanah Merah']]
+CNG
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[2, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [3, 'Marina South Pier'], [2, 'Pasir Ris'], [8, 'Pasir Ris']]
+CLE
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [3, 'Joo Koon'], [2, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CDBG
+[[10, 'Dhoby Ghaut'], [5, 'Dhoby Ghaut'], [2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+DVR
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CEPN
+[[4, 'HarbourFront'], [9, 'HarbourFront'], [1, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+EUN
+[[3, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+XPO
+[[5, 'Changi Airport'], [11, 'Changi Airport'], [5, 'Tanah Merah'], [5, 'Tanah Merah']]
+CFRR
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+GCL
+[[3, 'Do not board'], [3, 'Do not board'], [1, 'Tuas Link'], [10, 'Tuas Link']]
+CHBF
+[[3, 'Dhoby Ghaut'], [5, 'Dhoby Ghaut']]
+CHPV
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+CHLV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [4, 'Pasir Ris']]
+JUR
+[[5, 'Ang Mo Kio'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+KEM
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [5, 'Jurong East'], [4, 'Ang Mo Kio'], [5, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [2, 'Jurong East'], [2, 'Marina South Pier'], [8, 'Marina South Pier']]
+CLBD
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+LVR
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+CMPS
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+CMRB
+[[1, 'Marina Bay'], [11, 'Marina Bay'], [1, 'Jurong East'], [3, 'Jurong East']]
+MSP
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [1, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CMRM
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CMBT
+[[4, 'Tai Seng'], [2, 'HarbourFront']]
+NEW
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CNCH
+[[3, 'HarbourFront'], [5, 'Stadium']]
+NOV
+[[4, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CONH
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+OTP
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CPPJ
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+PSR
+[[1, 'Joo Koon'], [1, 'Joo Koon']]
+CPYL
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CPMN
+[[6, 'HarbourFront'], [3, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Jurong East'], [5, 'Jurong East'], [3, 'Joo Koon'], [3, 'Joo Koon'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [7, 'Marina South Pier']]
+CSER
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+SIM
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [5, 'Marina South Pier']]
+CSDM
+[[2, 'Stadium'], [2, 'Do not board'], [2, 'Marina Bay'], [5, 'Dhoby Ghaut']]
+CTSG
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+TAM
+[[4, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+TNM
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Changi Airport'], [7, 'Changi Airport']]
+TPG
+[[4, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[7, 'Jurong East'], [10, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+TCR
+[[1, 'Gul Circle'], [10, 'Gul Circle'], [2, 'Tuas Link'], [12, 'Tuas Link']]
+TLK
+[[5, 'Gul Circle'], [5, 'Gul Circle']]
+TWR
+[[7, 'Gul Circle'], [7, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [10, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+######
+21:24:29.416942
+ADM
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+CBLY
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CBFT
+[[5, 'Stadium'], [10, 'Stadium'], [3, 'Marina Bay'], [9, 'Marina Bay']]
+BDK
+[[3, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+CBSH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley'], [1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CBTN
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Bartley']]
+BDL
+[[1, 'Jurong East'], [9, 'Jurong East'], [4, 'Marina South Pier'], [7, 'Marina South Pier']]
+CBBS
+[[1, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+BGS
+[[3, 'Pasir Ris'], [8, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[1, 'Jurong East'], [8, 'Jurong East'], [7, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+BGB
+[[5, 'Jurong East'], [10, 'Jurong East'], [9, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+CBNV
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley'], [5, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CCDT
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+CGA
+[[3, 'Tanah Merah'], [3, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[2, 'Jurong East'], [6, 'Jurong East'], [6, 'Marina South Pier'], [6, 'Marina South Pier']]
+CTH
+[[3, 'Jurong East'], [6, 'Jurong East'], [2, 'Joo Koon'], [2, 'Joo Koon'], [2, 'Marina South Pier'], [6, 'Marina South Pier'], [1, 'Pasir Ris'], [8, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+CDKT
+[[5, 'Tai Seng'], [3, 'HarbourFront']]
+CDBG
+[[9, 'Dhoby Ghaut'], [4, 'Dhoby Ghaut'], [1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+DVR
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+CEPN
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [6, 'Dhoby Ghaut'], [11, 'Dhoby Ghaut']]
+EUN
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+XPO
+[[3, 'Changi Airport'], [10, 'Changi Airport'], [4, 'Tanah Merah'], [11, 'Tanah Merah']]
+CFRR
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+GCL
+[[2, 'Do not board'], [12, 'Do not board']]
+CHBF
+[[2, 'Dhoby Ghaut'], [4, 'Dhoby Ghaut']]
+CHPV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+CHLV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+JUR
+[[3, 'Ang Mo Kio'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CKRG
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+CLBD
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+LVR
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CLRC
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+CMPS
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+CMRB
+[[2, 'Jurong East'], [4, 'Jurong East']]
+MSP
+[[2, 'Jurong East'], [9, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [2, 'Jurong East'], [3, 'Marina South Pier'], [9, 'Marina South Pier']]
+CMRM
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CMBT
+[[3, 'Tai Seng'], [1, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CNCH
+[[2, 'HarbourFront'], [4, 'Stadium']]
+NOV
+[[3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CONH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+OTP
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [3, 'Joo Koon']]
+CPPJ
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+PSR
+[[1, 'Joo Koon'], [1, 'Joo Koon']]
+CPYL
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+CPMN
+[[5, 'HarbourFront'], [2, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+RFP
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Jurong East'], [4, 'Jurong East'], [3, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+CSER
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+SIM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SOM
+[[3, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+CSDM
+[[1, 'Stadium'], [1, 'Do not board'], [2, 'Marina Bay'], [4, 'Dhoby Ghaut']]
+CTSG
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+TAM
+[[3, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [9, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Changi Airport'], [5, 'Changi Airport']]
+TPG
+[[4, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CTLB
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+TAP
+[[6, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+TCR
+[[9, 'Gul Circle'], [9, 'Gul Circle'], [1, 'Tuas Link'], [11, 'Tuas Link']]
+TLK
+[[4, 'Gul Circle'], [4, 'Gul Circle']]
+TWR
+[[6, 'Gul Circle'], [6, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+YWT
+[[4, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [9, 'Marina South Pier']]
+YCK
+[[3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+YIS
+[[3, 'Jurong East'], [7, 'Jurong East'], [1, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+######
+21:25:29.393535
+ADM
+[[2, 'Jurong East'], [6, 'Jurong East'], [3, 'Marina South Pier'], [7, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBLY
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+CBFT
+[[4, 'Stadium'], [9, 'Stadium'], [2, 'Marina Bay'], [8, 'Marina Bay']]
+BDK
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CBSH
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley'], [1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+CBTN
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+BDL
+[[1, 'Jurong East'], [8, 'Jurong East'], [4, 'Marina South Pier'], [6, 'Marina South Pier']]
+CBBS
+[[5, 'HarbourFront'], [11, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+BGS
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[7, 'Jurong East'], [11, 'Jurong East'], [6, 'Ang Mo Kio'], [6, 'Ang Mo Kio']]
+BGB
+[[4, 'Jurong East'], [9, 'Jurong East'], [8, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+CBNV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar'], [4, 'Pasir Ris'], [5, 'Pasir Ris'], [4, 'Joo Koon'], [5, 'Joo Koon']]
+CCDT
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CGA
+[[2, 'Tanah Merah'], [2, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [5, 'Jurong East'], [12, 'Ang Mo Kio'], [5, 'Marina South Pier']]
+CTH
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Joo Koon'], [6, 'Joo Koon'], [1, 'Marina South Pier'], [5, 'Marina South Pier'], [1, 'Pasir Ris'], [7, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[4, 'Tai Seng'], [2, 'HarbourFront']]
+CDBG
+[[8, 'Dhoby Ghaut'], [3, 'Dhoby Ghaut'], [1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+DVR
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CEPN
+[[2, 'HarbourFront'], [7, 'HarbourFront'], [5, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut']]
+EUN
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+XPO
+[[2, 'Changi Airport'], [10, 'Changi Airport'], [3, 'Tanah Merah'], [9, 'Tanah Merah']]
+CFRR
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Bartley']]
+GCL
+[[1, 'Do not board'], [11, 'Do not board']]
+CHBF
+[[1, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+CHPV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+CHLV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+JUR
+[[2, 'Ang Mo Kio'], [3, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+KEM
+[[4, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+CLBD
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+LVR
+[[4, 'Pasir Ris'], [10, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CLRC
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+CMPS
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CMRB
+[[1, 'Jurong East'], [4, 'Jurong East']]
+MSP
+[[2, 'Jurong East'], [8, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [9, 'Marina South Pier']]
+CMRM
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+CMBT
+[[2, 'Tai Seng'], [5, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CNCH
+[[1, 'HarbourFront'], [3, 'Stadium']]
+NOV
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CONH
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+OTP
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CPPJ
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+PSR
+[[7, 'Joo Koon'], [7, 'Joo Koon']]
+CPYL
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut'], [2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [1, 'Pasir Ris']]
+CPMN
+[[4, 'HarbourFront'], [1, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+RFP
+[[4, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Jurong East'], [3, 'Jurong East'], [1, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+CSER
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+SIM
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SOM
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CSDM
+[[3, 'HarbourFront'], [5, 'Stadium'], [1, 'Marina Bay'], [3, 'Dhoby Ghaut']]
+CTSG
+[[3, 'HarbourFront'], [6, 'HarbourFront']]
+TAM
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [8, 'Joo Koon']]
+TNM
+[[4, 'Pasir Ris'], [8, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon'], [1, 'Changi Airport'], [6, 'Changi Airport']]
+TPG
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [2, 'Joo Koon']]
+CTLB
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+TAP
+[[5, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+TCR
+[[8, 'Gul Circle'], [8, 'Gul Circle'], [1, 'Tuas Link'], [10, 'Tuas Link']]
+TLK
+[[3, 'Gul Circle'], [3, 'Gul Circle']]
+TWR
+[[5, 'Gul Circle'], [5, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+YWT
+[[2, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [8, 'Marina South Pier']]
+YCK
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+YIS
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+######
+21:26:29.461632
+ADM
+[[1, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+ALJ
+[[2, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBLY
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+CBFT
+[[3, 'Stadium'], [8, 'Stadium'], [1, 'Marina Bay'], [7, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CBSH
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+CBTN
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+BDL
+[[6, 'Jurong East'], [9, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+CBBS
+[[4, 'HarbourFront'], [10, 'HarbourFront'], [5, 'Dhoby Ghaut'], [11, 'Dhoby Ghaut']]
+BGS
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [4, 'Joo Koon'], [8, 'Joo Koon']]
+BBT
+[[5, 'Jurong East'], [10, 'Jurong East'], [5, 'Ang Mo Kio'], [12, 'Marina South Pier']]
+BGB
+[[3, 'Jurong East'], [8, 'Jurong East'], [7, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+CBNV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar'], [3, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CCDT
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CGA
+[[4, 'Tanah Merah'], [4, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [4, 'Jurong East'], [11, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier'], [7, 'Pasir Ris'], [7, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [2, 'Joo Koon'], [8, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CDKT
+[[3, 'Tai Seng'], [1, 'HarbourFront']]
+CDBG
+[[7, 'Dhoby Ghaut'], [2, 'Dhoby Ghaut'], [3, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CEPN
+[[1, 'HarbourFront'], [6, 'HarbourFront'], [4, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+XPO
+[[2, 'Changi Airport'], [9, 'Changi Airport'], [2, 'Tanah Merah'], [8, 'Tanah Merah']]
+CFRR
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Bartley']]
+GCL
+[[1, 'Do not board'], [10, 'Do not board']]
+CHBF
+[[7, 'Dhoby Ghaut'], [3, 'Do not board']]
+CHPV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+CHLV
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [8, 'Pasir Ris']]
+JUR
+[[2, 'Ang Mo Kio'], [3, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+KEM
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [8, 'Joo Koon']]
+CKRG
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [7, 'Jurong East'], [1, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [2, 'Jurong East'], [6, 'Marina South Pier'], [6, 'Marina South Pier']]
+CLBD
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+LVR
+[[3, 'Pasir Ris'], [9, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley']]
+CMPS
+[[3, 'HarbourFront'], [5, 'HarbourFront']]
+CMRB
+[[1, 'Jurong East'], [3, 'Jurong East']]
+MSP
+[[1, 'Jurong East'], [7, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [2, 'Jurong East'], [2, 'Marina South Pier'], [8, 'Marina South Pier']]
+CMRM
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+CMBT
+[[1, 'Tai Seng'], [4, 'HarbourFront']]
+NEW
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CNCH
+[[5, 'HarbourFront'], [2, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CONH
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CPPJ
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+PSR
+[[6, 'Joo Koon'], [6, 'Joo Koon']]
+CPYL
+[[5, 'Tai Seng'], [3, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [1, 'Pasir Ris']]
+CPMN
+[[3, 'HarbourFront'], [5, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+RFP
+[[4, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Jurong East'], [5, 'Jurong East'], [2, 'Joo Koon'], [3, 'Joo Koon'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [4, 'Joo Koon'], [5, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CSER
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+SIM
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CSDM
+[[2, 'HarbourFront'], [4, 'Stadium'], [2, 'Dhoby Ghaut'], [5, 'Marina Bay'], [2, 'Dhoby Ghaut'], [5, 'Marina Bay']]
+CTSG
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+TAM
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [7, 'Joo Koon']]
+TNM
+[[3, 'Pasir Ris'], [7, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon'], [5, 'Changi Airport'], [10, 'Changi Airport']]
+TPG
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [2, 'Joo Koon']]
+CTLB
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+TAP
+[[4, 'Jurong East'], [7, 'Jurong East'], [4, 'Marina South Pier'], [7, 'Marina South Pier']]
+TCR
+[[7, 'Gul Circle'], [7, 'Gul Circle'], [1, 'Tuas Link'], [9, 'Tuas Link']]
+TLK
+[[2, 'Gul Circle'], [2, 'Gul Circle']]
+TWR
+[[4, 'Gul Circle'], [4, 'Gul Circle'], [2, 'Tuas Link'], [12, 'Tuas Link']]
+WDL
+[[1, 'Jurong East'], [3, 'Jurong East'], [4, 'Marina South Pier'], [10, 'Marina South Pier']]
+YWT
+[[2, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [4, 'Jurong East'], [5, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+######
+21:27:29.424643
+ADM
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+ALJ
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBLY
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+CBFT
+[[2, 'Stadium'], [7, 'Stadium'], [6, 'Marina Bay'], [11, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CBSH
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CBTN
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Bartley']]
+BDL
+[[5, 'Jurong East'], [8, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+CBBS
+[[3, 'HarbourFront'], [9, 'HarbourFront'], [4, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut']]
+BGS
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+BBT
+[[5, 'Jurong East'], [9, 'Jurong East'], [4, 'Ang Mo Kio'], [11, 'Marina South Pier']]
+BGB
+[[3, 'Jurong East'], [7, 'Jurong East'], [6, 'Ang Mo Kio'], [6, 'Ang Mo Kio']]
+CBNV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar'], [2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CCDT
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+CGA
+[[4, 'Tanah Merah'], [4, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CCK
+[[3, 'Jurong East'], [5, 'Jurong East'], [10, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Joo Koon'], [4, 'Joo Koon'], [3, 'Marina South Pier'], [6, 'Marina South Pier'], [6, 'Pasir Ris'], [7, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+COM
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CDKT
+[[2, 'Tai Seng'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+CDBG
+[[6, 'Dhoby Ghaut'], [1, 'Dhoby Ghaut'], [2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CEPN
+[[5, 'HarbourFront'], [10, 'HarbourFront'], [3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+EUN
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+XPO
+[[1, 'Changi Airport'], [8, 'Changi Airport'], [1, 'Tanah Merah'], [7, 'Tanah Merah']]
+CFRR
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Bartley']]
+GCL
+[[9, 'Do not board'], [9, 'Do not board']]
+CHBF
+[[6, 'Dhoby Ghaut'], [2, 'Do not board']]
+CHPV
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+CHLV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Bartley']]
+JKN
+[[1, 'Pasir Ris'], [7, 'Pasir Ris']]
+JUR
+[[1, 'Ang Mo Kio'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [2, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+CKRG
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [2, 'Jurong East'], [5, 'Marina South Pier'], [12, 'Marina South Pier']]
+CLBD
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+LVR
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+CMPS
+[[2, 'HarbourFront'], [4, 'HarbourFront']]
+CMRB
+[[2, 'Jurong East'], [9, 'Jurong East']]
+MSP
+[[6, 'Jurong East'], [10, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+CMRM
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+CMBT
+[[3, 'HarbourFront'], [8, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CNCH
+[[4, 'HarbourFront'], [1, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+CONH
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+ORC
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [4, 'Joo Koon'], [3, 'Joo Koon']]
+CPPJ
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+PSR
+[[5, 'Joo Koon'], [5, 'Joo Koon']]
+CPYL
+[[4, 'Tai Seng'], [2, 'HarbourFront'], [1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CPMN
+[[2, 'HarbourFront'], [4, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+RFP
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Jurong East'], [4, 'Jurong East'], [2, 'Joo Koon'], [6, 'Joo Koon'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [8, 'Marina South Pier']]
+CSER
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+SIM
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+CSDM
+[[1, 'HarbourFront'], [3, 'Stadium'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay']]
+CTSG
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+TAM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+TNM
+[[3, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon'], [3, 'Changi Airport'], [9, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[3, 'Jurong East'], [6, 'Jurong East'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+TCR
+[[6, 'Gul Circle'], [6, 'Gul Circle']]
+TLK
+[[1, 'Gul Circle'], [1, 'Gul Circle']]
+TWR
+[[3, 'Gul Circle'], [3, 'Gul Circle'], [1, 'Tuas Link'], [11, 'Tuas Link']]
+WDL
+[[2, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [9, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [3, 'Jurong East'], [5, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [7, 'Marina South Pier']]
+######
+21:28:29.401221
+ADM
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CBLY
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CBFT
+[[1, 'Stadium'], [6, 'Stadium'], [5, 'Marina Bay'], [10, 'Marina Bay']]
+BDK
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CBSH
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [7, 'Jurong East'], [10, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+CBTN
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Bartley']]
+BDL
+[[4, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CBBS
+[[2, 'HarbourFront'], [8, 'HarbourFront'], [3, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+BGS
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[4, 'Jurong East'], [8, 'Jurong East'], [3, 'Ang Mo Kio'], [10, 'Marina South Pier']]
+BGB
+[[2, 'Jurong East'], [6, 'Jurong East'], [5, 'Ang Mo Kio'], [5, 'Ang Mo Kio']]
+CBNV
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CCDT
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+CGA
+[[3, 'Tanah Merah'], [11, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[2, 'Jurong East'], [4, 'Jurong East'], [9, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+CTH
+[[2, 'Jurong East'], [6, 'Jurong East'], [4, 'Joo Koon'], [7, 'Joo Koon'], [2, 'Marina South Pier'], [5, 'Marina South Pier'], [6, 'Pasir Ris'], [7, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+COM
+[[3, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CDKT
+[[1, 'Tai Seng'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+CDBG
+[[5, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut'], [1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+CEPN
+[[4, 'HarbourFront'], [9, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+XPO
+[[1, 'Changi Airport'], [7, 'Changi Airport'], [1, 'Tanah Merah'], [7, 'Tanah Merah']]
+CFRR
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+GCL
+[[8, 'Do not board'], [8, 'Do not board']]
+CHBF
+[[3, 'Dhoby Ghaut'], [5, 'Dhoby Ghaut']]
+CHPV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+CHLV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+JKN
+[[1, 'Pasir Ris'], [6, 'Pasir Ris']]
+JUR
+[[1, 'Ang Mo Kio'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[4, 'Pasir Ris'], [11, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [3, 'Jurong East'], [4, 'Marina South Pier'], [9, 'Marina South Pier']]
+CLBD
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+LVR
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CLRC
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+CMPS
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+CMRB
+[[1, 'Jurong East'], [8, 'Jurong East']]
+MSP
+[[5, 'Jurong East'], [9, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [4, 'Jurong East'], [6, 'Marina South Pier'], [12, 'Marina South Pier']]
+CMRM
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CMBT
+[[2, 'HarbourFront'], [7, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CNCH
+[[3, 'HarbourFront'], [5, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CONH
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [3, 'Joo Koon'], [2, 'Joo Koon']]
+CPPJ
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+PSR
+[[4, 'Joo Koon'], [4, 'Joo Koon']]
+CPYL
+[[3, 'Tai Seng'], [1, 'HarbourFront'], [2, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+CPMN
+[[1, 'HarbourFront'], [3, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+RFP
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Jurong East'], [3, 'Jurong East'], [4, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [3, 'Jurong East'], [3, 'Marina South Pier'], [7, 'Marina South Pier']]
+CSER
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Bartley']]
+SIM
+[[4, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+SOM
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CSDM
+[[2, 'Stadium'], [5, 'HarbourFront'], [3, 'Marina Bay'], [4, 'Do not board']]
+CTSG
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+TAM
+[[2, 'Pasir Ris'], [7, 'Pasir Ris'], [5, 'Joo Koon'], [7, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon'], [2, 'Changi Airport'], [8, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [2, 'Joo Koon']]
+CTLB
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+TCR
+[[5, 'Gul Circle'], [5, 'Gul Circle']]
+TLK
+[[1, 'Gul Circle'], [12, 'Gul Circle']]
+TWR
+[[2, 'Gul Circle'], [12, 'Gul Circle'], [1, 'Tuas Link'], [10, 'Tuas Link']]
+WDL
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [8, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [2, 'Jurong East'], [12, 'Ang Mo Kio'], [5, 'Marina South Pier']]
+YCK
+[[2, 'Jurong East'], [5, 'Jurong East'], [4, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YIS
+[[3, 'Jurong East'], [7, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+######
+21:29:29.379027
+ADM
+[[2, 'Jurong East'], [6, 'Jurong East'], [4, 'Marina South Pier'], [10, 'Marina South Pier']]
+ALJ
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+AMK
+[[2, 'Jurong East'], [9, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+CBLY
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+CBFT
+[[11, 'HarbourFront'], [5, 'Stadium'], [4, 'Marina Bay'], [9, 'Marina Bay']]
+BDK
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+CBSH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CBTN
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Bartley']]
+BDL
+[[4, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBBS
+[[1, 'HarbourFront'], [7, 'HarbourFront'], [2, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+BGS
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[3, 'Jurong East'], [8, 'Jurong East'], [2, 'Ang Mo Kio'], [9, 'Marina South Pier']]
+BGB
+[[1, 'Jurong East'], [5, 'Jurong East'], [5, 'Ang Mo Kio'], [12, 'Marina South Pier']]
+CBNV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCDT
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley']]
+CGA
+[[2, 'Tanah Merah'], [10, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CCK
+[[2, 'Jurong East'], [3, 'Jurong East'], [8, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [5, 'Jurong East'], [2, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier'], [4, 'Pasir Ris'], [6, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+COM
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+CDBG
+[[4, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut'], [1, 'Jurong East'], [3, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CEPN
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+XPO
+[[6, 'Changi Airport'], [6, 'Changi Airport'], [1, 'Tanah Merah'], [5, 'Tanah Merah']]
+CFRR
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+GCL
+[[7, 'Do not board'], [7, 'Do not board']]
+CHBF
+[[4, 'Dhoby Ghaut'], [2, 'Do not board']]
+CHPV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+CHLV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+JKN
+[[5, 'Pasir Ris'], [10, 'Pasir Ris']]
+JUR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[2, 'Pasir Ris'], [9, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+KEM
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+CKRG
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [2, 'Jurong East'], [3, 'Marina South Pier'], [9, 'Marina South Pier']]
+CLBD
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+LVR
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+CLRC
+[[1, 'HarbourFront'], [3, 'HarbourFront']]
+CMPS
+[[4, 'Tai Seng'], [2, 'HarbourFront']]
+CMRB
+[[1, 'Jurong East'], [6, 'Jurong East']]
+MSP
+[[4, 'Jurong East'], [8, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[3, 'Jurong East'], [7, 'Jurong East'], [5, 'Marina South Pier'], [11, 'Marina South Pier']]
+CMRM
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+CMBT
+[[1, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+NEW
+[[3, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+CNCH
+[[2, 'HarbourFront'], [4, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CONH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [2, 'Joo Koon']]
+CPPJ
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+PSR
+[[3, 'Joo Koon'], [3, 'Joo Koon']]
+CPYL
+[[2, 'Tai Seng'], [5, 'HarbourFront'], [2, 'Pasir Ris'], [6, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CPMN
+[[5, 'HarbourFront'], [2, 'Stadium']]
+QUE
+[[4, 'Pasir Ris'], [5, 'Pasir Ris'], [3, 'Joo Koon'], [7, 'Joo Koon']]
+RFP
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Jurong East'], [9, 'Jurong East'], [3, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[2, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+CSER
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Bartley']]
+SIM
+[[3, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+SOM
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CSDM
+[[1, 'Stadium'], [4, 'HarbourFront'], [2, 'Marina Bay'], [3, 'Do not board']]
+CTSG
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+TAM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon'], [2, 'Changi Airport'], [7, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [2, 'Joo Koon'], [2, 'Joo Koon']]
+CTLB
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+TIB
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+TCR
+[[4, 'Gul Circle'], [4, 'Gul Circle']]
+TLK
+[[11, 'Gul Circle'], [11, 'Gul Circle']]
+TWR
+[[1, 'Gul Circle'], [11, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [2, 'Jurong East'], [11, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Ang Mo Kio'], [4, 'Marina South Pier']]
+YIS
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+######
+21:30:29.461133
+ADM
+[[1, 'Jurong East'], [5, 'Jurong East'], [3, 'Marina South Pier'], [9, 'Marina South Pier']]
+ALJ
+[[4, 'Pasir Ris'], [10, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CBLY
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+CBFT
+[[10, 'HarbourFront'], [4, 'Stadium'], [3, 'Marina Bay'], [8, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CBSH
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Jurong East'], [8, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CBTN
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+BDL
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [3, 'Marina South Pier']]
+CBBS
+[[6, 'HarbourFront'], [11, 'HarbourFront'], [1, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+BGS
+[[4, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[2, 'Jurong East'], [7, 'Jurong East'], [1, 'Ang Mo Kio'], [9, 'Marina South Pier']]
+BGB
+[[1, 'Jurong East'], [4, 'Jurong East'], [4, 'Ang Mo Kio'], [11, 'Marina South Pier']]
+CBNV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CCDT
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+CGA
+[[1, 'Tanah Merah'], [9, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [2, 'Jurong East'], [7, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Marina South Pier'], [3, 'Marina South Pier'], [3, 'Pasir Ris'], [5, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [4, 'Joo Koon'], [5, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CDKT
+[[2, 'HarbourFront'], [7, 'HarbourFront']]
+CDBG
+[[3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut'], [2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CEPN
+[[2, 'HarbourFront'], [7, 'HarbourFront'], [5, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut']]
+EUN
+[[2, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+XPO
+[[4, 'Changi Airport'], [11, 'Changi Airport'], [5, 'Tanah Merah'], [12, 'Tanah Merah']]
+CFRR
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+GCL
+[[6, 'Do not board'], [6, 'Do not board']]
+CHBF
+[[3, 'Dhoby Ghaut'], [1, 'Do not board']]
+CHPV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+CHLV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+JKN
+[[4, 'Pasir Ris'], [9, 'Pasir Ris']]
+JUR
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [6, 'Jurong East'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [8, 'Marina South Pier']]
+CLBD
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+LVR
+[[6, 'Pasir Ris'], [8, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CLRC
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CMPS
+[[3, 'Tai Seng'], [1, 'HarbourFront']]
+CMRB
+[[5, 'Jurong East'], [9, 'Jurong East']]
+MSP
+[[3, 'Jurong East'], [7, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[2, 'Jurong East'], [6, 'Jurong East'], [4, 'Marina South Pier'], [10, 'Marina South Pier']]
+CMRM
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+CMBT
+[[8, 'Tai Seng'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+NEW
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CNCH
+[[1, 'HarbourFront'], [3, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+CONH
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+ORC
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CPPJ
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+PSR
+[[2, 'Joo Koon'], [2, 'Joo Koon']]
+CPYL
+[[1, 'Tai Seng'], [4, 'HarbourFront'], [1, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [8, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [1, 'Pasir Ris']]
+CPMN
+[[4, 'HarbourFront'], [1, 'Stadium']]
+QUE
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Jurong East'], [7, 'Jurong East'], [4, 'Joo Koon'], [7, 'Joo Koon'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CSER
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Bartley']]
+SIM
+[[3, 'Pasir Ris'], [6, 'Pasir Ris'], [4, 'Joo Koon'], [6, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CSDM
+[[3, 'HarbourFront'], [5, 'Stadium'], [2, 'Do not board'], [2, 'Do not board'], [2, 'Do not board'], [2, 'Do not board']]
+CTSG
+[[5, 'Tai Seng'], [3, 'HarbourFront'], [3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+TAM
+[[4, 'Pasir Ris'], [8, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+TNM
+[[3, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon'], [1, 'Changi Airport'], [6, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CTLB
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+TCR
+[[3, 'Gul Circle'], [12, 'Gul Circle']]
+TLK
+[[10, 'Gul Circle'], [10, 'Gul Circle']]
+TWR
+[[1, 'Gul Circle'], [10, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [1, 'Jurong East'], [10, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+######
+21:31:29.420758
+ADM
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [8, 'Marina South Pier']]
+ALJ
+[[3, 'Pasir Ris'], [10, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+AMK
+[[1, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CBLY
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley']]
+CBFT
+[[9, 'HarbourFront'], [3, 'Stadium'], [1, 'Marina Bay'], [7, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CBSH
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+CBTN
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+BDL
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBBS
+[[4, 'HarbourFront'], [10, 'HarbourFront'], [6, 'Dhoby Ghaut'], [11, 'Dhoby Ghaut']]
+BGS
+[[4, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+BBT
+[[1, 'Jurong East'], [6, 'Jurong East'], [1, 'Ang Mo Kio'], [8, 'Marina South Pier']]
+BGB
+[[3, 'Jurong East'], [5, 'Jurong East'], [3, 'Ang Mo Kio'], [10, 'Marina South Pier']]
+CBNV
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CCDT
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+CGA
+[[1, 'Tanah Merah'], [7, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [2, 'Jurong East'], [6, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+CTH
+[[3, 'Jurong East'], [9, 'Jurong East'], [1, 'Joo Koon'], [4, 'Joo Koon'], [2, 'Marina South Pier'], [3, 'Marina South Pier'], [2, 'Pasir Ris'], [5, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [4, 'Joo Koon'], [8, 'Joo Koon']]
+CDKT
+[[1, 'HarbourFront'], [6, 'HarbourFront']]
+CDBG
+[[2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut'], [1, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CEPN
+[[1, 'HarbourFront'], [6, 'HarbourFront'], [4, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+EUN
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon']]
+XPO
+[[4, 'Changi Airport'], [11, 'Changi Airport'], [4, 'Tanah Merah'], [11, 'Tanah Merah']]
+CFRR
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+GCL
+[[5, 'Do not board'], [5, 'Do not board'], [1, 'Tuas Link'], [12, 'Tuas Link']]
+CHBF
+[[8, 'Dhoby Ghaut'], [3, 'Do not board']]
+CHPV
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+CHLV
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+JKN
+[[3, 'Pasir Ris'], [8, 'Pasir Ris']]
+JUR
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [8, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+KTB
+[[2, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+KRJ
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+CLBD
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+LVR
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+CMPS
+[[2, 'Tai Seng'], [5, 'HarbourFront']]
+CMRB
+[[5, 'Jurong East'], [8, 'Jurong East']]
+MSP
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [5, 'Jurong East'], [3, 'Marina South Pier'], [10, 'Marina South Pier']]
+CMRM
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [6, 'Dhoby Ghaut'], [3, 'Bartley']]
+CMBT
+[[7, 'Tai Seng'], [4, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CNCH
+[[5, 'HarbourFront'], [2, 'Stadium']]
+NOV
+[[3, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [5, 'Marina South Pier']]
+CONH
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+ORC
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+OTP
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [2, 'Joo Koon']]
+CPPJ
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+PSR
+[[1, 'Joo Koon'], [1, 'Joo Koon']]
+CPYL
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [4, 'Pasir Ris'], [11, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CPMN
+[[3, 'HarbourFront'], [5, 'Stadium']]
+QUE
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Jurong East'], [7, 'Jurong East'], [3, 'Joo Koon'], [6, 'Joo Koon'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+RDH
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+CSER
+[[1, 'HarbourFront'], [4, 'HarbourFront']]
+SIM
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [4, 'Joo Koon'], [5, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CSDM
+[[2, 'HarbourFront'], [4, 'Stadium'], [1, 'Do not board'], [1, 'Do not board'], [1, 'Do not board'], [1, 'Do not board']]
+CTSG
+[[4, 'Tai Seng'], [2, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+TAM
+[[3, 'Pasir Ris'], [7, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+TNM
+[[2, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon'], [1, 'Changi Airport'], [5, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [4, 'Marina South Pier']]
+TCR
+[[2, 'Gul Circle'], [12, 'Gul Circle']]
+TLK
+[[9, 'Gul Circle'], [9, 'Gul Circle']]
+TWR
+[[1, 'Gul Circle'], [9, 'Gul Circle']]
+WDL
+[[2, 'Jurong East'], [6, 'Jurong East'], [5, 'Marina South Pier'], [12, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [2, 'Jurong East'], [9, 'Ang Mo Kio'], [2, 'Marina South Pier']]
+YCK
+[[2, 'Jurong East'], [9, 'Jurong East'], [1, 'Ang Mo Kio'], [3, 'Marina South Pier']]
+YIS
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [8, 'Marina South Pier']]
+######
+21:32:29.395173
+ADM
+[[3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [7, 'Marina South Pier']]
+ALJ
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+AMK
+[[6, 'Jurong East'], [9, 'Jurong East'], [4, 'Marina South Pier'], [8, 'Marina South Pier']]
+CBLY
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Bartley']]
+CBFT
+[[8, 'HarbourFront'], [2, 'Stadium'], [6, 'Marina Bay'], [11, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [8, 'Joo Koon']]
+CBSH
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley'], [3, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CBTN
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+BDL
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+CBBS
+[[4, 'HarbourFront'], [9, 'HarbourFront'], [5, 'Dhoby Ghaut'], [10, 'Dhoby Ghaut']]
+BGS
+[[4, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+BBT
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Ang Mo Kio'], [7, 'Marina South Pier']]
+BGB
+[[3, 'Jurong East'], [4, 'Jurong East'], [2, 'Ang Mo Kio'], [9, 'Marina South Pier']]
+CBNV
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CCDT
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Bartley']]
+CGA
+[[7, 'Tanah Merah'], [7, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [2, 'Jurong East'], [5, 'Ang Mo Kio'], [12, 'Marina South Pier']]
+CTH
+[[2, 'Jurong East'], [8, 'Jurong East'], [1, 'Joo Koon'], [3, 'Joo Koon'], [1, 'Marina South Pier'], [2, 'Marina South Pier'], [1, 'Pasir Ris'], [3, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [3, 'Joo Koon'], [6, 'Joo Koon']]
+CDKT
+[[7, 'Tai Seng'], [5, 'HarbourFront']]
+CDBG
+[[1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut'], [1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CEPN
+[[5, 'HarbourFront'], [10, 'HarbourFront'], [3, 'Dhoby Ghaut'], [8, 'Dhoby Ghaut']]
+EUN
+[[1, 'Pasir Ris'], [5, 'Pasir Ris'], [5, 'Joo Koon'], [8, 'Joo Koon']]
+XPO
+[[3, 'Changi Airport'], [10, 'Changi Airport'], [3, 'Tanah Merah'], [9, 'Tanah Merah']]
+CFRR
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+GCL
+[[4, 'Do not board'], [4, 'Do not board'], [1, 'Tuas Link'], [10, 'Tuas Link']]
+CHBF
+[[6, 'Dhoby Ghaut'], [2, 'HarbourFront']]
+CHPV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+CHLV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+JKN
+[[2, 'Pasir Ris'], [7, 'Pasir Ris']]
+JUR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+KAL
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+KEM
+[[2, 'Pasir Ris'], [8, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+CKRG
+[[3, 'HarbourFront'], [6, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+KRJ
+[[2, 'Jurong East'], [6, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+CLBD
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [3, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+LVR
+[[4, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CLRC
+[[3, 'HarbourFront'], [6, 'HarbourFront']]
+CMPS
+[[1, 'Tai Seng'], [4, 'HarbourFront']]
+CMRB
+[[4, 'Jurong East'], [7, 'Jurong East']]
+MSP
+[[1, 'Jurong East'], [5, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [9, 'Marina South Pier']]
+CMRM
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Bartley']]
+CMBT
+[[6, 'Tai Seng'], [3, 'HarbourFront']]
+NEW
+[[1, 'Jurong East'], [3, 'Jurong East'], [3, 'Marina South Pier'], [6, 'Marina South Pier']]
+CNCH
+[[4, 'HarbourFront'], [1, 'Stadium']]
+NOV
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+CONH
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+OTP
+[[2, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [2, 'Joo Koon']]
+CPPJ
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+PSR
+[[1, 'Joo Koon'], [1, 'Joo Koon']]
+CPYL
+[[2, 'HarbourFront'], [7, 'HarbourFront'], [4, 'Pasir Ris'], [10, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [2, 'Pasir Ris']]
+CPMN
+[[2, 'HarbourFront'], [4, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [6, 'Jurong East'], [9, 'Jurong East'], [3, 'Joo Koon'], [5, 'Joo Koon'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+RDH
+[[3, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[1, 'Jurong East'], [3, 'Jurong East'], [3, 'Marina South Pier'], [10, 'Marina South Pier']]
+CSER
+[[3, 'HarbourFront'], [6, 'HarbourFront']]
+SIM
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [4, 'Joo Koon']]
+SOM
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+CSDM
+[[1, 'HarbourFront'], [3, 'Stadium'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay'], [1, 'Dhoby Ghaut'], [4, 'Marina Bay']]
+CTSG
+[[3, 'Tai Seng'], [1, 'HarbourFront'], [1, 'Dhoby Ghaut'], [6, 'Dhoby Ghaut']]
+TAM
+[[2, 'Pasir Ris'], [6, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [6, 'Joo Koon'], [1, 'Changi Airport'], [4, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+CTLB
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+TCR
+[[1, 'Gul Circle'], [10, 'Gul Circle']]
+TLK
+[[8, 'Gul Circle'], [8, 'Gul Circle']]
+TWR
+[[8, 'Gul Circle'], [8, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [5, 'Jurong East'], [4, 'Marina South Pier'], [11, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [1, 'Jurong East'], [8, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [8, 'Jurong East'], [1, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YIS
+[[3, 'Jurong East'], [6, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+######
+21:33:29.375525
+ADM
+[[2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [6, 'Marina South Pier']]
+ALJ
+[[2, 'Pasir Ris'], [7, 'Pasir Ris'], [2, 'Joo Koon'], [6, 'Joo Koon']]
+AMK
+[[5, 'Jurong East'], [8, 'Jurong East'], [3, 'Marina South Pier'], [7, 'Marina South Pier']]
+CBLY
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [4, 'Dhoby Ghaut'], [1, 'Bartley']]
+CBFT
+[[7, 'HarbourFront'], [1, 'Stadium'], [5, 'Marina Bay'], [10, 'Marina Bay']]
+BDK
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [3, 'Joo Koon'], [8, 'Joo Koon']]
+CBSH
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley'], [2, 'Jurong East'], [5, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+BNL
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [1, 'Joo Koon']]
+CBTN
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+BDL
+[[1, 'Jurong East'], [2, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CBBS
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [4, 'Dhoby Ghaut'], [9, 'Dhoby Ghaut']]
+BGS
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+BBT
+[[4, 'Jurong East'], [6, 'Jurong East'], [5, 'Marina South Pier'], [11, 'Marina South Pier']]
+BGB
+[[2, 'Jurong East'], [4, 'Jurong East'], [1, 'Ang Mo Kio'], [8, 'Marina South Pier']]
+CBNV
+[[1, 'HarbourFront'], [3, 'HarbourFront'], [5, 'Dhoby Ghaut'], [3, 'Paya Lebar'], [1, 'Pasir Ris'], [2, 'Pasir Ris'], [4, 'Joo Koon'], [8, 'Joo Koon']]
+CCDT
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Bartley']]
+CGA
+[[6, 'Tanah Merah'], [6, 'Tanah Merah']]
+CNG
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [3, 'Joo Koon']]
+CCK
+[[1, 'Jurong East'], [1, 'Jurong East'], [4, 'Ang Mo Kio'], [11, 'Marina South Pier']]
+CTH
+[[1, 'Jurong East'], [7, 'Jurong East'], [2, 'Joo Koon'], [7, 'Joo Koon'], [1, 'Marina South Pier'], [1, 'Marina South Pier'], [1, 'Pasir Ris'], [2, 'Pasir Ris']]
+CLE
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+COM
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [5, 'Joo Koon']]
+CDKT
+[[6, 'Tai Seng'], [4, 'HarbourFront']]
+CDBG
+[[10, 'Dhoby Ghaut'], [5, 'Dhoby Ghaut'], [3, 'Jurong East'], [9, 'Jurong East'], [1, 'Marina South Pier'], [1, 'Marina South Pier']]
+DVR
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CEPN
+[[4, 'HarbourFront'], [9, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+EUN
+[[4, 'Pasir Ris'], [11, 'Pasir Ris'], [2, 'Joo Koon'], [7, 'Joo Koon']]
+XPO
+[[2, 'Changi Airport'], [8, 'Changi Airport'], [3, 'Tanah Merah'], [8, 'Tanah Merah']]
+CFRR
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+GCL
+[[3, 'Do not board'], [3, 'Do not board'], [1, 'Tuas Link'], [9, 'Tuas Link']]
+CHBF
+[[5, 'Dhoby Ghaut'], [1, 'HarbourFront']]
+CHPV
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [4, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+CHLV
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+JKN
+[[3, 'Pasir Ris'], [6, 'Pasir Ris']]
+JUR
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+KAL
+[[5, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+KEM
+[[1, 'Pasir Ris'], [7, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon']]
+CKRG
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [1, 'Dhoby Ghaut'], [4, 'Paya Lebar']]
+KTB
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+KRJ
+[[2, 'Jurong East'], [5, 'Jurong East'], [11, 'Ang Mo Kio'], [5, 'Marina South Pier']]
+CLBD
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [5, 'Dhoby Ghaut'], [2, 'Paya Lebar']]
+LKS
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+LVR
+[[4, 'Pasir Ris'], [6, 'Pasir Ris'], [3, 'Joo Koon'], [5, 'Joo Koon']]
+CLRC
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+CMPS
+[[3, 'HarbourFront'], [8, 'HarbourFront'], [2, 'Dhoby Ghaut'], [7, 'Dhoby Ghaut']]
+CMRB
+[[3, 'Jurong East'], [6, 'Jurong East']]
+MSP
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Do not board'], [1, 'Do not board']]
+MSL
+[[3, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [8, 'Marina South Pier']]
+CMRM
+[[2, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Bartley']]
+CMBT
+[[5, 'Tai Seng'], [2, 'HarbourFront']]
+NEW
+[[2, 'Jurong East'], [5, 'Jurong East'], [3, 'Marina South Pier'], [5, 'Marina South Pier']]
+CNCH
+[[3, 'HarbourFront'], [5, 'Stadium']]
+NOV
+[[1, 'Jurong East'], [4, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+CONH
+[[3, 'HarbourFront'], [5, 'HarbourFront'], [3, 'Dhoby Ghaut'], [1, 'Paya Lebar']]
+ORC
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [5, 'Marina South Pier']]
+OTP
+[[1, 'Pasir Ris'], [2, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+CPPJ
+[[2, 'HarbourFront'], [4, 'HarbourFront'], [2, 'Dhoby Ghaut'], [5, 'Paya Lebar']]
+PSR
+[[1, 'Joo Koon'], [7, 'Joo Koon']]
+CPYL
+[[1, 'HarbourFront'], [6, 'HarbourFront'], [3, 'Pasir Ris'], [9, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+PNR
+[[1, 'Pasir Ris'], [7, 'Pasir Ris']]
+CPMN
+[[1, 'HarbourFront'], [3, 'Stadium']]
+QUE
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [4, 'Joo Koon']]
+RFP
+[[1, 'Pasir Ris'], [1, 'Pasir Ris'], [5, 'Jurong East'], [8, 'Jurong East'], [2, 'Joo Koon'], [4, 'Joo Koon'], [1, 'Marina South Pier'], [3, 'Marina South Pier']]
+RDH
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SBW
+[[2, 'Jurong East'], [6, 'Jurong East'], [3, 'Marina South Pier'], [9, 'Marina South Pier']]
+CSER
+[[2, 'HarbourFront'], [5, 'HarbourFront']]
+SIM
+[[3, 'Pasir Ris'], [5, 'Pasir Ris'], [2, 'Joo Koon'], [4, 'Joo Koon']]
+SOM
+[[1, 'Jurong East'], [4, 'Jurong East'], [2, 'Marina South Pier'], [7, 'Marina South Pier']]
+CSDM
+[[2, 'Stadium'], [2, 'Do not board'], [3, 'Marina Bay'], [5, 'Dhoby Ghaut']]
+CTSG
+[[2, 'Tai Seng'], [5, 'HarbourFront']]
+TAM
+[[2, 'Pasir Ris'], [4, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TNM
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [5, 'Joo Koon'], [4, 'Changi Airport'], [10, 'Changi Airport']]
+TPG
+[[1, 'Pasir Ris'], [4, 'Pasir Ris'], [4, 'Joo Koon'], [7, 'Joo Koon']]
+CTLB
+[[1, 'HarbourFront'], [4, 'HarbourFront'], [3, 'Dhoby Ghaut'], [6, 'Paya Lebar']]
+TIB
+[[1, 'Pasir Ris'], [3, 'Pasir Ris'], [1, 'Joo Koon'], [3, 'Joo Koon']]
+TAP
+[[1, 'Jurong East'], [3, 'Jurong East'], [1, 'Marina South Pier'], [2, 'Marina South Pier']]
+TCR
+[[1, 'Gul Circle'], [9, 'Gul Circle'], [2, 'Tuas Link'], [12, 'Tuas Link']]
+TLK
+[[7, 'Gul Circle'], [7, 'Gul Circle']]
+TWR
+[[7, 'Gul Circle'], [7, 'Gul Circle']]
+WDL
+[[1, 'Jurong East'], [4, 'Jurong East'], [3, 'Marina South Pier'], [10, 'Marina South Pier']]
+YWT
+[[1, 'Jurong East'], [2, 'Jurong East'], [6, 'Ang Mo Kio'], [1, 'Marina South Pier']]
+YCK
+[[1, 'Jurong East'], [7, 'Jurong East'], [1, 'Marina South Pier'], [4, 'Marina South Pier']]
+YIS
+[[2, 'Jurong East'], [5, 'Jurong East'], [2, 'Marina South Pier'], [6, 'Marina South Pier']]
+######
