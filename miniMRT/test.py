@@ -70,7 +70,8 @@ def guessSpacings(data):
             nextStationData = [i[0] for i in data[nextStation] if i[1] in forwardStations]
 
             possibilities = [i-j for i in thisStationData for j in nextStationData if i-j > 0]
-            spacings[(thisStation, nextStation)] = possibilities
+            freq = {x: possibilities.count(x) for x in possibilities}
+            spacings[(thisStation, nextStation)] = freq
 
         for index in range(1, len(linestats)):
             forwardStations = [expand(stat) for stat in linestats[:index]]
@@ -80,7 +81,13 @@ def guessSpacings(data):
             nextStationData = [i[0] for i in data[nextStation] if i[1] in forwardStations]
 
             possibilities = [i-j for i in thisStationData for j in nextStationData if i-j > 0]
-            spacings[(nextStation, thisStation)] += possibilities
+            freq = {x: possibilities.count(x) for x in possibilities}
+
+            for i in freq:
+                if i in spacings[(nextStation, thisStation)]:
+                    spacings[(nextStation, thisStation)][i] += freq[i]
+                else:
+                    spacings[(nextStation, thisStation)][i] = freq[i]
 
     return spacings
     # for entry in spacings:
@@ -96,6 +103,7 @@ def updateLoop():
         data = parse(ping(stat))
         dats[stat] = data
 
+    print('dats')
     print(dats)
     return dats
 
@@ -110,8 +118,12 @@ def updateSpacings(data):
     spacfile.close()
 
     newspacings = guessSpacings(data)
-    for entry in spacings:
-        spacings[entry] += newspacings[entry]
+    for entry in newspacings:
+        for i in newspacings[entry]:
+            if i in spacings[entry]:
+                spacings[entry][i] += newspacings[entry][i]
+            else:
+                spacings[entry][i] = newspacings[entry][i]
 
     spacfile = open('spacings.txt', 'w')
     for entry in spacings:
