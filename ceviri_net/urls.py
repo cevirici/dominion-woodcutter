@@ -23,6 +23,7 @@ urlpatterns = [
     path('', RedirectView.as_view(url='/woodcutter/')),
     path('admin/', admin.site.urls),
     path('woodcutter/', include('woodcutter.urls')),
+    path('button/', include('button.urls')),
 ]
 
 handler404 = woodcutter_views.error_404
