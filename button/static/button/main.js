@@ -31,4 +31,10 @@ setInterval(function(){
 			$('.display').html(data);
 		}
 	);
+	if ($('textarea')[0].value == "ceviri"){
+		$('.buttonReset').show();
+	}
+	else{
+		$('.buttonReset').hide();
+	}
 }, 100);
