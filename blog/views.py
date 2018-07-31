@@ -35,7 +35,7 @@ def submitPost(request):
 
     rawText = request.POST['body']
     abstract = rawText[:rawText.index('--abstract--')]
-    body = rawText.replace('--abstract--', '')
+    body = rawText[rawText.index('--abstract--'):].replace('--abstract--','')
 
     newPost = Post.objects.create(title=title,
                                   shortTitle=shortTitle,
