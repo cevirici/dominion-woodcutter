@@ -6,7 +6,7 @@ from .models import *
 
 
 def index(request):
-    posts = Post.objects.all()
+    posts = Post.objects.all().reverse()
     context = {'displayPosts': posts}
     return render(request, 'blog/index.html', context)
 
