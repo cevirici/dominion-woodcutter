@@ -20,10 +20,11 @@ from django.conf.urls import handler404, handler500
 from woodcutter import views as woodcutter_views
 
 urlpatterns = [
-    path('', RedirectView.as_view(url='/woodcutter/')),
     path('admin/', admin.site.urls),
     path('woodcutter/', include('woodcutter.urls')),
     path('button/', include('button.urls')),
+    path('blog/', include('blog.urls')),
+    path('', RedirectView.as_view(url='/woodcutter/')),
 ]
 
 handler404 = woodcutter_views.error_404

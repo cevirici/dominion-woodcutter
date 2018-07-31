@@ -1,0 +1,191 @@
+/************* General Tags **************/
+.ani{
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+body {
+    background: #231F26;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.logo{
+    height: 20vw;
+    max-height: 80%;
+}
+
+
+.header-bar{
+    height: 20vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spacer{
+    width: 768px;
+
+    margin: 6px 0px;
+
+    border: #FFF solid 3px;
+}
+
+
+.content-container{
+    max-width: 768px;
+    width: 80vw;
+    padding-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.post{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #333;
+    border-radius: 25px;
+}
+.post.active{
+    background: #383838;
+}
+.post:hover{
+    background: #0C374D;
+}
+
+
+.post-header{
+    width: calc(100% - 16px);
+    height: 5vh;
+    padding-top: 1vh;
+    margin: 0px 16px;
+
+    display: flex;
+
+    border-bottom: #444444 solid 2px;
+}
+
+
+p{
+    font-family: "Montserrat";
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.date-label{
+    margin: 0px 16px;
+
+    font: 2vh "Glegoo";
+    text-align: center;
+    color: #999999;
+}
+
+
+.post-title{
+    font: 2vh "Glegoo";
+    text-align: left;
+    color: #FFFFFF;
+
+    flex-grow: 1;
+}
+
+
+.post-body{
+    width: calc(100% - 48px);
+    max-height: 100%;
+    margin: 0px 16px 16px 32px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.hidden{
+    max-height: 0;
+    height: 0;
+    margin: 0px 16px 0px 32px;
+}
+
+
+.edit-title{
+    max-width: 768px;
+    width: 80vw;
+    height: 5vh;
+
+    font: 3vh "Glegoo";
+    background: #444444;
+    color:#FFFFFF;
+    border:#FFF 1px solid;
+}
+
+
+.edit-container{
+    max-width: 768px;
+    width: 80vw;
+    height: 55vh;
+    padding-top: 3vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+textarea{
+    width: 47%;
+    height: 100%;
+    font-family: "Glegoo";
+    background: #444444;
+    color:#FFFFFF;
+    border:#FFF 1px solid;
+    resize:none;
+}
+
+
+.preview{
+    width: 47%;
+    height: 100%;
+
+    font-family: "Glegoo";
+    color:#FFFFFF;
+}
+
+
+.submit{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 3vh;
+
+    font: 3vh "Segoe UI";
+    background: #444444;
+    color:#FFFFFF;
+    border:#333 1px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit:hover{
+    background: #3C75BC;
+}

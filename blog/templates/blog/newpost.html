@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block header %}
+    {% csrf_token %}
+    <title>New Post</title>
+    <link rel='stylesheet' href="{% static 'blog/blog-css-main.css' %}">
+    <link rel='stylesheet' href="//fonts.googleapis.com/css?family=Glegoo:700,400">
+    <script src="{% static 'blog/jquery-3.2.1.min.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class = 'header-bar'>
+        <img class = 'logo' src="{% static 'blog/blog-header.png' %}">
+    </div>
+    <div class = 'spacer'></div>
+    <input type = 'text' class = 'edit-title'></input>
+    <div class = 'edit-container'>
+        <textarea>--abstract--</textarea>
+        <div class = 'preview'></div>
+    </div>
+    <div class = 'submit'>Submit</div>
+{% endblock %}
+
+{% block postblock %}
+    <script src="{% static 'blog/newpost.js' %}"></script>
+{% endblock %}
