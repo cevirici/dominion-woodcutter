@@ -5,8 +5,9 @@
     <title>Ceviri's Blog</title>
     <link rel='stylesheet' href="{% static 'blog/blog-css-main.css' %}">
     <link rel='stylesheet' href="//fonts.googleapis.com/css?family=Glegoo:700,400">
+    <link rel='stylesheet' href="{% static 'blog/perfect-scrollbar.css' %}">
+    <script src="{% static 'blog/perfect-scrollbar.min.js' %}"></script>
     <script src="{% static 'blog/jquery-3.2.1.min.js' %}"></script>
-    <script src="{% static 'blog/index.js' %}"></script>
 {% endblock %}
 
 {% block content %}
@@ -14,23 +15,26 @@
         <img class = 'logo' src="{% static 'blog/blog-header.png' %}">
     </div>
     <div class = 'spacer'></div>
-    <div class = 'content-container'>
-        {% for post in displayPosts %}
-        <div class = 'post ani' onclick='toggle(this)'>
-            <div class = 'post-header'>
-                <div class = 'date-label'>{{ post.postTime|date:"Y.m.d H:i" }}</div>
-                <div class = 'post-title'>{{ post.title }}</div>
+    <div class = 'scroll-container'>
+        <div class = 'content-container'>
+            {% for post in displayPosts %}
+            <div class = 'post ani' onclick='toggle(this)'>
+                <div class = 'post-header'>
+                    <div class = 'date-label'>{{ post.postTime|date:"Y.m.d H:i" }}</div>
+                    <div class = 'post-title'>{{ post.title }}</div>
+                </div>
+                <div class='post-body'>
+                    {{ post.abstract | safe }}
+                </div>
+                <div class='post-body-full compressed ani' compressed='1'>
+                    {{ post.body | safe }}
+                </div>
             </div>
-            <div class='post-body'>
-                {{ post.abstract | safe }}
-            </div>
-            <div class='post-body-full compressed ani' compressed='1'>
-                {{ post.body | safe }}
-            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 {% endblock %}
 
 {% block postblock %}
+    <script src="{% static 'blog/index.js' %}"></script>
 {% endblock %}
