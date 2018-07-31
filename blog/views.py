@@ -12,7 +12,11 @@ def index(request):
 
 
 def newPost(request):
-    return render(request, 'blog/newpost.html')
+    password = request.GET['password']
+    if password == 'passpass':
+        return render(request, 'blog/newpost.html')
+    else:
+        return HttpResponseRedirect(reverse('blog:index'))
 
 
 def submitPost(request):
