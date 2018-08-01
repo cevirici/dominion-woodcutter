@@ -216,3 +216,12 @@ textarea{
 .submit:hover{
     background: #3C75BC;
 }
+
+
+a{
+    color: #BBBBFF;
+    text-decoration: none;
+}
+a:hover{
+    color: #BBBB66; 
+}
