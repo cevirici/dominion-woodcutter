@@ -9,8 +9,10 @@ from woodcutter.models import GameLog
 from woodcutter.src import *
 from woodcutter import *
 
+minBound = input('smallest gameNum?')
+maxBound = input('largest gameNum?')
 
-for log in GameLog.objects.all():
+for log in GameLog.objects.filter(game_id__lt = maxBound).filter(game_id__gt = minBound):
     players = log.players.split('~')
 
     try:
