@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'woodcutter.apps.WoodcutterConfig',
-    'button.apps.ButtonConfig',
-    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [

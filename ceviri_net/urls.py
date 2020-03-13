@@ -22,8 +22,6 @@ from woodcutter import views as woodcutter_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('woodcutter/', include('woodcutter.urls')),
-    path('button/', include('button.urls')),
-    path('blog/', include('blog.urls')),
     path('', RedirectView.as_view(url='/woodcutter/')),
 ]
 
