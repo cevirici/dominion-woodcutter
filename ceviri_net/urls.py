@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """ceviri_net URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,9 +21,9 @@ from django.conf.urls import handler404, handler500
 from woodcutter import views as woodcutter_views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('woodcutter/', include('woodcutter.urls')),
-    path('', RedirectView.as_view(url='/woodcutter/')),
+    path("admin/", admin.site.urls),
+    path("woodcutter/", include("woodcutter.urls")),
+    path("", RedirectView.as_view(url="/woodcutter/")),
 ]
 
 handler404 = woodcutter_views.error_404
