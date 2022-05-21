@@ -50,7 +50,7 @@ def getInfo(version):
     elif version == 3:
         predPath = "woodcutter/data/predv3.txt"
     else:
-        cardPath = "woodcutter/data/predv4.txt"
+        predPath = "woodcutter/data/predv4.txt"
     predF = open(os.path.join(settings.STATIC_ROOT, predPath), "r")
     predNames = [line.strip() for line in predF]
     return (cardNames, predNames)
